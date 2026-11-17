@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+private/
+data/
+**/data/
+*.log
+**/pair.json
+**/state.json
+**/backups/
+.venv/

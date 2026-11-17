@@ -1,0 +1,1258 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Video / AI Music / World Models Research Atlas</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #111315;
+      --panel: #191d20;
+      --panel-2: #20262a;
+      --text: #eef1f2;
+      --muted: #a7b0b5;
+      --line: #344047;
+      --blue: #62a8ff;
+      --green: #62d28f;
+      --yellow: #f2c94c;
+      --red: #ff7b72;
+      --purple: #b99cff;
+      --cyan: #65d8d0;
+      --input: #0f1214;
+      --shadow: 0 12px 30px rgba(0,0,0,.25);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    button, input, select, textarea {
+      font: inherit;
+      color: inherit;
+    }
+    button {
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      border-radius: 6px;
+      padding: 8px 10px;
+      cursor: pointer;
+    }
+    button:hover { border-color: var(--blue); }
+    button.primary { background: var(--blue); color: #07111d; border-color: transparent; font-weight: 600; }
+    button.ghost { background: transparent; }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: var(--input);
+      border-radius: 6px;
+      padding: 8px 10px;
+    }
+    textarea { min-height: 120px; resize: vertical; }
+    .app {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      min-height: 100vh;
+    }
+    aside {
+      border-right: 1px solid var(--line);
+      background: #141719;
+      padding: 18px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: auto;
+    }
+    main { min-width: 0; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: rgba(17,19,21,.94);
+      border-bottom: 1px solid var(--line);
+      padding: 14px 18px;
+      backdrop-filter: blur(10px);
+    }
+    h1 { font-size: 20px; margin: 0 0 4px; font-weight: 650; }
+    h2 { font-size: 16px; margin: 0 0 10px; font-weight: 650; }
+    h3 { font-size: 14px; margin: 0 0 8px; font-weight: 650; }
+    .sub { color: var(--muted); font-size: 12px; }
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) 160px 160px 160px;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .sidebar-section { margin-top: 20px; }
+    .navbtn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin: 6px 0;
+      text-align: left;
+    }
+    .navbtn.active { border-color: var(--blue); background: rgba(98,168,255,.12); }
+    .counter { color: var(--muted); font-size: 12px; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(120px, 1fr));
+      gap: 10px;
+      padding: 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+    }
+    .stat strong { display: block; font-size: 22px; line-height: 1.1; }
+    .content {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 380px;
+      gap: 0;
+    }
+    .list {
+      padding: 18px;
+      display: grid;
+      gap: 12px;
+      align-content: start;
+    }
+    .card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+    }
+    .card.highlight-yellow { border-color: var(--yellow); background: color-mix(in srgb, var(--panel) 82%, var(--yellow)); }
+    .card.highlight-green { border-color: var(--green); background: color-mix(in srgb, var(--panel) 86%, var(--green)); }
+    .card.highlight-blue { border-color: var(--blue); background: color-mix(in srgb, var(--panel) 86%, var(--blue)); }
+    .card.highlight-red { border-color: var(--red); background: color-mix(in srgb, var(--panel) 86%, var(--red)); }
+    .card-head {
+      display: flex;
+      gap: 12px;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .title { font-size: 16px; font-weight: 700; }
+    .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 12px;
+      color: var(--muted);
+      background: rgba(255,255,255,.03);
+    }
+    .tag.video { color: var(--cyan); border-color: color-mix(in srgb, var(--cyan) 45%, var(--line)); }
+    .tag.music { color: var(--green); border-color: color-mix(in srgb, var(--green) 45%, var(--line)); }
+    .tag.world { color: var(--purple); border-color: color-mix(in srgb, var(--purple) 45%, var(--line)); }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+    .field { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
+    .label { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+    .compact-list { margin: 0; padding-left: 18px; }
+    .compact-list li { margin: 3px 0; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .drawer {
+      border-left: 1px solid var(--line);
+      background: #15191b;
+      padding: 18px;
+      height: calc(100vh - 78px);
+      position: sticky;
+      top: 78px;
+      overflow: auto;
+    }
+    .swatches { display: flex; gap: 8px; flex-wrap: wrap; }
+    .swatch {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 2px solid var(--line);
+      padding: 0;
+    }
+    .swatch[data-color=""] { background: transparent; }
+    .swatch[data-color="yellow"] { background: var(--yellow); }
+    .swatch[data-color="green"] { background: var(--green); }
+    .swatch[data-color="blue"] { background: var(--blue); }
+    .swatch[data-color="red"] { background: var(--red); }
+    .swatch.active { outline: 2px solid var(--text); }
+    .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .tab.active { border-color: var(--blue); background: rgba(98,168,255,.12); }
+    .media-list, .paper-list { display: grid; gap: 8px; }
+    .media-item, .paper-item, .update-item {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 9px;
+      background: rgba(255,255,255,.025);
+    }
+    .update-form {
+      display: grid;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .ticker { margin: 14px 18px 0; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); overflow: hidden; }
+    .ticker-head { display:flex; justify-content:space-between; align-items:center; padding:10px 12px; border-bottom:1px solid var(--line); }
+    .ticker-track { max-height:170px; overflow:auto; scroll-behavior:smooth; }
+    .ticker-item { display:grid; grid-template-columns:90px 110px 1fr; gap:10px; padding:9px 12px; border-bottom:1px solid rgba(255,255,255,.06); }
+    .ticker-item:last-child { border-bottom:0; }
+    .ticker-item .channel { color:var(--cyan); font-size:12px; }
+    .content-block { position:relative; padding:9px; border:1px solid transparent; border-radius:7px; }
+    .content-block:hover { border-color:var(--line); background:rgba(255,255,255,.025); }
+    .inline-tools { display:flex; gap:5px; position:absolute; right:6px; top:6px; opacity:0; }
+    .content-block:hover .inline-tools { opacity:1; }
+    .mini-swatch { width:18px; height:18px; padding:0; border-radius:4px; }
+    .mini-swatch[data-color="yellow"]{background:var(--yellow)} .mini-swatch[data-color="green"]{background:var(--green)} .mini-swatch[data-color="blue"]{background:var(--blue)} .mini-swatch[data-color="red"]{background:var(--red)}
+    .content-block.hl-yellow{background:rgba(242,201,76,.22)} .content-block.hl-green{background:rgba(98,210,143,.22)} .content-block.hl-blue{background:rgba(98,168,255,.22)} .content-block.hl-red{background:rgba(255,123,114,.22)}
+    .small-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .status {
+      color: var(--muted);
+      font-size: 12px;
+      min-height: 20px;
+      margin-top: 8px;
+    }
+    .empty {
+      color: var(--muted);
+      text-align: center;
+      padding: 40px 20px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+    }
+    @media (max-width: 1080px) {
+      .app { grid-template-columns: 1fr; }
+      aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+      .content { grid-template-columns: 1fr; }
+      .drawer { position: static; height: auto; border-left: 0; border-top: 1px solid var(--line); }
+    }
+    @media (max-width: 760px) {
+      .controls, .stats, .grid2, .small-row { grid-template-columns: 1fr; }
+      .card-head { display: block; }
+      header { position: static; }
+    }
+
+    [hidden] { display:none !important; }
+    .project-notes { border-top:1px solid var(--line); margin-top:12px; padding-top:10px; }
+    summary { cursor:pointer; color:var(--cyan); padding:6px 0; }
+    .project-notes textarea { margin:8px 0; min-height:90px; }
+    .project-notes select { margin-bottom:6px; }
+    .ticker-track { max-height:420px; min-height:140px; overflow-y:auto; }
+    .ticker-item { grid-template-columns:92px 115px 1fr; padding:16px; }
+    .ticker-item .news-title { font-size:16px; font-weight:650; line-height:1.5; }
+    .ticker-item .news-summary { font-size:13px; color:#becbd3; margin-top:7px; white-space:pre-wrap; }
+    .ticker-item .news-time { font-size:11px; color:var(--muted); margin-top:7px; }
+    .feed-filters { display:flex; gap:12px; align-items:center; padding:12px; }
+    .feed-filters select { width:180px; } .feed-filters input { flex:1; }
+    .sources-panel { padding:12px; font-size:12px; border-top:1px solid var(--line); }
+    .source-row { display:flex; gap:12px; padding:5px; border-bottom:1px solid var(--line); }
+    .source-row .ok { color:var(--green); } .source-row .error { color:var(--red); }
+    .live-dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--cyan); margin-right:8px; animation:pulse 2s infinite; }
+    @keyframes pulse { 50%{opacity:.3} }
+    .text-palette { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); z-index:100; background:#232c32; border:1px solid #637785; border-radius:14px; padding:10px 16px; display:flex; align-items:center; gap:12px; box-shadow:var(--shadow); }
+    mark.text-mark { background:none; color:var(--yellow); font-weight:inherit; }
+    mark.text-mark[data-ink="green"]{color:var(--green)} mark.text-mark[data-ink="blue"]{color:var(--blue)} mark.text-mark[data-ink="red"]{color:var(--red)}
+    [data-text-field] { user-select:text; } .content-block:hover { background:transparent; border-color:transparent; }
+    @media(max-width:760px){.ticker-item{grid-template-columns:1fr}.feed-filters{flex-wrap:wrap}.text-palette{width:95%;gap:8px}.feed-filters input{min-width:160px}}
+    @media(prefers-reduced-motion:reduce){.live-dot{animation:none}.ticker-track{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <h1>AI Frontier Atlas</h1>
+      <div class="sub">AI 视频 / AI 音乐 / 世界模型，本地可保存研究工作台</div>
+      <div class="sidebar-section">
+        <h2>领域</h2>
+        <button class="navbtn active" data-domain="all">全部 <span class="counter" id="count-all">0</span></button>
+        <button class="navbtn" data-domain="video">AI 视频 <span class="counter" id="count-video">0</span></button>
+        <button class="navbtn" data-domain="music">AI 音乐 <span class="counter" id="count-music">0</span></button>
+        <button class="navbtn" data-domain="world">世界模型 <span class="counter" id="count-world">0</span></button>
+      </div>
+      <div class="sidebar-section">
+        <h2>本地保存</h2>
+        <div class="actions">
+          <button class="primary" id="saveFileBtn">保存状态文件</button>
+          <button id="openFileBtn">打开状态文件</button>
+          <button id="exportBtn">导出 JSON</button>
+          <label>
+            <span class="sub">导入 JSON</span>
+            <input id="importInput" type="file" accept="application/json" />
+          </label>
+        </div>
+        <div class="status" id="saveStatus">使用启动器打开后自动写入 data/state.json；双击 HTML 时需选择本地状态文件。</div>
+      </div>
+      <div class="sidebar-section">
+        <h2>行业动态 · 周报</h2><p><a href="../site/index.html" target="_blank">打开每周行业动态 →</a></p><div class="sub">每周四北京时间 09:00 检索；报告保留来源与覆盖缺口。</div><h2>日更巡检</h2>
+        <div class="sub">公开源每 15 分钟抓取，社媒扩展每分钟读取你启用采集的已登录页面。来源失败和登录限制会显示在动态区。</div>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <h1>项目、人物、论文、媒介动态</h1>
+        <div class="sub">内置资料基线更新时间：2026-09-16。外部链接用于核验；个人备注和颜色高亮保存在本地 JSON。</div>
+        <div class="controls">
+          <input id="searchInput" placeholder="搜索公司、项目、人名、论文、媒介" />
+          <select id="companyFilter"><option value="">全部公司</option></select>
+          <select id="maturityFilter">
+            <option value="">全部阶段</option>
+            <option value="product">产品可用</option>
+            <option value="research">研究/原型</option>
+            <option value="open">开源/开放权重</option>
+          </select>
+          <select id="sortSelect">
+            <option value="updated">按更新时间</option>
+            <option value="company">按公司</option>
+            <option value="project">按项目</option>
+          </select>
+        </div>
+      </header>
+      <section class="stats">
+        <div class="stat"><span class="sub">项目</span><strong id="statProjects">0</strong></div>
+        <div class="stat"><span class="sub">公司/机构</span><strong id="statCompanies">0</strong></div>
+        <div class="stat"><span class="sub">论文/文献</span><strong id="statPapers">0</strong></div>
+        <div class="stat"><span class="sub">已归档动态</span><strong id="statUpdates">0</strong></div>
+      </section>
+      <section class="ticker">
+        <div class="ticker-head"><div><span class="live-dot"></span><strong>每日媒介动态</strong><div id="feedStatus" class="sub">正在连接本地采集服务…</div></div>
+          <div class="actions"><button id="refreshNews">立即抓取</button><button id="pauseFeed">暂停滚动</button></div></div>
+        <div class="feed-filters"><select id="feedChannel"><option value="">全部媒介</option><option>X/Twitter</option><option>小红书</option><option>微信公众号</option><option>官网/Blog</option><option>论文/arXiv</option><option>GitHub</option><option>Hugging Face</option></select><input id="feedSearch" placeholder="搜索动态标题、正文、项目"/><span class="sub">跟随左侧领域与公司筛选</span></div>
+        <div class="ticker-track" id="tickerTrack" tabindex="0" aria-label="动态滚动列表"></div>
+        <details class="sources-panel"><summary>采集状态与登录接入</summary><div id="sourceStatuses"></div>
+          <p>公开源由本地服务每 15 分钟刷新，页面每 30 秒同步。X / 小红书 / 公众号使用配套扩展采集已登录页面中可见的内容；不读取账号密码或 Cookie。</p>
+          <button id="copyPairToken">复制扩展配对码</button><span class="sub" id="pairStatus"></span>
+          <p>扩展文件夹：social-collector。公众号支持已打开的文章页；个人微信订阅列表不提供通用 Web 接口。</p>
+        </details>
+      </section>
+      <div class="content">
+        <section class="list" id="projectList"></section>
+        <aside class="drawer" id="detailDrawer"></aside>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const DATA = [
+      {
+        id: "openai-sora",
+        domain: "video",
+        company: "OpenAI",
+        project: "Sora / Sora 2",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Sora text-to-video", "image-to-video", "video editing/remix", "world-simulator research framing"],
+        algorithmLead: "公开技术报告未列单一算法负责人；公开代表人物包括 Tim Brooks、Bill Peebles、Prafulla Dhariwal、Aditya Ramesh 等 OpenAI 视觉/生成模型研究人员",
+        corePeople: ["Tim Brooks", "Bill Peebles", "Prafulla Dhariwal", "Aditya Ramesh", "Sam Altman"],
+        algorithm: "Diffusion transformer family, visual patch tokenization, large-scale video/image joint training, text-conditioned generation.",
+        papers: [
+          ["Video generation models as world simulators", "https://openai.com/research/video-generation-models-as-world-simulators"],
+          ["Scalable Diffusion Models with Transformers", "https://arxiv.org/abs/2212.09748"]
+        ],
+        media: [
+          ["X", "OpenAI", "https://x.com/OpenAI"],
+          ["X", "Sora", "https://x.com/sora"],
+          ["官网", "Sora", "https://sora.com/"],
+          ["微信公众号", "搜索：OpenAI Sora", "https://weixin.sogou.com/weixin?type=2&query=OpenAI%20Sora"],
+          ["小红书", "搜索：Sora AI视频", "https://www.xiaohongshu.com/search_result?keyword=Sora%20AI%E8%A7%86%E9%A2%91"]
+        ],
+        notes: "关注 Sora 与世界模拟叙事、可控编辑、版权/肖像政策、创作者生态。"
+      },
+      {
+        id: "google-veo",
+        domain: "video",
+        company: "Google DeepMind",
+        project: "Veo / Veo 3.1 / Flow",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US/UK",
+        products: ["Veo 3.1", "Flow", "Gemini API video generation", "Vertex AI Media Studio"],
+        algorithmLead: "Google DeepMind 未公开单一算法负责人；公开产品/研究负责人包括 Demis Hassabis、Eli Collins，以及 Veo/Imagen/Phenaki 相关研究团队",
+        corePeople: ["Demis Hassabis", "Eli Collins", "Douglas Eck", "Ruben Villegas", "Aäron van den Oord"],
+        algorithm: "Video diffusion, transformer video priors, text/image/video conditioning, native audio-video generation in newer product line.",
+        papers: [
+          ["Veo 3.1 official model page", "https://deepmind.google/models/veo/"],
+          ["Phenaki: Variable Length Video Generation", "https://arxiv.org/abs/2210.02399"],
+          ["Imagen Video", "https://imagen.research.google/video/"]
+        ],
+        media: [
+          ["X", "Google DeepMind", "https://x.com/GoogleDeepMind"],
+          ["官网", "Veo", "https://deepmind.google/models/veo/"],
+          ["Blog", "Google AI", "https://blog.google/technology/ai/"],
+          ["微信公众号", "搜索：Google DeepMind Veo", "https://weixin.sogou.com/weixin?type=2&query=Google%20DeepMind%20Veo"],
+          ["小红书", "搜索：Veo 3.1", "https://www.xiaohongshu.com/search_result?keyword=Veo%203.1"]
+        ],
+        notes: "重点跟踪 Flow 工作流、音画同步、4K/长时长、Gemini 与 Cloud 商用入口。"
+      },
+      {
+        id: "runway-gen4",
+        domain: "video",
+        company: "Runway",
+        project: "Gen-3 / Gen-4 / Gen-4.5",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Gen-4 Video", "Gen-4 Image", "Aleph", "Act-Two", "Runway API"],
+        algorithmLead: "公开研发负责人未按项目披露；公司创始与研究核心包括 Cristóbal Valenzuela、Anastasis Germanidis、Alejandro Matamala，研究团队长期发布 General World Models 方向",
+        corePeople: ["Cristóbal Valenzuela", "Anastasis Germanidis", "Alejandro Matamala", "Patrick Esser", "Robin Rombach"],
+        algorithm: "Generative video foundation models, consistent character/style control, image-to-video, video editing and multimodal control.",
+        papers: [
+          ["Runway Research Hub", "https://runwayml.com/research"],
+          ["Gen-3 Alpha announcement", "https://runwayml.com/research/introducing-gen-3-alpha"],
+          ["High-Resolution Image Synthesis with Latent Diffusion Models", "https://arxiv.org/abs/2112.10752"]
+        ],
+        media: [
+          ["X", "Runway", "https://x.com/runwayml"],
+          ["官网", "Research", "https://runwayml.com/research"],
+          ["YouTube", "Runway", "https://www.youtube.com/@RunwayML"],
+          ["微信公众号", "搜索：Runway Gen-4", "https://weixin.sogou.com/weixin?type=2&query=Runway%20Gen-4"],
+          ["小红书", "搜索：Runway AI视频", "https://www.xiaohongshu.com/search_result?keyword=Runway%20AI%E8%A7%86%E9%A2%91"]
+        ],
+        notes: "重点观察影视级工作流、角色一致性、API 价格、与广告/影视制作链路结合。"
+      },
+      {
+        id: "kling",
+        domain: "video",
+        company: "快手 Kuaishou",
+        project: "可灵 Kling / Kling-Omni / KlingAvatar",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "China",
+        products: ["可灵 AI", "Kling International", "KlingAvatar", "图生视频/文生视频/视频编辑"],
+        algorithmLead: "论文作者与公开技术核心包括 Pengfei Wan、Jialu Chen、Kun Gai、Chao Wang 等；公司层面为快手 AI 与多媒体生成团队",
+        corePeople: ["Pengfei Wan", "Jialu Chen", "Kun Gai", "Chao Wang", "Xuebo Wang", "Xiaohan Li"],
+        algorithm: "Diffusion transformer, 3D VAE/spatiotemporal compression, multimodal visual-language instruction, avatar cascade generation.",
+        papers: [
+          ["Kling-Omni Technical Report", "https://arxiv.org/abs/2512.16776"],
+          ["KlingAvatar 2.0 Technical Report", "https://arxiv.org/abs/2512.13313"],
+          ["Kuaishou Kling launch release", "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-proprietary-video-generation-model-kling"]
+        ],
+        media: [
+          ["官网", "Kling AI", "https://klingai.com/"],
+          ["X", "Kling AI", "https://x.com/Kling_ai"],
+          ["微信公众号", "搜索：可灵 AI", "https://weixin.sogou.com/weixin?type=2&query=%E5%8F%AF%E7%81%B5%20AI"],
+          ["小红书", "搜索：可灵 AI", "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%AF%E7%81%B5%20AI"]
+        ],
+        notes: "国内视频模型产品化速度快，重点跟踪版本、会员权益、长视频、数字人、国际站。"
+      },
+      {
+        id: "pika",
+        domain: "video",
+        company: "Pika",
+        project: "Pika Video App / Pika Agent / Pika MCP",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Pika video app", "Pika Agent", "Pika MCP", "prompt-to-video effects"],
+        algorithmLead: "未公开论文式算法负责人；公开创始/技术核心为 Demi Guo、Chenlin Meng",
+        corePeople: ["Demi Guo", "Chenlin Meng"],
+        algorithm: "Proprietary text/image-to-video model, short-form video effects, agentic creative workflow integration.",
+        papers: [
+          ["Pika official site", "https://pika.art/"],
+          ["Lightspeed profile: Pika's Imagination Engine", "https://lsvp.com/stories/pikas-imagination-engine/"]
+        ],
+        media: [
+          ["X", "Pika", "https://x.com/pika_labs"],
+          ["X", "Demi Guo", "https://x.com/demi_guo_"],
+          ["官网", "Pika", "https://pika.art/"],
+          ["微信公众号", "搜索：Pika AI 视频", "https://weixin.sogou.com/weixin?type=2&query=Pika%20AI%20%E8%A7%86%E9%A2%91"],
+          ["小红书", "搜索：Pika AI", "https://www.xiaohongshu.com/search_result?keyword=Pika%20AI"]
+        ],
+        notes: "更偏消费级和社交短视频，重点看 Agent、MCP、模板化玩法和价格。"
+      },
+      {
+        id: "luma-ray",
+        domain: "video",
+        company: "Luma AI",
+        project: "Dream Machine / Ray2",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Dream Machine", "Ray2", "Photon image model", "Creative Agents"],
+        algorithmLead: "公司未公开单一算法负责人；公开创始与技术核心包括 Amit Jain、Alex Yu、Nikhil Pandey、Jiajun Wu",
+        corePeople: ["Amit Jain", "Alex Yu", "Nikhil Pandey", "Jiajun Wu"],
+        algorithm: "Neural rendering and 3D-aware generative modeling heritage, image/video generation with cinematic motion and camera control.",
+        papers: [
+          ["Luma AI official", "https://lumalabs.ai/"],
+          ["NeRF: Representing Scenes as Neural Radiance Fields", "https://arxiv.org/abs/2003.08934"]
+        ],
+        media: [
+          ["X", "Luma AI", "https://x.com/LumaLabsAI"],
+          ["官网", "Luma", "https://lumalabs.ai/"],
+          ["微信公众号", "搜索：Luma Dream Machine", "https://weixin.sogou.com/weixin?type=2&query=Luma%20Dream%20Machine"],
+          ["小红书", "搜索：Luma AI", "https://www.xiaohongshu.com/search_result?keyword=Luma%20AI"]
+        ],
+        notes: "重点观察 Ray 系列质量、Creative Agents、3D/视频/场景工作流融合。"
+      },
+      {
+        id: "adobe-firefly-video",
+        domain: "video",
+        company: "Adobe",
+        project: "Firefly Video Model",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Firefly Video", "Premiere Pro generative extend", "Adobe Express video tools"],
+        algorithmLead: "Adobe 未公开单一模型负责人；公开研究组织为 Adobe Research，产品/生成式 AI 高管包括 Alexandru Costin、Ely Greenfield 等",
+        corePeople: ["Alexandru Costin", "Ely Greenfield", "Brian Price", "Adobe Research team"],
+        algorithm: "Commercially oriented generative video model, content credentials, licensed/owned data positioning, editing-tool integration.",
+        papers: [
+          ["Adobe Firefly", "https://www.adobe.com/products/firefly.html"],
+          ["Adobe Research", "https://research.adobe.com/"]
+        ],
+        media: [
+          ["X", "Adobe Firefly", "https://x.com/AdobeFirefly"],
+          ["官网", "Adobe Firefly", "https://www.adobe.com/products/firefly.html"],
+          ["微信公众号", "搜索：Adobe Firefly Video", "https://weixin.sogou.com/weixin?type=2&query=Adobe%20Firefly%20Video"],
+          ["小红书", "搜索：Firefly 视频", "https://www.xiaohongshu.com/search_result?keyword=Firefly%20%E8%A7%86%E9%A2%91"]
+        ],
+        notes: "重点看版权安全、内容凭证、Premiere 工作流落地。"
+      },
+      {
+        id: "bytedance-seedance",
+        domain: "video",
+        company: "字节跳动 ByteDance / 即梦 Dreamina",
+        project: "Seedance / Jimeng 即梦",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "China",
+        products: ["即梦 AI", "Seedance", "CapCut/Jianying AI video features"],
+        algorithmLead: "公开论文信息有限；相关组织包括 ByteDance Seed、火山引擎/剪映生成式视频团队",
+        corePeople: ["ByteDance Seed team", "Dreamina/Jimeng product team"],
+        algorithm: "Text/image-to-video, multi-shot consistency, creator workflow integration through 剪映/CapCut ecosystem.",
+        papers: [
+          ["即梦 AI", "https://jimeng.jianying.com/"],
+          ["ByteDance Seed", "https://seed.bytedance.com/"]
+        ],
+        media: [
+          ["官网", "即梦 AI", "https://jimeng.jianying.com/"],
+          ["官网", "ByteDance Seed", "https://seed.bytedance.com/"],
+          ["微信公众号", "搜索：即梦 AI Seedance", "https://weixin.sogou.com/weixin?type=2&query=%E5%8D%B3%E6%A2%A6%20AI%20Seedance"],
+          ["小红书", "搜索：即梦 AI", "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%B3%E6%A2%A6%20AI"]
+        ],
+        notes: "重点关注剪映/CapCut 分发渠道、多镜头叙事、中文创作生态。"
+      },
+      {
+        id: "suno",
+        domain: "music",
+        company: "Suno",
+        project: "Suno v5.5 / v6",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Suno web app", "song generation with vocals", "song editor", "stem separation", "audio upload"],
+        algorithmLead: "未公开论文式算法负责人；公开创始与核心包括 Mikey Shulman、Georg Kucsko、Martin Camacho、Keenan Freyberg",
+        corePeople: ["Mikey Shulman", "Georg Kucsko", "Martin Camacho", "Keenan Freyberg", "Jack Brody"],
+        algorithm: "Proprietary music generation with vocals and instruments; prompt-to-song, editing, continuation and multimodal inputs in newer releases.",
+        papers: [
+          ["Suno About", "https://suno.com/about"],
+          ["Suno official", "https://suno.com/"]
+        ],
+        media: [
+          ["X", "Suno", "https://x.com/suno_ai_"],
+          ["官网", "Suno", "https://suno.com/"],
+          ["Discord", "Suno community", "https://discord.com/invite/suno-ai"],
+          ["微信公众号", "搜索：Suno AI音乐", "https://weixin.sogou.com/weixin?type=2&query=Suno%20AI%E9%9F%B3%E4%B9%90"],
+          ["小红书", "搜索：Suno", "https://www.xiaohongshu.com/search_result?keyword=Suno"]
+        ],
+        notes: "重点跟踪授权数据、唱片公司合作、版权诉讼、v6/v6-wild/v6-mini 变化。"
+      },
+      {
+        id: "udio",
+        domain: "music",
+        company: "Udio",
+        project: "Udio AI Music Generator",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Udio song generator", "extend/remix/inpaint", "licensed platform partnerships"],
+        algorithmLead: "未公开单一算法负责人；公开创始团队来自 Google DeepMind，CEO Andrew Sanchez",
+        corePeople: ["Andrew Sanchez", "David Ding", "Charlie Nash", "Conor Durkan", "Yaroslav Ganin"],
+        algorithm: "Proprietary text-to-music/song generation, editing and extension; public details limited.",
+        papers: [
+          ["Udio official", "https://www.udio.com/"],
+          ["Universal Music Group and Udio announcement", "https://www.universalmusic.com/universal-music-group-and-udio-announce-strategic-agreements/"]
+        ],
+        media: [
+          ["X", "Udio", "https://x.com/udiomusic"],
+          ["官网", "Udio", "https://www.udio.com/"],
+          ["微信公众号", "搜索：Udio AI音乐", "https://weixin.sogou.com/weixin?type=2&query=Udio%20AI%E9%9F%B3%E4%B9%90"],
+          ["小红书", "搜索：Udio", "https://www.xiaohongshu.com/search_result?keyword=Udio"]
+        ],
+        notes: "重点看 UMG 合作后产品形态、授权曲库、生成相似歌手限制。"
+      },
+      {
+        id: "google-musiclm",
+        domain: "music",
+        company: "Google Research / DeepMind",
+        project: "MusicLM / MusicFX / Lyria",
+        maturity: "research",
+        updated: "2026-09-16",
+        region: "US/UK",
+        products: ["MusicFX", "Lyria", "YouTube Dream Track experiments"],
+        algorithmLead: "MusicLM 论文核心作者包括 Andrea Agostinelli、Timo I. Denk、Zalán Borsos、Jesse Engel、Marco Tagliasacchi 等",
+        corePeople: ["Andrea Agostinelli", "Timo I. Denk", "Zalán Borsos", "Jesse Engel", "Marco Tagliasacchi", "Douglas Eck"],
+        algorithm: "Hierarchical sequence-to-sequence audio token modeling, AudioLM lineage, MuLan music-text representation conditioning.",
+        papers: [
+          ["MusicLM: Generating Music From Text", "https://arxiv.org/abs/2301.11325"],
+          ["MusicLM examples", "https://google-research.github.io/seanet/musiclm/examples/"],
+          ["MusicFX", "https://aitestkitchen.withgoogle.com/tools/music-fx"]
+        ],
+        media: [
+          ["X", "Google AI", "https://x.com/GoogleAI"],
+          ["X", "Google DeepMind", "https://x.com/GoogleDeepMind"],
+          ["官网", "MusicFX", "https://aitestkitchen.withgoogle.com/tools/music-fx"],
+          ["微信公众号", "搜索：MusicLM Lyria", "https://weixin.sogou.com/weixin?type=2&query=MusicLM%20Lyria"],
+          ["小红书", "搜索：MusicFX", "https://www.xiaohongshu.com/search_result?keyword=MusicFX"]
+        ],
+        notes: "重点关注与 YouTube/音乐版权方的实验、Lyria 质量与水印。"
+      },
+      {
+        id: "meta-musicgen",
+        domain: "music",
+        company: "Meta AI",
+        project: "MusicGen / AudioCraft",
+        maturity: "open",
+        updated: "2026-09-16",
+        region: "US/France",
+        products: ["AudioCraft", "MusicGen", "Hugging Face models"],
+        algorithmLead: "论文核心作者 Jade Copet、Felix Kreuk、Itai Gat、Tal Remez、David Kant、Gabriel Synnaeve、Yossi Adi、Alexandre Défossez",
+        corePeople: ["Jade Copet", "Felix Kreuk", "Itai Gat", "Yossi Adi", "Alexandre Défossez", "Gabriel Synnaeve"],
+        algorithm: "Single-stage transformer LM over EnCodec compressed audio tokens with interleaving patterns; text and melody conditioning.",
+        papers: [
+          ["Simple and Controllable Music Generation", "https://arxiv.org/abs/2306.05284"],
+          ["AudioCraft GitHub", "https://github.com/facebookresearch/audiocraft"],
+          ["MusicGen model card", "https://huggingface.co/facebook/musicgen-large"]
+        ],
+        media: [
+          ["X", "AI at Meta", "https://x.com/AIatMeta"],
+          ["GitHub", "AudioCraft", "https://github.com/facebookresearch/audiocraft"],
+          ["微信公众号", "搜索：MusicGen AudioCraft", "https://weixin.sogou.com/weixin?type=2&query=MusicGen%20AudioCraft"],
+          ["小红书", "搜索：MusicGen", "https://www.xiaohongshu.com/search_result?keyword=MusicGen"]
+        ],
+        notes: "开源基线价值高，适合跟踪社区微调、插件化、商用替代。"
+      },
+      {
+        id: "stable-audio",
+        domain: "music",
+        company: "Stability AI / Harmonai",
+        project: "Stable Audio Open / Stable Audio",
+        maturity: "open",
+        updated: "2026-09-16",
+        region: "UK/US",
+        products: ["Stable Audio", "Stable Audio Open", "Dance Diffusion"],
+        algorithmLead: "公开团队包括 Ed Newton-Rex 早期产品方向、Zach Evans/Harmonai 社区研究线；现团队需持续核验",
+        corePeople: ["Zach Evans", "Ed Newton-Rex", "Harmonai community"],
+        algorithm: "Latent diffusion audio generation, text-conditioned audio/music, open model variants.",
+        papers: [
+          ["Stable Audio Open", "https://huggingface.co/stabilityai/stable-audio-open-1.0"],
+          ["Stable Audio official", "https://www.stableaudio.com/"],
+          ["Dance Diffusion", "https://github.com/Harmonai-org/sample-generator"]
+        ],
+        media: [
+          ["X", "Stability AI", "https://x.com/StabilityAI"],
+          ["官网", "Stable Audio", "https://www.stableaudio.com/"],
+          ["微信公众号", "搜索：Stable Audio", "https://weixin.sogou.com/weixin?type=2&query=Stable%20Audio"],
+          ["小红书", "搜索：Stable Audio", "https://www.xiaohongshu.com/search_result?keyword=Stable%20Audio"]
+        ],
+        notes: "重点跟踪开源许可证、训练数据、社区 fine-tune、商用限制。"
+      },
+      {
+        id: "elevenlabs-music",
+        domain: "music",
+        company: "ElevenLabs",
+        project: "Eleven Music / licensed AI music",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US/UK",
+        products: ["Eleven Music", "AI voice and sound effects", "licensed music creation platform"],
+        algorithmLead: "公司未公开模型负责人；公开创始团队 Mati Staniszewski、Piotr Dabkowski，音乐版权合作需跟踪官方公告",
+        corePeople: ["Mati Staniszewski", "Piotr Dabkowski"],
+        algorithm: "Generative audio stack extending speech/voice infrastructure into music and sound design; public technical details limited.",
+        papers: [
+          ["ElevenLabs official", "https://elevenlabs.io/"],
+          ["UMG and ElevenLabs strategic agreement", "https://www.universalmusic.com/universal-music-group-and-elevenlabs-announce-multi-year-strategic-agreement/"]
+        ],
+        media: [
+          ["X", "ElevenLabs", "https://x.com/elevenlabsio"],
+          ["官网", "ElevenLabs", "https://elevenlabs.io/"],
+          ["微信公众号", "搜索：ElevenLabs Music", "https://weixin.sogou.com/weixin?type=2&query=ElevenLabs%20Music"],
+          ["小红书", "搜索：ElevenLabs 音乐", "https://www.xiaohongshu.com/search_result?keyword=ElevenLabs%20%E9%9F%B3%E4%B9%90"]
+        ],
+        notes: "重点关注 UMG 授权平台、歌声/音色权利、API 与视频配乐结合。"
+      },
+      {
+        id: "deepmind-genie",
+        domain: "world",
+        company: "Google DeepMind",
+        project: "Genie / Genie 2 / Genie 3 / Project Genie",
+        maturity: "research",
+        updated: "2026-09-16",
+        region: "UK/US",
+        products: ["Genie 3", "Project Genie", "interactive generated worlds", "SIMA integration direction"],
+        algorithmLead: "Genie 2 官方披露由 Jack Parker-Holder lead，Stephen Spencer technical leadership；Genie 3 官方署名 Jack Parker-Holder、Shlomi Fruchter",
+        corePeople: ["Jack Parker-Holder", "Stephen Spencer", "Jake Bruce", "Michael Dennis", "Tim Rocktäschel", "Satinder Singh", "Shlomi Fruchter"],
+        algorithm: "Spatiotemporal video tokenizer, autoregressive dynamics model, latent action model, interactive world generation from image/text/sketch.",
+        papers: [
+          ["Genie: Generative Interactive Environments", "https://arxiv.org/abs/2402.15391"],
+          ["Genie project page", "https://sites.google.com/view/genie-2024/home"],
+          ["Genie 2 official blog", "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/"],
+          ["Genie 3 official blog", "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"]
+        ],
+        media: [
+          ["X", "Google DeepMind", "https://x.com/GoogleDeepMind"],
+          ["官网", "Project Genie", "https://labs.google/projectgenie"],
+          ["Blog", "DeepMind Genie", "https://deepmind.google/discover/blog/"],
+          ["微信公众号", "搜索：DeepMind Genie 世界模型", "https://weixin.sogou.com/weixin?type=2&query=DeepMind%20Genie%20%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B"],
+          ["小红书", "搜索：Genie 世界模型", "https://www.xiaohongshu.com/search_result?keyword=Genie%20%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B"]
+        ],
+        notes: "世界模型标杆，重点跟踪交互时长、记忆、智能体训练、Project Genie 可用范围。"
+      },
+      {
+        id: "meta-vjepa",
+        domain: "world",
+        company: "Meta AI",
+        project: "V-JEPA / V-JEPA 2 / V-JEPA 2.1",
+        maturity: "research",
+        updated: "2026-09-16",
+        region: "US/France",
+        products: ["V-JEPA 2", "V-JEPA 2-AC", "V-JEPA 2.1"],
+        algorithmLead: "Yann LeCun 推动 JEPA 世界模型路线；V-JEPA 2 论文核心作者包括 Mido Assran、Adrien Bardes、Nicolas Ballas、Michael Rabbat 等",
+        corePeople: ["Yann LeCun", "Mido Assran", "Adrien Bardes", "Nicolas Ballas", "Michael Rabbat", "Piotr Bojanowski"],
+        algorithm: "Joint Embedding Predictive Architecture, self-supervised video representation, latent action-conditioned planning for robotics.",
+        papers: [
+          ["V-JEPA 2 paper", "https://arxiv.org/abs/2506.09985"],
+          ["V-JEPA 2 official page", "https://ai.meta.com/research/vjepa/"],
+          ["V-JEPA 2.1 paper", "https://arxiv.org/abs/2603.14482"],
+          ["A Path Towards Autonomous Machine Intelligence", "https://openreview.net/forum?id=BZ5a1r-kVsf"]
+        ],
+        media: [
+          ["X", "AI at Meta", "https://x.com/AIatMeta"],
+          ["X", "Yann LeCun", "https://x.com/ylecun"],
+          ["官网", "V-JEPA", "https://ai.meta.com/research/vjepa/"],
+          ["微信公众号", "搜索：V-JEPA 世界模型", "https://weixin.sogou.com/weixin?type=2&query=V-JEPA%20%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B"],
+          ["小红书", "搜索：V-JEPA", "https://www.xiaohongshu.com/search_result?keyword=V-JEPA"]
+        ],
+        notes: "重点看非生成式世界模型路线、机器人规划、是否成为 Meta agent/robotics 基础模块。"
+      },
+      {
+        id: "nvidia-cosmos",
+        domain: "world",
+        company: "NVIDIA",
+        project: "Cosmos World Foundation Models",
+        maturity: "open",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Cosmos", "Cosmos Transfer", "Cosmos Predict", "Isaac/Omniverse integration"],
+        algorithmLead: "NVIDIA Research 页面列 Ming-Yu Liu、Jing Zhang 等；论文大规模作者包括 Arslan Ali、Yogesh Balaji、Sanja Fidler、Ming-Yu Liu、Jing Zhang 等",
+        corePeople: ["Ming-Yu Liu", "Jing Zhang", "Arslan Ali", "Yogesh Balaji", "Sanja Fidler", "Jan Kautz", "Dieter Fox"],
+        algorithm: "World foundation models for physical AI, video curation pipeline, tokenizers, open weights, simulation and robot/autonomous vehicle post-training.",
+        papers: [
+          ["Cosmos World Foundation Model Platform for Physical AI", "https://arxiv.org/abs/2501.03575"],
+          ["World Simulation with Video Foundation Models for Physical AI", "https://arxiv.org/abs/2511.00062"],
+          ["NVIDIA Cosmos official", "https://www.nvidia.com/en-us/ai/cosmos/"],
+          ["NVIDIA Cosmos GitHub", "https://github.com/NVIDIA/Cosmos"]
+        ],
+        media: [
+          ["X", "NVIDIA AI", "https://x.com/NVIDIAAI"],
+          ["GitHub", "NVIDIA Cosmos", "https://github.com/NVIDIA/Cosmos"],
+          ["官网", "Cosmos", "https://www.nvidia.com/en-us/ai/cosmos/"],
+          ["微信公众号", "搜索：NVIDIA Cosmos 世界模型", "https://weixin.sogou.com/weixin?type=2&query=NVIDIA%20Cosmos%20%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B"],
+          ["小红书", "搜索：NVIDIA Cosmos", "https://www.xiaohongshu.com/search_result?keyword=NVIDIA%20Cosmos"]
+        ],
+        notes: "物理 AI 与机器人仿真核心，重点看开放权重、许可证、Isaac/Omniverse/自动驾驶集成。"
+      },
+      {
+        id: "worldlabs-atlas",
+        domain: "world",
+        company: "World Labs",
+        project: "Atlas / Spatial Intelligence World Model",
+        maturity: "research",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["Atlas", "spatial intelligence platform", "robot simulation direction"],
+        algorithmLead: "公开创始核心为 Fei-Fei Li、Justin Johnson、Ben Mildenhall、Christoph Lassner；Atlas 具体论文/作者需持续核验",
+        corePeople: ["Fei-Fei Li", "Justin Johnson", "Ben Mildenhall", "Christoph Lassner", "Yunzhu Li"],
+        algorithm: "Spatial intelligence and 3D/4D world generation, scene understanding, real-to-sim-to-real robot training direction.",
+        papers: [
+          ["World Labs About", "https://www.worldlabs.ai/about"],
+          ["Atlas announcement", "https://www.worldlabs.ai/blog/introducing-atlas"],
+          ["Autodesk investment announcement", "https://adsknews.autodesk.com/en/news/autodesk-invests-200-million-in-world-labs/"]
+        ],
+        media: [
+          ["X", "World Labs", "https://x.com/theworldlabs"],
+          ["X", "Fei-Fei Li", "https://x.com/drfeifei"],
+          ["官网", "World Labs", "https://www.worldlabs.ai/"],
+          ["微信公众号", "搜索：World Labs Atlas", "https://weixin.sogou.com/weixin?type=2&query=World%20Labs%20Atlas"],
+          ["小红书", "搜索：World Labs", "https://www.xiaohongshu.com/search_result?keyword=World%20Labs"]
+        ],
+        notes: "重点跟踪 Atlas 能力、3D/场景资产导出、机器人训练闭环、融资与合作方。"
+      },
+      {
+        id: "wayve-gaia",
+        domain: "world",
+        company: "Wayve",
+        project: "GAIA-1 / driving world models",
+        maturity: "research",
+        updated: "2026-09-16",
+        region: "UK",
+        products: ["GAIA-1", "LINGO", "end-to-end autonomous driving stack"],
+        algorithmLead: "公开研究团队包括 Jamie Shotton、Alex Kendall、Wayve research team；GAIA-1 论文作者包括 Anthony Hu、Lloyd Russell 等",
+        corePeople: ["Alex Kendall", "Jamie Shotton", "Anthony Hu", "Lloyd Russell", "Sergey Chernyshev"],
+        algorithm: "Generative world model for autonomous driving video, action/scene conditioned future prediction and simulation.",
+        papers: [
+          ["GAIA-1: A Generative World Model for Autonomous Driving", "https://arxiv.org/abs/2309.17080"],
+          ["Wayve GAIA-1", "https://wayve.ai/thinking/gaia-1/"],
+          ["Wayve research", "https://wayve.ai/thinking/"]
+        ],
+        media: [
+          ["X", "Wayve", "https://x.com/wayve_ai"],
+          ["官网", "Wayve Research", "https://wayve.ai/thinking/"],
+          ["微信公众号", "搜索：Wayve GAIA-1", "https://weixin.sogou.com/weixin?type=2&query=Wayve%20GAIA-1"],
+          ["小红书", "搜索：Wayve 自动驾驶", "https://www.xiaohongshu.com/search_result?keyword=Wayve%20%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6"]
+        ],
+        notes: "自动驾驶世界模型代表，重点看仿真真实性、闭环评测、端到端驾驶策略结合。"
+      },
+      {
+        id: "tesla-world-model",
+        domain: "world",
+        company: "Tesla",
+        project: "FSD world model / video foundation stack",
+        maturity: "product",
+        updated: "2026-09-16",
+        region: "US",
+        products: ["FSD", "Tesla Bot / Optimus perception stack", "fleet video learning"],
+        algorithmLead: "公开负责人变动需持续核验；公开核心包括 Elon Musk、Ashok Elluswamy、Milan Kovac，以及 Autopilot/AI team",
+        corePeople: ["Ashok Elluswamy", "Milan Kovac", "Elon Musk", "Tesla AI team"],
+        algorithm: "Fleet-scale video perception, occupancy networks, planning/control, implicit world modeling for driving and robotics.",
+        papers: [
+          ["Tesla AI", "https://www.tesla.com/AI"],
+          ["Tesla AI Day 2022", "https://www.youtube.com/watch?v=ODSJsviD_SU"]
+        ],
+        media: [
+          ["X", "Tesla AI", "https://x.com/Tesla_AI"],
+          ["X", "Ashok Elluswamy", "https://x.com/aelluswamy"],
+          ["官网", "Tesla AI", "https://www.tesla.com/AI"],
+          ["微信公众号", "搜索：Tesla FSD 世界模型", "https://weixin.sogou.com/weixin?type=2&query=Tesla%20FSD%20%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B"],
+          ["小红书", "搜索：Tesla FSD", "https://www.xiaohongshu.com/search_result?keyword=Tesla%20FSD"]
+        ],
+        notes: "重点关注端到端 FSD、Optimus 数据闭环、视觉世界建模是否产品化外溢。"
+      }
+    ];
+
+    const DEFAULT_STATE = {
+      version: 1,
+      savedAt: null,
+      annotations: {},
+      updates: []
+    };
+
+    const state = loadState();
+    let currentDomain = "all";
+    let selectedId = DATA[0].id;
+    let fileHandle = null;
+    let serverReady = false, remoteNews = [], sourceStatuses = [], drawerTab = "detail", revision = 0;
+    let saveChain = Promise.resolve();
+
+    const els = {
+      list: document.getElementById("projectList"),
+      drawer: document.getElementById("detailDrawer"),
+      search: document.getElementById("searchInput"),
+      company: document.getElementById("companyFilter"),
+      maturity: document.getElementById("maturityFilter"),
+      sort: document.getElementById("sortSelect"),
+      saveStatus: document.getElementById("saveStatus")
+    };
+
+    function loadState() {
+      try {
+        return { ...DEFAULT_STATE, ...JSON.parse(localStorage.getItem("aiFrontierAtlasState") || "{}") };
+      } catch {
+        return structuredClone(DEFAULT_STATE);
+      }
+    }
+
+    function persistLocal() {
+      state.savedAt = new Date().toISOString();
+      try { localStorage.setItem("aiFrontierAtlasState", JSON.stringify(state)); } catch(e) { els.saveStatus.textContent = "浏览器缓存不可用，正在尝试本地文件保存"; }
+      refreshStats();
+    }
+
+    function persistFileIfReady() {
+      persistLocal();
+      const snapshot=JSON.stringify(state);
+      saveChain=saveChain.catch(()=>{}).then(async()=>{
+        try {
+          if(serverReady){
+            const res=await fetch("/api/state",{method:"PUT",headers:{"Content-Type":"application/json","X-Atlas-Request":"1"},body:JSON.stringify({revision,state:JSON.parse(snapshot)})});
+            const result=await res.json(); if(!res.ok) throw Error(result.error||"磁盘保存失败");
+            revision=result.revision;
+            els.saveStatus.textContent="已写入本地 data/state.json · "+new Date().toLocaleTimeString();
+          } else if(!fileHandle){
+            els.saveStatus.textContent="尚未写入磁盘：请用启动器打开，或选择本地状态文件。浏览器中仅有临时缓存。";
+          }
+          if(fileHandle){const w=await fileHandle.createWritable(); await w.write(snapshot); await w.close(); els.saveStatus.textContent="已写入本地状态文件 · "+new Date().toLocaleTimeString();}
+        }catch(err){els.saveStatus.textContent="保存失败（临时缓存仍保留）："+err.message; throw err;}
+      });
+      return saveChain.catch(()=>{});
+    }
+
+    function domainName(d) {
+      return d === "video" ? "AI 视频" : d === "music" ? "AI 音乐" : "世界模型";
+    }
+
+    function annotation(id) {
+      if (!state.annotations[id]) state.annotations[id] = { note: "", color: "", favorite: false, priority: "观察", hideNote:false, blocks:{} };
+      state.annotations[id].blocks = state.annotations[id].blocks || {};
+      return state.annotations[id];
+    }
+
+    function textBlob(item) {
+      return [
+        item.company, item.project, item.domain, item.region, item.algorithmLead,
+        item.corePeople.join(" "), item.products.join(" "), item.algorithm,
+        item.papers.flat().join(" "), item.media.flat().join(" "), item.notes,
+        annotation(item.id).note
+      ].join(" ").toLowerCase();
+    }
+
+    function filteredData() {
+      const q = els.search.value.trim().toLowerCase();
+      let rows = DATA.filter(item => {
+        if (currentDomain !== "all" && item.domain !== currentDomain) return false;
+        if (els.company.value && item.company !== els.company.value) return false;
+        if (els.maturity.value && item.maturity !== els.maturity.value) return false;
+        if (q && !textBlob(item).includes(q)) return false;
+        return true;
+      });
+      const sort = els.sort.value;
+      rows.sort((a, b) => {
+        if (sort === "company") return (a.company + a.project).localeCompare(b.company + b.project, "zh-Hans-CN");
+        if (sort === "project") return a.project.localeCompare(b.project, "zh-Hans-CN");
+        return b.updated.localeCompare(a.updated);
+      });
+      return rows;
+    }
+
+    function renderCards() {
+      const rows = filteredData();
+      els.list.innerHTML = "";
+      if (!rows.length) {
+        els.list.innerHTML = '<div class="empty">没有匹配项目。调整搜索或筛选条件。</div>';
+        return;
+      }
+      for (const item of rows) {
+        const ann = annotation(item.id);
+        const card = document.createElement("article");
+        card.className = "card";
+        card.dataset.project = item.id;
+        card.innerHTML = `
+          <div class="card-head">
+            <div>
+              <div class="title">${escapeHtml(item.project)}</div>
+              <div class="meta">${escapeHtml(item.company)} · ${escapeHtml(item.region)} · ${escapeHtml(item.updated)}</div>
+            </div>
+            <span class="tag ${item.domain}">${domainName(item.domain)}</span>
+          </div>
+          <div class="tags">
+            ${item.products.slice(0, 5).map(p => `<span class="tag">${escapeHtml(p)}</span>`).join("")}
+          </div>
+          <div class="grid2">
+            <div class="content-block">
+              <div class="label">算法负责人/公开核心</div>
+              <div>${escapeHtml(item.algorithmLead)}</div>
+            </div>
+            <div class="content-block">
+              <div class="label">核心人员</div>
+              <div>${item.corePeople.map(escapeHtml).join(" / ")}</div>
+            </div>
+          </div>
+          <details class="project-notes" data-note-project="${item.id}" ${ann.hideNote ? "" : "open"}>
+            <summary>项目备注 · ${ann.note ? "已记录" : "点击记录"}</summary>
+            <textarea data-project-note="${item.id}" placeholder="记录判断、联系人、待验证点">${escapeHtml(ann.note)}</textarea>
+            <select data-project-priority="${item.id}">${["观察","重点","跟进","暂缓"].map(p=>`<option ${ann.priority===p?"selected":""}>${p}</option>`).join("")}</select>
+            <div class="sub">输入后自动保存；点击标题折叠 / 展开</div>
+          </details>
+          <div class="actions">
+            <button data-action="detail" data-id="${item.id}">查看详情</button>
+            <button data-action="favorite" data-id="${item.id}">${ann.favorite ? "取消收藏" : "收藏"}</button>
+          </div>
+        `;
+        els.list.appendChild(card);
+      }
+      prepareTextFields(els.list);
+      refreshStats();
+    }
+
+    function renderDrawer() {
+      const item = DATA.find(x => x.id === selectedId) || DATA[0];
+      selectedId = item.id;
+      const ann = annotation(item.id);
+      const relatedUpdates = allNews().filter(u => u.projectId === item.id || (u.projectIds || []).includes(item.id)).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+      els.drawer.dataset.project = item.id;
+      els.drawer.innerHTML = `
+        <div class="tabs">
+          <button class="tab active" data-drawer-tab="detail">详情</button>
+          <button class="tab" data-drawer-tab="papers">论文</button>
+          <button class="tab" data-drawer-tab="media">媒介</button>
+          <button class="tab" data-drawer-tab="updates">动态</button>
+        </div>
+        <section data-tab-panel="detail">
+          <h2>${escapeHtml(item.project)}</h2>
+          <div class="sub">${escapeHtml(item.company)} · ${domainName(item.domain)} · ${escapeHtml(item.maturity)}</div>
+          <div class="field content-block">
+            <div class="label">算法/模型要点</div>
+            <div>${escapeHtml(item.algorithm)}</div>
+          </div>
+          <div class="field content-block">
+            <div class="label">产品覆盖</div>
+            <ul class="compact-list">${item.products.map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul>
+          </div>
+          <div class="field content-block">
+            <div class="label">人物关系</div>
+            <div>${escapeHtml(item.algorithmLead)}</div>
+            <ul class="compact-list">${item.corePeople.map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul>
+          </div>
+          <div class="field"><div class="label">字体标注</div>
+            <div class="sub">选中文字后选择颜色；双击词语可循环 黄 → 绿 → 蓝 → 红 → 原色。只改变文字颜色。</div>
+          </div>
+          <details class="project-notes" data-note-project="${item.id}" ${ann.hideNote ? "" : "open"}>
+            <summary>项目备注 · ${ann.note ? "已记录" : "点击记录"}</summary>
+            <textarea data-project-note="${item.id}" placeholder="记录判断、联系人、待验证点">${escapeHtml(ann.note)}</textarea>
+            <select data-project-priority="${item.id}">${["观察","重点","跟进","暂缓"].map(p=>`<option ${ann.priority===p?"selected":""}>${p}</option>`).join("")}</select>
+            <div class="sub">自动保存；折叠状态在卡片和详情中同步</div>
+          </details>
+        </section>
+        <section data-tab-panel="papers" hidden>
+          <h2>公开论文/文献</h2>
+          <div class="paper-list">${item.papers.map(([name, url]) => `<div class="paper-item"><a href="${url}" target="_blank" rel="noreferrer">${escapeHtml(name)}</a><div class="sub">${escapeHtml(url)}</div></div>`).join("")}</div>
+        </section>
+        <section data-tab-panel="media" hidden>
+          <h2>媒介入口</h2>
+          <div class="media-list">${item.media.map(([type, name, url]) => `<div class="media-item"><div><strong>${escapeHtml(type)}</strong> · <a href="${url}" target="_blank" rel="noreferrer">${escapeHtml(name)}</a></div><div class="sub">${escapeHtml(url)}</div></div>`).join("")}</div>
+        </section>
+        <section data-tab-panel="updates" hidden>
+          <h2>本地动态</h2>
+          <div class="sub">每日把 X、公众号、小红书、官网、论文站点看到的变化记在这里，保存到本地 JSON。</div>
+          <div class="update-form">
+            <div class="small-row">
+              <input id="updateDate" type="date" value="${new Date().toISOString().slice(0,10)}" />
+              <select id="updateChannel">
+                <option>X/Twitter</option><option>微信公众号</option><option>小红书</option><option>官网/Blog</option><option>论文/arXiv</option><option>GitHub/HF</option><option>其他</option>
+              </select>
+            </div>
+            <input id="updateTitle" placeholder="动态标题，例如：发布新模型 / 价格变化 / 论文更新" />
+            <input id="updateUrl" placeholder="链接，可为空" />
+            <textarea id="updateSummary" placeholder="摘要、判断、后续动作"></textarea>
+            <button class="primary" id="addUpdateBtn">添加动态并保存</button>
+          </div>
+          <div class="field">
+            ${relatedUpdates.length ? relatedUpdates.map(u => `
+              <div class="update-item">
+                <div><strong>${escapeHtml(u.date || "")}</strong> · ${escapeHtml(u.channel || "")}</div>
+                <div>${u.url ? `<a href="${escapeAttr(u.url)}" target="_blank" rel="noreferrer">${escapeHtml(u.title || "未命名动态")}</a>` : escapeHtml(u.title || "未命名动态")}</div>
+                <div class="sub">${escapeHtml(u.summary || "")}</div>
+                ${u.ingestedAt ? `<span class="sub">采集：${escapeHtml(u.ingestedAt)}</span>` : `<button data-delete-update="${u.id}" class="ghost">删除</button>`}
+              </div>
+            `).join("") : '<div class="empty">还没有本地动态记录。</div>'}
+          </div>
+        </section>
+      `;
+      prepareTextFields(els.drawer);
+      activateDrawerTab();
+    }
+
+    function refreshStats() {
+      document.getElementById("statProjects").textContent = DATA.length;
+      document.getElementById("statCompanies").textContent = new Set(DATA.map(x => x.company)).size;
+      document.getElementById("statPapers").textContent = DATA.reduce((n, x) => n + x.papers.length, 0);
+      document.getElementById("statUpdates").textContent = allNews().length;
+      renderTicker();
+      document.getElementById("count-all").textContent = DATA.length;
+      document.getElementById("count-video").textContent = DATA.filter(x => x.domain === "video").length;
+      document.getElementById("count-music").textContent = DATA.filter(x => x.domain === "music").length;
+      document.getElementById("count-world").textContent = DATA.filter(x => x.domain === "world").length;
+    }
+
+    function initCompanyFilter() {
+      const companies = [...new Set(DATA.map(x => x.company))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+      els.company.innerHTML = '<option value="">全部公司</option>' + companies.map(c => `<option>${escapeHtml(c)}</option>`).join("");
+    }
+
+    function exportState() {
+      const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "ai-frontier-atlas-state.json";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    async function saveFile() {
+      persistLocal();
+      if ("showSaveFilePicker" in window) {
+        try {
+          fileHandle = await window.showSaveFilePicker({
+            suggestedName: "ai-frontier-atlas-state.json",
+            types: [{ description: "JSON", accept: { "application/json": [".json"] } }]
+          });
+          await persistFileIfReady();
+        } catch (err) {
+          if (err.name !== "AbortError") els.saveStatus.textContent = "保存失败：" + err.message;
+        }
+      } else {
+        exportState();
+        els.saveStatus.textContent = "当前浏览器不支持直接写文件，已下载 JSON。下次可用“导入 JSON”恢复。";
+      }
+    }
+
+    async function openStateFile() {
+      if (!("showOpenFilePicker" in window)) {
+        els.saveStatus.textContent = "当前浏览器不支持直接打开状态文件，请用“导入 JSON”。";
+        return;
+      }
+      try {
+        const [handle] = await window.showOpenFilePicker({ types: [{ description: "JSON", accept: { "application/json": [".json"] } }] });
+        fileHandle = handle;
+        const file = await handle.getFile();
+        const loaded = JSON.parse(await file.text());
+        Object.assign(state, DEFAULT_STATE, loaded);
+        await persistFileIfReady();
+        renderCards();
+        renderDrawer();
+        els.saveStatus.textContent = "已打开状态文件：" + file.name;
+      } catch (err) {
+        if (err.name !== "AbortError") els.saveStatus.textContent = "打开失败：" + err.message;
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replace(/`/g, "&#96;");
+    }
+
+    document.querySelectorAll("[data-domain]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        currentDomain = btn.dataset.domain;
+        document.querySelectorAll("[data-domain]").forEach(b => b.classList.toggle("active", b === btn));
+        renderCards();
+      });
+    });
+
+    ["input", "change"].forEach(evt => {
+      els.search.addEventListener(evt, renderCards);
+      els.company.addEventListener(evt, renderCards);
+      els.maturity.addEventListener(evt, renderCards);
+      els.sort.addEventListener(evt, renderCards);
+    });
+
+    els.list.addEventListener("click", async e => {
+      const button = e.target.closest("button");
+      if (!button) return;
+      const id = button.dataset.id;
+      if (button.dataset.action === "detail") {
+        selectedId = id;
+        drawerTab = "detail";
+        renderDrawer();
+      }
+      if (button.dataset.action === "favorite") {
+        const ann = annotation(id);
+        ann.favorite = !ann.favorite;
+        await persistFileIfReady();
+        renderCards();
+        renderDrawer();
+      }
+    });
+
+    els.drawer.addEventListener("click", async e => {
+      const tab = e.target.closest("[data-drawer-tab]");
+      if (tab) {
+        const name = tab.dataset.drawerTab;
+        drawerTab = name;
+        els.drawer.querySelectorAll("[data-drawer-tab]").forEach(t => t.classList.toggle("active", t === tab));
+        els.drawer.querySelectorAll("[data-tab-panel]").forEach(p => p.hidden = p.dataset.tabPanel !== name);
+      }
+      if (e.target.id === "addUpdateBtn") {
+        state.updates.push({
+          id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()),
+          projectId: selectedId,
+          date: document.getElementById("updateDate").value,
+          channel: document.getElementById("updateChannel").value,
+          title: document.getElementById("updateTitle").value,
+          url: document.getElementById("updateUrl").value,
+          summary: document.getElementById("updateSummary").value,
+          createdAt: new Date().toISOString()
+        });
+        await persistFileIfReady();
+        renderDrawer();
+      }
+      const del = e.target.closest("[data-delete-update]");
+      if (del) {
+        state.updates = state.updates.filter(u => u.id !== del.dataset.deleteUpdate);
+        await persistFileIfReady();
+        renderDrawer();
+      }
+    });
+    document.getElementById("saveFileBtn").addEventListener("click", saveFile);
+    document.getElementById("openFileBtn").addEventListener("click", openStateFile);
+    document.getElementById("exportBtn").addEventListener("click", exportState);
+    document.getElementById("importInput").addEventListener("change", async e => {
+      const file = e.target.files[0];
+      if (!file) return;
+      try {
+        const loaded = JSON.parse(await file.text());
+        Object.assign(state, DEFAULT_STATE, loaded);
+        await persistFileIfReady();
+        renderCards();
+        renderDrawer();
+        els.saveStatus.textContent = "已导入：" + file.name;
+      } catch (err) {
+        els.saveStatus.textContent = "导入失败：" + err.message;
+      } finally {
+        e.target.value = "";
+      }
+    });
+
+    function allNews(){return [...(state.updates||[]),...remoteNews];}
+    function inkText(text,marks){let pos=0,out='';for(const m of (marks||[]).filter(m=>m.start>=0&&m.end<=text.length&&m.end>m.start&&text.slice(m.start,m.end)===m.quote).sort((a,b)=>a.start-b.start)){if(m.start<pos)continue;out+=escapeHtml(text.slice(pos,m.start))+`<mark class="text-mark" data-ink="${['yellow','green','blue','red'].includes(m.color)?m.color:'yellow'}" data-start="${m.start}" data-end="${m.end}">${escapeHtml(text.slice(m.start,m.end))}</mark>`;pos=m.end;}return out+escapeHtml(text.slice(pos));}
+    function prepareTextFields(root){for(const scope of root===els.list?[...root.querySelectorAll('.card')]:[root]){const id=scope.dataset.project;if(!id)continue;const a=annotation(id);a.textMarks=a.textMarks||{};const used={};for(const el of scope.querySelectorAll('.title,.meta,h2,.tags .tag,.content-block > div:not(.label),.compact-list li,.paper-item a,.paper-item .sub,.media-item a,.media-item strong,.media-item .sub,.update-item > div,.sub')){if(el.closest('.project-notes,.update-form')||el.querySelector('button,input,select,textarea,a,div'))continue;const text=el.textContent;if(!text.trim())continue;const n=used[text]||0;used[text]=n+1;const key=JSON.stringify([text,n]);el.dataset.textField=key;el.dataset.textProject=id;el.innerHTML=inkText(text,a.textMarks[key]);}}}
+    let pendingSelection=null;
+    const palette=document.createElement('div');palette.className='text-palette';palette.hidden=true;palette.innerHTML='<span>所选文字</span>'+['yellow','green','blue','red'].map((c,i)=>`<button class="swatch" data-ink="${c}" style="background:var(--${c})" aria-label="${['黄色','绿色','蓝色','红色'][i]}字体"></button>`).join('')+'<button data-ink="">清除</button>';document.body.appendChild(palette);
+    function selectionRange(){const s=getSelection();if(!s||s.isCollapsed||!s.rangeCount)return null;const r=s.getRangeAt(0),e=r.startContainer.nodeType===1?r.startContainer:r.startContainer.parentElement,field=e.closest('[data-text-field]');if(!field||!field.contains(r.endContainer))return null;const before=r.cloneRange();before.selectNodeContents(field);before.setEnd(r.startContainer,r.startOffset);const start=before.toString().length;return {id:field.dataset.textProject,key:field.dataset.textField,start,end:start+r.toString().length,quote:r.toString()};}
+    document.addEventListener('selectionchange',()=>{const h=selectionRange();if(h){pendingSelection=h;palette.hidden=false;}else if(!palette.matches(':hover'))palette.hidden=true;});
+    async function setInk(hit,color){if(!hit)return;const a=annotation(hit.id);a.textMarks=a.textMarks||{};const old=a.textMarks[hit.key]||[],next=[],full=JSON.parse(hit.key)[0];for(const m of old){if(m.end<=hit.start||m.start>=hit.end){next.push(m);continue;}if(m.start<hit.start)next.push({...m,end:hit.start,quote:full.slice(m.start,hit.start)});if(m.end>hit.end)next.push({...m,start:hit.end,quote:full.slice(hit.end,m.end)});}if(color)next.push({start:hit.start,end:hit.end,quote:hit.quote,color});a.textMarks[hit.key]=next;document.querySelectorAll('[data-text-field]').forEach(el=>{if(el.dataset.textProject===hit.id&&el.dataset.textField===hit.key)el.innerHTML=inkText(full,next);});getSelection().removeAllRanges();palette.hidden=true;await persistFileIfReady();}
+    palette.addEventListener('mousedown',e=>e.preventDefault());palette.addEventListener('click',e=>{const b=e.target.closest('[data-ink]');if(b)setInk(pendingSelection,b.dataset.ink);});
+    document.addEventListener('dblclick',e=>{const f=e.target.closest('[data-text-field]');if(!f)return;const m=e.target.closest('mark.text-mark');let h=selectionRange(),old='';if(m){h={id:f.dataset.textProject,key:f.dataset.textField,start:+m.dataset.start,end:+m.dataset.end,quote:m.textContent};old=m.dataset.ink;}if(!h)return;const colors=['','yellow','green','blue','red'];setInk(h,colors[(colors.indexOf(old)+1)%colors.length]);});
+    function syncNotes(id,source){const a=annotation(id);document.querySelectorAll('details[data-note-project]').forEach(d=>{if(d.dataset.noteProject!==id)return;if(d!==source)d.open=!a.hideNote;const t=d.querySelector('textarea');if(t&&t!==document.activeElement)t.value=a.note;const s=d.querySelector('select');if(s)s.value=a.priority;d.querySelector('summary').textContent='项目备注 · '+(a.note?'已记录':'点击记录');});}
+    document.addEventListener('input',e=>{const id=e.target.dataset.projectNote||e.target.dataset.projectPriority;if(!id)return;const a=annotation(id);if(e.target.dataset.projectNote)a.note=e.target.value;else a.priority=e.target.value;syncNotes(id);persistFileIfReady();});
+    document.addEventListener('toggle',e=>{const d=e.target;if(!d.matches('details[data-note-project]'))return;const a=annotation(d.dataset.noteProject);if(a.hideNote===!d.open)return;a.hideNote=!d.open;syncNotes(d.dataset.noteProject,d);persistFileIfReady();},true);
+    function activateDrawerTab(){els.drawer.querySelectorAll('[data-tab-panel]').forEach(p=>p.hidden=p.dataset.tabPanel!==drawerTab);els.drawer.querySelectorAll('[data-drawer-tab]').forEach(t=>t.classList.toggle('active',t.dataset.drawerTab===drawerTab));}
+    function safeLink(url){try{const u=new URL(url);return ['http:','https:'].includes(u.protocol)?escapeAttr(u.href):'#';}catch{return '#';}}
+    function renderTicker(){const el=document.getElementById('tickerTrack');if(!el)return;const ch=document.getElementById('feedChannel').value,q=document.getElementById('feedSearch').value.toLowerCase();const rows=allNews().filter(u=>{const ids=[u.projectId,...(u.projectIds||[])];if(ch&&u.channel!==ch)return false;if(q&&!JSON.stringify(u).toLowerCase().includes(q))return false;if(currentDomain!=='all'&&u.domain!==currentDomain&&!(u.domains||[]).includes(currentDomain)&&!DATA.some(p=>ids.includes(p.id)&&p.domain===currentDomain))return false;if(els.company.value&&!DATA.some(p=>ids.includes(p.id)&&p.company===els.company.value))return false;return true;}).sort((a,b)=>Date.parse(b.publishedAt||b.date||b.ingestedAt||0)-Date.parse(a.publishedAt||a.date||a.ingestedAt||0));const scroll=el.scrollTop;el.innerHTML=rows.length?rows.map(u=>{const ps=DATA.filter(p=>[u.projectId,...(u.projectIds||[])].includes(p.id));return `<article class="ticker-item"><div class="sub">${escapeHtml((u.publishedAt||u.date||'发布时间未提供').slice(0,19).replace('T',' '))}</div><div class="channel">${escapeHtml(u.channel||'本地记录')}<div class="news-time">${escapeHtml(u.source||u.author||'手动记录')}</div></div><div><a class="news-title" href="${safeLink(u.url)}" target="_blank" rel="noreferrer">${escapeHtml(u.title||'未命名动态')}</a><div class="news-summary">${escapeHtml((u.summary||'原文未提供摘要').slice(0,1400))}</div><div class="tags">${ps.map(p=>`<button data-news-project="${p.id}" class="tag">${escapeHtml(p.project)}</button>`).join('')}${(u.domains||[]).map(d=>`<span class="tag ${d}">${domainName(d)}</span>`).join('')}</div><div class="news-time">采集 ${escapeHtml((u.ingestedAt||u.createdAt||'手动记录').slice(0,19).replace('T',' '))} ${u.observedOnly?' · 页面可见内容，非完整订阅':''}</div></div></article>`;}).join(''):'<div class="empty">暂无匹配动态。可立即抓取，或通过登录采集扩展导入。</div>';el.scrollTop=scroll;}
+    const feed=document.getElementById('tickerTrack');let paused=matchMedia('(prefers-reduced-motion: reduce)').matches,hovering=false;feed.addEventListener('mouseenter',()=>hovering=true);feed.addEventListener('mouseleave',()=>hovering=false);feed.addEventListener('focusin',()=>hovering=true);feed.addEventListener('focusout',()=>hovering=false);document.getElementById('pauseFeed').textContent=paused?'继续滚动':'暂停滚动';setInterval(()=>{if(paused||hovering||document.hidden||feed.scrollHeight<=feed.clientHeight)return;feed.scrollTop=feed.scrollTop+1>=feed.scrollHeight-feed.clientHeight?0:feed.scrollTop+1;},80);document.getElementById('pauseFeed').onclick=e=>{paused=!paused;e.target.textContent=paused?'继续滚动':'暂停滚动';};document.getElementById('feedChannel').onchange=renderTicker;document.getElementById('feedSearch').oninput=renderTicker;feed.onclick=e=>{const b=e.target.closest('[data-news-project]');if(b){selectedId=b.dataset.newsProject;drawerTab='updates';renderDrawer();els.drawer.scrollIntoView({behavior:'smooth',block:'start'});}};
+    async function api(path,options={}){const r=await fetch(path,{...options,headers:{'X-Atlas-Request':'1',...(options.headers||{})}});const d=await r.json();if(!r.ok)throw Error(d.error||r.status);return d;}
+    async function refreshNews(){try{const d=await api('/api/news');remoteNews=d.items||[];sourceStatuses=d.sources||[];document.getElementById('sourceStatuses').innerHTML=sourceStatuses.map(x=>`<div class="source-row"><strong>${escapeHtml(x.name)}</strong><span class="${x.ok?'ok':'error'}">${escapeHtml(x.status||'等待')}</span><span class="sub">${escapeHtml(x.detail||'')} · ${escapeHtml((x.checkedAt||'').slice(0,19))}</span></div>`).join('');document.getElementById('feedStatus').textContent=`${d.fetching?'正在抓取…':'采集服务在线'} · ${remoteNews.length} 条归档 · 每 15 分钟抓取 / 30 秒同步`;refreshStats();}catch(e){document.getElementById('feedStatus').textContent='服务连接失败：'+e.message;}}
+    document.getElementById('refreshNews').onclick=async()=>{try{await api('/api/refresh',{method:'POST'});document.getElementById('feedStatus').textContent='正在抓取，请稍候…';await refreshNews();}catch(e){document.getElementById('feedStatus').textContent='请用本地启动器打开：'+e.message;}};
+    document.getElementById('copyPairToken').onclick=async()=>{try{const x=await api('/api/pair');await navigator.clipboard.writeText(x.token);document.getElementById('pairStatus').textContent='已复制，请粘贴到扩展中（仅保存在本机）';}catch(e){document.getElementById('pairStatus').textContent='请用启动器打开页面后复制：'+e.message;}};
+    async function connectLocalService(){try{const d=await api('/api/state');serverReady=true;revision=d.revision||0;if(d.state){Object.assign(state,structuredClone(DEFAULT_STATE),d.state);persistLocal();renderCards();renderDrawer();}else await persistFileIfReady();await api('/api/catalog',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(DATA.map(p=>({id:p.id,company:p.company,project:p.project,domain:p.domain})))});els.saveStatus.textContent='本地文件保存已启用：data/state.json（自动备份）';await refreshNews();setInterval(refreshNews,30000);}catch(e){serverReady=false;document.getElementById('feedStatus').textContent='本地服务未连接：请双击“启动工作台.cmd”。离线记录仍可导出 JSON。';}}
+
+    initCompanyFilter();
+    refreshStats();
+    renderCards();
+    renderDrawer();
+    connectLocalService();
+  </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Google AI 官方博客",
+    "channel": "官网/Blog",
+    "kind": "rss",
+    "url": "https://blog.google/technology/ai/rss/",
+    "domains": [],
+    "evidence": "primary"
+  },
+  {
+    "name": "OpenAI 官方新闻",
+    "channel": "官网/Blog",
+    "kind": "rss",
+    "url": "https://openai.com/news/rss.xml",
+    "domains": [],
+    "evidence": "primary"
+  },
+  {
+    "name": "Hugging Face 官方博客",
+    "channel": "官网/Blog",
+    "kind": "rss",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "domains": [],
+    "evidence": "primary"
+  },
+  {
+    "name": "arXiv 视频生成",
+    "channel": "论文/arXiv",
+    "kind": "rss",
+    "url": "https://export.arxiv.org/api/query?search_query=all:%22video%20generation%22&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "domains": [
+      "video"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "arXiv 音乐生成",
+    "channel": "论文/arXiv",
+    "kind": "rss",
+    "url": "https://export.arxiv.org/api/query?search_query=all:%22music%20generation%22&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "domains": [
+      "music"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "arXiv 世界模型",
+    "channel": "论文/arXiv",
+    "kind": "rss",
+    "url": "https://export.arxiv.org/api/query?search_query=all:%22world%20model%22&sortBy=submittedDate&sortOrder=descending&max_results=40",
+    "domains": [
+      "world"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "Hugging Face 最新视频模型",
+    "channel": "Hugging Face",
+    "kind": "hf",
+    "url": "https://huggingface.co/api/models?pipeline_tag=text-to-video&sort=lastModified&direction=-1&limit=30",
+    "domains": [
+      "video"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "Hugging Face 最新音频模型",
+    "channel": "Hugging Face",
+    "kind": "hf",
+    "url": "https://huggingface.co/api/models?pipeline_tag=text-to-audio&sort=lastModified&direction=-1&limit=30",
+    "domains": [
+      "music"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "Wan 视频模型 GitHub",
+    "channel": "GitHub",
+    "kind": "github",
+    "url": "https://api.github.com/repos/Wan-Video/Wan2.2/commits?per_page=30",
+    "domains": [
+      "video"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "腾讯混元视频 GitHub",
+    "channel": "GitHub",
+    "kind": "github",
+    "url": "https://api.github.com/repos/Tencent-Hunyuan/HunyuanVideo/commits?per_page=30",
+    "domains": [
+      "video"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "AudioCraft GitHub",
+    "channel": "GitHub",
+    "kind": "github",
+    "url": "https://api.github.com/repos/facebookresearch/audiocraft/commits?per_page=30",
+    "domains": [
+      "music"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "NVIDIA Cosmos GitHub",
+    "channel": "GitHub",
+    "kind": "github",
+    "url": "https://api.github.com/repos/nvidia-cosmos/cosmos-predict2/commits?per_page=30",
+    "domains": [
+      "world"
+    ],
+    "evidence": "primary"
+  },
+  {
+    "name": "行业新闻检索 · video · CN",
+    "kind": "rss",
+    "evidence": "discovery",
+    "domains": [
+      "video"
+    ],
+    "url": "https://news.google.com/rss/search?q=AI%20%E8%A7%86%E9%A2%91%20%E7%94%9F%E6%88%90%20%E6%A8%A1%E5%9E%8B%20%E5%85%AC%E5%8F%B8%20%E8%9E%8D%E8%B5%84%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · music · CN",
+    "kind": "rss",
+    "evidence": "discovery",
+    "domains": [
+      "music"
+    ],
+    "url": "https://news.google.com/rss/search?q=AI%20%E9%9F%B3%E4%B9%90%20%E7%94%9F%E6%88%90%20%E5%85%AC%E5%8F%B8%20%E7%89%88%E6%9D%83%20%E8%9E%8D%E8%B5%84%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · world · CN",
+    "kind": "rss",
+    "evidence": "discovery",
+    "domains": [
+      "world"
+    ],
+    "url": "https://news.google.com/rss/search?q=%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%E7%A9%BA%E9%97%B4%E6%99%BA%E8%83%BD%20%E5%88%9B%E4%B8%9A%20%E8%9E%8D%E8%B5%84%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · video · US",
+    "kind": "rss",
+    "evidence": "discovery",
+    "domains": [
+      "video"
+    ],
+    "url": "https://news.google.com/rss/search?q=AI%20video%20generation%20startup%20model%20funding%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · music · US",
+    "kind": "rss",
+    "evidence": "discovery",
+    "domains": [
+      "music"
+    ],
+    "url": "https://news.google.com/rss/search?q=AI%20music%20generation%20startup%20licensing%20funding%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · world · US",
+    "kind": "rss",
+    "evidence": "discovery",
+    "domains": [
+      "world"
+    ],
+    "url": "https://news.google.com/rss/search?q=world%20models%20spatial%20intelligence%20startup%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  }
+]
