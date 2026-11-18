@@ -1,5 +1,13 @@
 name: 发布行业动态 HTML
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'build_review.py'
+      - 'workbench/**'
+      - 'skills/**'
+      - '.github/workflows/pages.yml'
   workflow_run:
     workflows: ["每周四行业动态"]
     types: [completed]
@@ -13,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages

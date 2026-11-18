@@ -56,6 +56,7 @@ document.getElementById('exportReview').onclick=()=>{const blob=new Blob([JSON.s
         shutil.copytree(ROOT/name,output/name,dirs_exist_ok=True)
     (output/'workbench').mkdir(exist_ok=True)
     shutil.copy2(ROOT/'workbench/ai-frontier-atlas.html',output/'workbench/ai-frontier-atlas.html')
+    shutil.copy2(ROOT/'workbench/ai-frontier-atlas.html',output/'workbench/index.html')
     (output/'.nojekyll').write_text('')
     print('Built public/index.html and public-only static assets')
 

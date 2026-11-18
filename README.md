@@ -8,7 +8,8 @@ AI 视频、AI 音乐、世界模型的研究 Agent：项目知识库、人物�
 - [完整 Skill](skills/ai-frontier-research/SKILL.md)：覆盖、交互和本地保存要求。
 - [行业动态 HTML](site/index.html)：可下载后直接打开，无外部 JS 依赖。
 - [最新周报](reports/latest.md) / [结构化报告](reports/latest.json)。
-- [本地研究工作台](workbench/ai-frontier-atlas.html)：原项目的交互 HTML；联网采集用 `workbench/启动工作台.cmd` 启动。
+- [在线交互工作台（GitHub Pages）](https://rosairoausky-dot.github.io/AI-News/workbench/)：直接浏览十类模型、行业动态与排行榜；支持项目备注、收藏、优先级和文字颜色标注。在线页面是静态版，个人标记请使用“下载带标记的 HTML”保存到本地。
+- [本地研究工作台 HTML](workbench/ai-frontier-atlas.html)：可下载后离线打开；需要本地状态文件和联网采集时，使用 `workbench/启动工作台.cmd` 启动。
 
 ## 运行
 
