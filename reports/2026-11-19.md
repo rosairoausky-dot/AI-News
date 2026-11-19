@@ -1,8 +1,8 @@
 # 行业动态 · 2026-11-19
 
-检索窗口：2026-11-12T14:52:35.521097+08:00 至 2026-11-19T14:52:35.521097+08:00（北京时间）。
+检索窗口：2026-11-12T15:01:01.968665+08:00 至 2026-11-19T15:01:01.968665+08:00（北京时间）。
 
-本周条目：198；无发布日期待核验：0；采集状态：配置来源完成检索（不代表全网覆盖）。
+本周条目：397；无发布日期待核验：0；采集状态：部分来源失败，报告不完整。
 
 内容为来源摘录与自动分类，未经逐条原文事实核验。
 
@@ -21,6 +21,14 @@ Egypt's Chipverse secures pre-seed funding to double GPU capacity Wamda
 AI 音乐 · 行业新闻检索 · music · CN · 2026-11-18T22:09:03+00:00
 
 Disseqt AI 获 800 万美元融资，将业务保障服务拓展至国际市场 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Palo Alto Networks达成以45亿美元收购Applied Compute的协议 - Unite.AI](https://news.google.com/rss/articles/CBMikwFBVV95cUxOa2k5eE1WZFROdnhERjBBbWhqU0k0ZlBBMHI2S1pjOTEwRXJTQUVuQ3pkWkllMGRLMXpvQnZvcUotWVdxbVhiVkg4VG1wQjVTWVRQRkg0MERpZjBiaGEtZmtHdHFwS25peDVZbTdudlBWd1FtYk5QQVIyQmtiYlEzRWpXOF9VWkE4M2tIamtrWnIycWc?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-18T21:28:05+00:00
+
+Palo Alto Networks达成以45亿美元收购Applied Compute的协议 Unite.AI
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -45,6 +53,14 @@ Payhawk以20亿美元估值融资2.8亿美元C轮，打造AI财务操作系统 U
 AI 音乐 · 行业新闻检索 · music · CN · 2026-11-18T15:14:02+00:00
 
 CloudBackend完成660万欧元融资，扩大AI云服务的使用范围 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Sequel.io 融资 1,500 万美元 B 轮，拓展 AI 智能体与个性化服务 - Unite.AI](https://news.google.com/rss/articles/CBMingFBVV95cUxOeU15cEVqckowbG14UUg2YnVVT0Nzbm5SQXU5NlI2Y2pHUGlEdjBwaTRvWW41eEVoNVpBb3NyVEUwZ2U4MUFZeFhtcXVBSjd0dXBBZURZZGY3TmxUV1AxQVVkbHAxVVZKYnRsV2lNSU5KOVVFOWV6bENQQXNxd3Nka0k2ZXZDRHpxX08tREpxNTRwRFRwZXlLWVFvNWVWZw?oc=5)
+
+AI 音乐 · 行业新闻检索 · music · CN · 2026-11-18T14:40:03+00:00
+
+Sequel.io 融资 1,500 万美元 B 轮，拓展 AI 智能体与个性化服务 Unite.AI
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -74,23 +90,15 @@ Unsiloed AI 获 750 万美元种子轮融资，将扩大研究、工程和销售
 
 ### [Humyn Labs 获 4,700 万美元 A 轮融资，用于获取真实场景机器人数据 - Unite.AI](https://news.google.com/rss/articles/CBMikgFBVV95cUxNSEJtVEFKZEs0b25PeXlmV0hheWVFbmtHTF9VT1RJaTdJMFI5ZkdpR2VQNGZlaGV0dVVvS3F1VjFPVHhaSWJTbjlaRzY2LVFVN1NYUWtjZ1dZa2d0ZWFNVFdhakN4dEx6TmphdG90RVYzY0pWcnJjakYyNlRZSmlaS25nbzFWNUlzeERoVVc4Z2xfZw?oc=5)
 
-AI 视频 · 行业新闻检索 · video · CN · 2026-11-18T12:00:02+00:00
+具身机器人 VLA / AI 视频 · 行业新闻检索 · video · CN · 2026-11-18T12:00:02+00:00
 
 Humyn Labs 获 4,700 万美元 A 轮融资，用于获取真实场景机器人数据 Unite.AI
 
 证据：discovery；来源摘录，待原文核验。
 
-### [Semantic-aware Contrasting with Explicitly Disentangled Representations for AI-Generated Video Detection](https://arxiv.org/abs/2611.24038v1)
-
-AI 视频 · arXiv 视频生成 · 2026-11-18T08:26:58+00:00
-
-The rapid proliferation of AI-generated videos (AIGVs) has raised critical concerns about content authenticity. Existing benchmarks suffer from a fundamental limitation: real and fake videos are often collected or generated from different semantic distributions. As a result, detectors may rely on spurious correlations involving objects, scenes, or actions rather than intrinsic artifacts introduced by generative models. To this end, we introduce SAVGE, a large-scale semantically aligned AIGV detection dataset comprising 2,369,822 videos, including 424,115 real videos and 1,945,707 generated videos. SAVGE organizes samples into real-fake semantic groups by using captions paired with real videos as prompts for text-to-video generation, thereby providing both group-level correspondence and textual semantic anchors. Based on SAVGE, we further propose Explicit Disentangling and Semantic-aware Contrasting (EDSC), a model-agnostic training framework for learning artifact-focused representation
-
-证据：primary；来源摘录，待原文核验。
-
 ### [LanceDB融资5750万美元B轮，拓展多模态AI湖仓 - Unite.AI](https://news.google.com/rss/articles/CBMimwFBVV95cUxPMjRfTHc1RWwydDE4TkhWVGtOWDJxSTd1U050dHdxdWI2WWFKcG5mb0lLVmJBX1N0R0RkUC00VE0ydTR5TUY4M081YTJSS05KZGFBY3BLazFHMUVFZ2JrWm9TeDBBR0ZscnRZejJ4TGVnUzFMN0g3S3RRZ1J0U2FJTDBrRk9KaFhWUGFob3UwM0VBT1I3TnA1ZlRMRQ?oc=5)
 
-AI 视频 · 行业新闻检索 · video · CN · 2026-11-17T20:21:05+00:00
+视觉多模态 VLM / AI 视频 · 行业新闻检索 · video · CN · 2026-11-17T20:21:05+00:00
 
 LanceDB融资5750万美元B轮，拓展多模态AI湖仓 Unite.AI
 
@@ -130,7 +138,7 @@ AMD Closes $2.9 Billion Taalas Deal, Its Second AI Acquisition This Week BigGo F
 
 ### [Genesis AI 融资 5 亿美元 A 轮，加速机器人部署 - Unite.AI](https://news.google.com/rss/articles/CBMilAFBVV95cUxPNHFHQTFGVGtQT01uZy15VXZmV3d4cFlXNWFyQng4WVR1V2E0MUNscUM1NWdvc0RWVE5ZaHNBbV9LbHRiUkZVRldlakJfVWM5NzExbzlrRVg0N0tXOFNTR0pjVUhJVWtJdE1CaEc4NXhKYzhwbk5LQ0NtVmx5Z29USDZudG1yMkVDamExZVRoYUFMazV3?oc=5)
 
-AI 音乐 · 行业新闻检索 · music · CN · 2026-11-17T14:18:02+00:00
+AI 音乐 / 具身机器人 VLA · 行业新闻检索 · music · CN · 2026-11-17T14:18:02+00:00
 
 Genesis AI 融资 5 亿美元 A 轮，加速机器人部署 Unite.AI
 
@@ -162,9 +170,17 @@ AMD completes acquisition of World Labs to bolster its spatial intelligence Tech
 
 ### [拿下86亿元，今年华为系创业者攻占了具身智能融资榜 - 36氪](https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0eFVZWjlEWGFwem1IWGxvQUFJTGZXR0JyT2dHR0hPd0Uwb05lSEc1bkpqLWhIa3ZnUzZWb0Zna2RMdXJiR1pyaV8xMWtJdw?oc=5)
 
-世界模型 · 行业新闻检索 · world · CN · 2026-11-17T06:47:35+00:00
+具身机器人 VLA / 世界模型 · 行业新闻检索 · world · CN · 2026-11-17T06:47:35+00:00
 
 拿下86亿元，今年华为系创业者攻占了具身智能融资榜 36氪
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ElevenLabs Makes First Japan Acquisition, Takes Voice AI "Koto" Under Its Wing - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE5IaEM3bFo2Vlk0QzBHRTliV1JPNkpCdUo0c1FPbW5iSGZ4S3ozRWViLWJZUFlnOHZLUENJeWpCTmlfeGVpajZtaUJPNVBlaVN3eU43Z0R4cUozMTB1bWJxTmtQcTlWcU5jQzJnNEtnemthWjJJWHc?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-17T06:25:00+00:00
+
+ElevenLabs Makes First Japan Acquisition, Takes Voice AI "Koto" Under Its Wing BigGo Finance
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -208,11 +224,11 @@ AMD completes acquisition of AI startup World Labs (AMD:NASDAQ) Seeking Alpha
 
 证据：discovery；来源摘录，待原文核验。
 
-### [NVIDIA CEO Exit Sparks AI Startup Funding Fears - 조선일보](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmhZZTk1REMxb1VFYlAzSHJPMWlHNUNtZUZwZjR4aUpWZl95ZG1qYmJHU0NyNHk0REhyZUczNGVNZnVTcTZQenlrOEEtMHRJek9fZmUtcHFZeXNWWmRreUpPUzlGUllIdERVWVJ2Sm5oV3c5NXVYdjdLS1VIMUx6VC1RLWFVdUJj?oc=5)
+### [AMD完成收购World Labs，并任命Fei-Fei Li为首席科学家 - Unite.AI](https://news.google.com/rss/articles/CBMinwFBVV95cUxNd18tRVZVYTU3bWVNbjg4NjJTZzNtaVlXTXh0akhmQ1dhNkduQ1drUUFBMWlEY243Ym9oazNfN0d1U050WW40bFNmQkEwazFGZkw0S3pQVUVmcGVwZXRIMkd0UnJYcHJYdnM1a2Uycld2dXdKUG5ZeGxwNjIwX2t6VWhicldBVUl2Rl9WcmpldmdEYUk0VjRmN1kzYl9HZGs?oc=5)
 
-AI 视频 · 行业新闻检索 · video · US · 2026-11-16T03:42:24+00:00
+图像生成与编辑 / 世界模型 · 行业新闻检索 · image · CN · 2026-11-16T14:36:01+00:00
 
-NVIDIA CEO Exit Sparks AI Startup Funding Fears 조선일보
+AMD完成收购World Labs，并任命Fei-Fei Li为首席科学家 Unite.AI
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -226,7 +242,7 @@ NVIDIA CEO Exit Sparks AI Startup Funding Fears 조선일보
 
 ### [全球人工智能企业超3.7万家，大模型融资热持续上升 - 第一财经](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9za3FXX05jd3YtOFpqVnRiUmpDenoxQXdtUkN6UEtLNExuLTU4Z1VCTl9IZlVPTXZVZVN3NTd1QUNBU0xvcnBvTzR5enNPc1l4eG9R?oc=5)
 
-AI 视频 · 行业新闻检索 · video · CN · 2026-11-14T04:49:21+00:00
+LLM 大语言模型 / AI 视频 · 行业新闻检索 · video · CN · 2026-11-14T04:49:21+00:00
 
 全球人工智能企业超3.7万家，大模型融资热持续上升 第一财经
 
@@ -270,13 +286,77 @@ Nebuly完成2,100万美元A轮融资，扩大企业AI价值衡量业务 Unite.AI
 
 证据：discovery；来源摘录，待原文核验。
 
+### [AI大模型周报：阿里发布新一代大模型Qwen4-Max；腾讯优图实验室研究总监孙星被曝离职；阿里收紧回流，主动离职两次不能回原集团；华为云发布并开源具身世界模型…_推荐_i黑马 - iheima](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XcEpQOUV6S1JPTEI1RWhnSmN0WXFJLXRsNUNCdGdkNE1yVWJRV3kzQThuSnM5UTBXaklMUmljZlJaRkZsa0YtTWxGeVJpZFl4U3ZR?oc=5)
+
+LLM 大语言模型 / 具身机器人 VLA / 世界模型 · 行业新闻检索 · llm · CN · 2026-11-16T09:22:00+00:00
+
+AI大模型周报：阿里发布新一代大模型Qwen4-Max；腾讯优图实验室研究总监孙星被曝离职；阿里收紧回流，主动离职两次不能回原集团；华为云发布并开源具身世界模型…_推荐_i黑马 iheima
+
+证据：discovery；来源摘录，待原文核验。
+
+### [周畅庞天宇离职，多模态生成失宠了吗？ - 蓝鲸财经](https://news.google.com/rss/articles/CBMiW0FVX3lxTE81aWxCUE8wajNYeUlkMDBhM1pYcVVjYzhvXy1FU2VEU0lPaERHdk1kSWp5U1l5T0pMUUJEcXNNUDlZcFktMF9raGVrUkxoR1EtMVVpRlE1a3l5Ukk?oc=5)
+
+LLM 大语言模型 / 视觉多模态 VLM · 行业新闻检索 · llm · CN · 2026-11-15T10:05:00+00:00
+
+周畅庞天宇离职，多模态生成失宠了吗？ 蓝鲸财经
+
+证据：discovery；来源摘录，待原文核验。
+
 ## 合作与市场
+
+### [Douzone Bizon亮相公共解决方案市场，发布公共领域私有AI战略并演示行政AI代理 - 디지털투데이](https://news.google.com/rss/articles/CBMi5AFBVV95cUxNb2ZlbmFZTG9qbElxSmRXYjNydXZGMkFvN1lubkk2dTkyU2N0UjlWRlVLajJTYS1aNkJpOVhZTnZ6OEtKTGp0TDFQX2JnTkhSWV9ENjVfVU44WldzcWJvSVNLRThIX1JDTVkxZHA1STlnLW14djdQeTRqUDdiSkY3MXN0a3JZMmZteWctV1BUd3NpM1NZbmlyR3hwZU1LZ3ZBY0R5YWt2ZFBRVEFtT0VVUFpLNVkza2ZHd2RQbFkyVmNIVWNrSUtIU0d4WlJKYy1UdzNkOVM0c1B1d3drTGw4djZNaHM?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-19T06:19:44+00:00
+
+Douzone Bizon亮相公共解决方案市场，发布公共领域私有AI战略并演示行政AI代理 디지털투데이
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ResearchMonkey AI Puts More Than 40 Research Tools and Several AI Models Under One Subscription - markets.businessinsider.com](https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdmllNVdYNjZZUjhTWlFLLWRvSFozZTVpZ20taWtwQUdVYW84cENzTTNuRDVsMDQxZTVoMlcyWEtuT3dYeFFGZUVrQmVlRzJBdkhMQnVnenYxOVBUR01wWkN2MnlySDdDMjU4WEo5M1VsdlJRMXFqUTlsSjRTd2xha0JlckJCa1phbnVTM29OUFdMcWZ0RzF0Um16VlRzRE11eUdoNkUwQ2Q2SmlROHBJc2doVEJOVGNqajN0b2pWZ3RIdnUyekRncUYtQ0ZRMjk1anYzSVFpOHkyVVNtcEdHcU5xZXlTejFhNHc?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-19T05:16:25+00:00
+
+ResearchMonkey AI Puts More Than 40 Research Tools and Several AI Models Under One Subscription markets.businessinsider.com
+
+证据：discovery；来源摘录，待原文核验。
 
 ### [AMD Bets $8.2B on Physical AI: Could Robotics Be Its Next Growth Frontier? - MarketBeat](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOER1eUhGNjZIOEpKTjE4TEdTanFIOGtBN1cwRk9LaDdjSlpIMDF0TThva0hkbUExTTZTNnNtSzk1X0J5a0FHZzRjU3V3Tmh1WHB0U0hLXzlyWXN3UURzWlYwV1FOSTZPemIxMXIwWXU5b2tPWll3YndxZEJ6WVVsTFpwdTNpWjJFSTFCWlBJV2VJVkJnZW4zY214SEw4VmVqUUdNX0V1RFZyM28?oc=5)
 
-世界模型 · 行业新闻检索 · world · US · 2026-11-18T13:45:19+00:00
+具身机器人 VLA / 世界模型 · 行业新闻检索 · world · US · 2026-11-18T13:45:19+00:00
 
 AMD Bets $8.2B on Physical AI: Could Robotics Be Its Next Growth Frontier? MarketBeat
+
+证据：discovery；来源摘录，待原文核验。
+
+### [AI Speech Recognition Technology Market Growth at 19.2% CAGR - openPR.com](https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlBSZ0U1djVmUEdiZkMzRXMyTzRpbFh5QkZpbjlBZHVYQzhXbDU2c2NidGVfUFVoNFlEc0ItRG15NXVyY1BKSGphenRjWDFxWUJFSm5Hczd4Q1I3TnM0N2lKb2tBMDJTdmJOb2trNW9PY1JoYU5Oa1VLbERTSHQyUlNuZEo5SFV3ekNrMXZtR3J1ZVRacGozN1JORQ?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-18T09:31:27+00:00
+
+AI Speech Recognition Technology Market Growth at 19.2% CAGR openPR.com
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Humanoid Robot Market 2026 (New Report) by Top Prominent Players, Market Size, Share, Growth Trends and Industry Analysis - USD 47.49 Billion Forecast by 2035 - PR Newswire UK](https://news.google.com/rss/articles/CBMitgJBVV95cUxNSEhYdTdmZEtoaXd3eExrV3J4MnZqaTVZRDl3REZ2OGFLYlZ2dGoxZzMtWU9DaHlKWEhNTUV6US1QeDN2VUNyTnc3MUN5dTktZmFBcldTU3BVVWhhOURkRGRwb0k2WU0xNDA4ZTRaUVZqWjVvcGstV1dKSnY2aEJtbHp0VW9maUFvM3RSamtaSGxHOVIwRzNlUEhadXRZMEVyUkR1X1pFckdMRE1rU1R6X1FXcWNGMm1ka3l5cGR2UVBteWltN1V4clp5WVE5M0hkVTk5eFU2bkNxV3laX1hNbm5XYnBpNmEyM3lhV0ZCZ3BTWmctVjhBM1RlTDZqbVdfSDFUV0llajNCbl8zX2lVa0wtWFk1RThqZmxkT3lHaTRVa010YTMwQThXY0UwMktWenMyT2RR?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-18T05:02:00+00:00
+
+Humanoid Robot Market 2026 (New Report) by Top Prominent Players, Market Size, Share, Growth Trends and Industry Analysis - USD 47.49 Billion Forecast by 2035 PR Newswire UK
+
+证据：discovery；来源摘录，待原文核验。
+
+### [LVMH’s Media Division announces strategic partnership with OpenAI](https://openai.com/index/lvmh-media-division-partnership)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-16T09:00:00+00:00
+
+LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.
+
+证据：primary；来源摘录，待原文核验。
+
+### [OpenAI Partners With Four Independent Evaluators - Spherical Insights](https://news.google.com/rss/articles/CBMi-wFBVV95cUxQR2pRdmkwOGh0dFplSnR1N1ZPQnlHSElvdmhfNFRSX0hSWGFXaGh6T3g3NEl5dUxtb01nWUp4bXlBZmxxSG4yWHNNYW5WSTB6SDhuYkJOVmFUTWs2VkY2M3lBN2MtZUltVUNtR0JRVlRoYUJscF9sdEFTR3d2REJpcVRPeDk1NC13REUtWnE2MnA1a1QtZHBQODNaRTBlVUgyZkxOZzNXYWRZMG5KVmZvMDdWUHAtSGZDN2pNVzRQajFpTlNCTEVUWHZyYS1KaGJkbzZuN0xPX0tCTWx4c2g5bUFWMTJIZVhiZU1VSmVWSjFmMDlTRlltM0pWdw?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-16T08:00:00+00:00
+
+OpenAI Partners With Four Independent Evaluators Spherical Insights
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -290,19 +370,187 @@ Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI senso
 
 ## 产品与商业化
 
-### [Worth Another Look:Constrained World-Model Planning for Visual Inspection](https://arxiv.org/abs/2611.24187v1)
+### [ElevenLabs发布Scribe v3和Scribe v3 Live，语音识别错误率进一步下降 - 디지털투데이](https://news.google.com/rss/articles/CBMitgFBVV95cUxQNDZlM2dMcjBDbWYtQjM0TWpleE9ZX3JVUHhna1VPcjB6THZyX3VqdHZoWVRpZnBSX2pHUDJqTjJ1dGNQWHFFaHc1LTJURlVvVlBZcG4weGJpV3dLYjFobzRCbmthejhvVFJiSkZWYnlCQkVyYTJTNTNYcWZEdm1kRWlSZjF0ZWgwcmZZRlh5czhKbE04UTlkRTZDSjg3VGRWb1VmTHNZdzdjc3YzTWdjM2lfNFQyQQ?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T10:26:26+00:00
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-19T06:39:14+00:00
 
-Visual inspection in field robotics and environmental monitoring must localize multiple targets under strict compute and sensing caps. Exhaustive sweeps waste calls on absent classes, while myopic and search-free policies stumble over heterogeneous tariff cliffs or discard viewport edits whose value emerges only after re-querying. We formulate inspection over frozen detectors as neuro-symbolic observation planning under partial observability, decoupling a compact recurrent world model (WM) from exact symbolic feasibility and tariff rules. Receding-horizon beam search with online replanning jointly schedules class queries, crops, enhancements, and termination (stop), paired with slack-aware shadow pricing and legal fallback at larger budgets. Across eight terrestrial, optical, and sonar benchmarks, multi-step lookahead outperforms static schedules and search-free offline RL under tight budgets -- gaining up to 28.4 AP percentage points over static priority on RUOD and 15.1 on ARIS -- wh
+ElevenLabs发布Scribe v3和Scribe v3 Live，语音识别错误率进一步下降 디지털투데이
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
+
+### [Bug0 发布 QA Agent，利用缓存的 Playwright 回放实现回归测试自动化 - InfoQ.cn](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBPM3ZtN045R3c1TktMQ1N3TkZSdHA3d1FxWUZPcmQ4Y3kzVmVzaFRWOEx5d3NtQW5kU3pXbk5QQ1k3eUNQWDVQVFRWdmFBQzJFLU1sMWlZeGg1N2ZuR1E?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-19T05:29:57+00:00
+
+Bug0 发布 QA Agent，利用缓存的 Playwright 回放实现回归测试自动化 InfoQ.cn
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Reson8 Releases Free Rumble-2-Flash Speech AI Model - Limapagi](https://news.google.com/rss/articles/CBMia0FVX3lxTE5hY1M1eGZFRWJnQ0hvVGktUHdralNqbmFaUEd5aXpXUTQ0SzNnZHVUWU9ERnB4Q2UwS1laNkg2djkwZUh2eXZ5MEN3S0dzamtmTENvR0dfNWpqdGdhU3NTM3l4RFp5UEtQTWlJ?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-19T05:24:29+00:00
+
+Reson8 Releases Free Rumble-2-Flash Speech AI Model Limapagi
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Reson8 Releases Free Rumble-2-Flash Speech AI Model - bsinews.id](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rMmVVS0ppa2ZzVFhpVHFlamZjcEZKTklwNS14bk12azl3d3Ewei1GNG9MZUxtblI4c2ItMXVLekNLMV9zeGFLaDluT1NXNGNUNWJ2cE5WOEdHbVRZZE9PMGc0NFU?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-19T05:24:21+00:00
+
+Reson8 Releases Free Rumble-2-Flash Speech AI Model bsinews.id
+
+证据：discovery；来源摘录，待原文核验。
+
+### [谷歌发布 Gemini 4 Neon，速度飙升 3 倍还支持百万上下文 - AIBase](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5mbzF3TkMwSnhOc2xSQ1lzdTdTcWVkWGk3R2NGVGhMdjcwdlpjTTk0ZmpkQ1NRcFdzcW5qVExzbDZlM19hbUFiMDVsbkZmUQ?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · CN · 2026-11-19T01:13:00+00:00
+
+谷歌发布 Gemini 4 Neon，速度飙升 3 倍还支持百万上下文 AIBase
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI发布芯片设计最新成果：AMD旗舰GPU PPA最高提升14%|GPT-4o|RISC-V|CPU|ChatGPT|模型_手机新浪网 - 新浪财经_金融信息服务商](https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlF6YnpJY1QzOFpTV0MtSnMtYXFvb0psZndqeFBPZ2traU1PX25KT2NpYVE4ckFiOWdGQlMxd000VW00WldWbHRDRjFxZUM4ZjV1Sk1BQ25TQ2JDNEptdktUaXJsZ2NydGVPUFNxemlEVjA4dk1JSHY3dUhpbEdjTHB2cmQ0eDQ4a0lQbWdUbl9lZw?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · CN · 2026-11-19T00:17:08+00:00
+
+OpenAI发布芯片设计最新成果：AMD旗舰GPU PPA最高提升14%|GPT-4o|RISC-V|CPU|ChatGPT|模型_手机新浪网 新浪财经_金融信息服务商
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Cloudflare 发布用于数据提取的开放权重 Clairic 模型 - Unite.AI](https://news.google.com/rss/articles/CBMimgFBVV95cUxQNkdpSm44T2RhSjF2eEtJc0JmRTMzUzVOS29VUzNybEN4LXp6eElHR1ZNLXlob2tCVW1PeTRQLWMzbFhPb2FGZ2Vvd3hhQ2VNTlVIdHhpdU1IdHFVbzZhOGlNOXpyMXFFSTRyNWNUS252V0p3TGsxdTFpalJoSjNXSFlKSDdnMXhLbzBXb1MwR3NPNlJValZZTk9R?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-18T22:27:02+00:00
+
+Cloudflare 发布用于数据提取的开放权重 Clairic 模型 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI将前沿模型发布与全生命周期安全审查挂钩 - Unite.AI](https://news.google.com/rss/articles/CBMilgFBVV95cUxOcVZXdTRiS2hoUF9YWEt1bzM5b2c2bVBPSzZMa041cXoyVXM5X2lvcU5rTTlHZlRyX1d2MVQ0NTFkZ3pXVnJndEhXWUlkR0xDaklZOUl2UWJlOEFtNGZBcjFNWHRBZHh5cHFjRkpuTVZiOVFscEJDMjN3VExqZ2NkZkNCcGJxd1J4Y015cmZrWmJyaGRnM2c?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-18T20:24:06+00:00
+
+OpenAI将前沿模型发布与全生命周期安全审查挂钩 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Snap 让编程助手构建并发布 Snapchat 镜头 - Unite.AI](https://news.google.com/rss/articles/CBMikwFBVV95cUxPUk9QWXlLWUhVVnUwdmp5V1pWMVlKTS1oQTBBTGowdVozaXNBTTJ6R1czT1UwNG5uQ0JKN0JfaElGOHhrd1F4U3lHaHZpdVAtekRrMHpkMmF5T2JOV0VfbEo2Qm5qcDQyXzVFb0EybmRWX2lBU2hpd1NXVmtqV1dXSUNYRGtid09BRTB6N3Z4OE5saDg?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-18T20:14:05+00:00
+
+Snap 让编程助手构建并发布 Snapchat 镜头 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ResolveAI Labs 发布 SRE-1：27B 强化学习模型宣称主导生产事故根因调查的准确率/成本前沿，权重未开放 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOS29FQ2E1eEtlUEI2NzY2S0lYQXhFZVExRjd3OG45Uy1hV1pPN3JlcnRzNTU0aWtPbXl6dnJZQUdqLXAteVJrcw?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-18T19:12:00+00:00
+
+ResolveAI Labs 发布 SRE-1：27B 强化学习模型宣称主导生产事故根因调查的准确率/成本前沿，权重未开放 智源社区
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Google DeepMind 发布 AlphaGenome 2：以细胞状态为条件预测DNA 变异效应，预印本称因果eQTL 召回率翻倍 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5LYUJ5eU9vVU00cll3T2lvaHVRS0NYcWxyT0pseGtvdTdNTTkxeHZ1WWJnUWxIbFg1S3RTOVN4ay0wSmtualQ5WQ?oc=5)
+
+代码模型 · 行业新闻检索 · code · CN · 2026-11-18T19:06:00+00:00
+
+Google DeepMind 发布 AlphaGenome 2：以细胞状态为条件预测DNA 变异效应，预印本称因果eQTL 召回率翻倍 智源社区
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI Releases GPT-6.2 Astra and GPT-6.2 Sol - CASRAI](https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5OGhpMTltamRYZFlFODgzXzhKMERsdHJ4cDhUeFJoUXhnOGk5cldRMXVDYVZteS1yQkhIX1NDWDBjaVlBZWEzRVE1cF8tV1c0Rzg5c0xqMnRHTkxTX2RkaE56T1lhTUww?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T17:30:07+00:00
+
+OpenAI Releases GPT-6.2 Astra and GPT-6.2 Sol CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Reson8 releases Rumble-2-Flash speech model as a free open-weights download - SiliconANGLE](https://news.google.com/rss/articles/CBMisgFBVV95cUxPdWFOZGwwdlFOQUlOR0hCdzNPSWl3RU5NNDJGR2U2dHBnTHIzZkg0d1pQc0o2VjVNSzBkbWd5bGpaTFRHZ2lQSjdiM0JKVmVlR1AwWUNCSzFiNUdjUnVfbFNlR25sU3ZaM3NpSzY0dzg0WTY0RHRFbXUzeVR1QzhYUW5rdndNelBOWXdfekpkajEyQk12LVdKYnNMdjNxemNjem00TU9KSjg3MThNM3BNejd3?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-18T14:00:00+00:00
+
+Reson8 releases Rumble-2-Flash speech model as a free open-weights download SiliconANGLE
+
+证据：discovery；来源摘录，待原文核验。
+
+### [可编程的世界模型让具身世界生产规模化！同济大学空间智能团队发布最新成果 - 上观新闻](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RdlBkaU5uelZUTTVuNjkyWl9MZHhRX2xJM0puUUQzZXdjQ3J6dlo4RHFaNy1BU3dsVFRPQ1pxaHlfVTZ3RldCcjctbVdVb2NiMFRLd1NXckZiZw?oc=5)
+
+代码模型 / 具身机器人 VLA / 世界模型 · 行业新闻检索 · code · CN · 2026-11-18T13:11:00+00:00
+
+可编程的世界模型让具身世界生产规模化！同济大学空间智能团队发布最新成果 上观新闻
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Tencent releases Hy4 Flash, an open-weight model it says does everyday tasks at a twentieth of Hy4's cost - MLQ.ai](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM1F4eDF5a0sxQmRvV3I0NmJwOUprUGNGWkRlUF9rSGVESUJTcVVxVkwxV2NsRHJmcnhwN3R3WXZnR0plQTdadzFsVDZCU2k4dWRhUTVVOS1YZHpkYTVoVmc1bXRocGE4MjlkUkVVUVI5X3ZqTmZjTkFjSjV5a2FJU2l5bzVrS2hzTE5jSWtnLUpFQ1hrSWFBTk1lRjJKZFhveUJKME5LTTF5aVNIUE9Uc29ZQk1fVDhHZlNsS0ZrUzJ6Zw?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-18T11:47:25+00:00
+
+Tencent releases Hy4 Flash, an open-weight model it says does everyday tasks at a twentieth of Hy4's cost MLQ.ai
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Newfangled Audio 发布 Ultimate Bundle，11 款插件一次集齐！ - 微博](https://news.google.com/rss/articles/CBMihwFBVV95cUxONExDZDRsX1RzRTljOUx4VUFnWjdSOW5tZVI0eEkwYTRxbnN6Z1IxZDlMdXpFOHdEaDFRM3FtTW9jSWFZSGxKUkxtX1NxM1RfT25yeThPcDlteUdwUUU5ZzVSVEJ4UEN6OHRSelJsUDQ5RWttalRtMjFfcUxZbkl3TFBaVS02Q00?oc=5)
+
+AI 音乐 / 语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-18T08:44:50+00:00
+
+Newfangled Audio 发布 Ultimate Bundle，11 款插件一次集齐！ 微博
+
+证据：discovery；来源摘录，待原文核验。
+
+### [2026 | 零样本工业缺陷视频课程正式发布！ - 电子工程专辑EE Times China](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kVEo2Sno1TnRlcEZ2a2NqS2V3dThMakFuUzRfYVBVNmxDZkY1WWZReG1vSDZKNTh6cHRjX2ZyVTF4eGJobXNMNnBiRDdpVXQyWE1N?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · CN · 2026-11-18T08:29:00+00:00
+
+2026 | 零样本工业缺陷视频课程正式发布！ 电子工程专辑EE Times China
+
+证据：discovery；来源摘录，待原文核验。
+
+### [谷歌 Gemini 4 Neon 发布：速度 3 倍、成本 60%，世界模型 Genie 4 同步开放 - ChainCatcher](https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5dDdlVzZmU1NZT2lscEVyMENTeUxVYWVWcTdiTjQ5bGJjVjJidnNqcjJ2TjFwQUNILV96WlFoVFE1ZVlzUEFJZnFUOWcxVE9tYmVidGdVZw?oc=5)
+
+代码模型 / LLM 大语言模型 / 世界模型 · 行业新闻检索 · code · CN · 2026-11-18T08:07:48+00:00
+
+谷歌 Gemini 4 Neon 发布：速度 3 倍、成本 60%，世界模型 Genie 4 同步开放 ChainCatcher
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI releases GPT-6.2 Astra and Sol with cheaper API pricing and tighter cyber safeguards - CASRAI](https://news.google.com/rss/articles/CBMibkFVX3lxTE8zSF9VdlpHcUNrRDdNbGRUaGRCTnVMcXA2MmpsRzAxUENpS0JQTmtXb1o3cDZPRlFIYzRZb2JGc3RnLTBzc08zN2VpbVhXMW1yRVZUNGhPaXpYVXpvak9oRlRDeDcxQ0t3SFIyNUdB?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T08:06:39+00:00
+
+OpenAI releases GPT-6.2 Astra and Sol with cheaper API pricing and tighter cyber safeguards CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [微软掏出首款语音对语音模型MAI Realtime 1：能被打断、会打电话干活，价格只有对手三分之一 - AIBase](https://news.google.com/rss/articles/CBMiTkFVX3lxTE92Tnc5VnlSR1AwNktxSTFEREZ2UV9KTGtyMXdJaDJYVzNmMVpLUHM3LVZ3TGJ3aWx4SlZPMWF3N2EwaUdUeXV1bVE0TnBWQQ?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-18T03:10:00+00:00
+
+微软掏出首款语音对语音模型MAI Realtime 1：能被打断、会打电话干活，价格只有对手三分之一 AIBase
+
+证据：discovery；来源摘录，待原文核验。
 
 ### [Kuaishou's Kling AI Launches Kling Image 4.0, Supporting Native 8K Resolution and Up to 2,000 Characters Per Image - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE91NjVlX3gwRmV3UFRGb25xR2dRSUhJaUR4NFBPc1FJUERvREd1TG9ab3pFTWJ0Z2lfREwtNHFVbFBFSUhDbC1aQUdCNXFpN1IwSFB6cV92ZGR5NFA5Z0puSThUb09TREJuVWlRcHFwcGt3VEFxZEE?oc=5)
 
 AI 视频 · 行业新闻检索 · video · US · 2026-11-18T01:56:00+00:00
 
 Kuaishou's Kling AI Launches Kling Image 4.0, Supporting Native 8K Resolution and Up to 2,000 Characters Per Image BigGo Finance
+
+证据：discovery；来源摘录，待原文核验。
+
+### [微软(MSFT.US)Ignite大会发布六款专用AI模型：以低成本挑战OpenAI与Anthropic - Moomoo](https://news.google.com/rss/articles/CBMivAFBVV95cUxQMy02WDRKQ1hJVFN3aURMX054dWxNUjhvYV9nZ1FlNzVnQzhFNm1Bbmgwamh4dE1WQjJKQ0lGelJZWDNIMTVCSndGanpsVExSeEd6QXI4Rk5NNlFha1ByWFdFY3lYSjI2Xzl4dWREdWRkLXZpSm9mLXRmOWlLcFpTeU16ZlpDMHhqWHZaSnVpYjBwSmZlOWRSdk9oVGVGRWdiTjZNRlk2NVJJQjdPNDRMV1BQSlVqcGtEZlhlbA?oc=5)
+
+代码模型 · 行业新闻检索 · code · CN · 2026-11-17T23:41:15+00:00
+
+微软(MSFT.US)Ignite大会发布六款专用AI模型：以低成本挑战OpenAI与Anthropic Moomoo
+
+证据：discovery；来源摘录，待原文核验。
+
+### [微软发布首款企业级语音对语音AI模型MAI Realtime 1，支持实时打断、嘈杂环境识别与系统集成 - SmartHey](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qT2V6bGJDYXV3T09DdUZUS0ZaUFVqZFJGajFOR19hcmN2NVR1WGtsQ3V6UHlLY0VJNGltZG9yNXQ1bHpNbU9sQzdhSk9oT241aDlfZVlGaVVUNEtpMFE?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-17T23:19:00+00:00
+
+微软发布首款企业级语音对语音AI模型MAI Realtime 1，支持实时打断、嘈杂环境识别与系统集成 SmartHey
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -314,13 +562,149 @@ Suno launches AI music video tool built on model from MiniMax – the Chinese AI
 
 证据：discovery；来源摘录，待原文核验。
 
-### [Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D](https://arxiv.org/abs/2611.23118v1)
+### [Microsoft AI Releases MAI Code 2 and MAI Code 2 Flash for Enterprises - Unite.AI](https://news.google.com/rss/articles/CBMilgFBVV95cUxNZkcwN2Rjcjh1alFjeE9mU0tra0NETFU2ckNfQ1YxVHhOdjUzWmFGSjNvZ1NWYnRMUmExUzExWmEyUEoyU08wdTB1ZWF0YWJDc2RubTB5VXZUQkJ0TklFZGdzbkhfN0Fwd1hFRDNzVmtwVjFUMDhCeHpSSmdGVDd6eE1IaGtZWWEyU2RNYkdfMnh0d3Z6MGc?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-17T17:36:40+00:00
+代码模型 · 行业新闻检索 · code · US · 2026-11-17T19:37:03+00:00
 
-A legged robot can learn to walk inside a learned simulator: a neural network that predicts the robot's next state and is run forward on its own predictions. They are usually trained and checked one step ahead, although a policy uses them for a hundred steps or more. We audit one published system end to end, without a GPU: the dynamics model of the Robotic World Model (RWM) for the ANYmal D quadruped, and the uncertainty estimate of its follow-up, RWM-U. We rebuilt the model to match the released code's outputs, losses and gradients exactly, measured 101 trained simulators, 200 compressed copies and 38 simulators of three other architectures, and trained policies inside simulators that we tested in a hand-built MuJoCo model of the robot. Training on the model's own rollouts beat one-step training at 368 steps on all ten held-out episodes (registered), although one-step training was better one step ahead. One-step checks therefore misjudge design choices: pruning 30% of the weights kept
+Microsoft AI Releases MAI Code 2 and MAI Code 2 Flash for Enterprises Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Microsoft Releases Seven AI Models With Lower-Cost Enterprise Options - Securities.io](https://news.google.com/rss/articles/CBMinAFBVV95cUxQa19DTjRZSG1hVGNVMUFKcUhJVkhoekxvUDVNalRkdnF0Z050VUhjZG9feU1BU2JKSV9HUTJINGVyTTdHRS1kOWRzNlpScDB2bTZ6QUZPWU55dzVsX3FwXzdvUlh4aU0wczJXc05nZmRaZDlqQ3g2MldkYV9BcnI1WG90ZW13VGpnZWtCYnIwdG4wbXJoQVJ5Z1VPWlY?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-17T19:02:50+00:00
+
+Microsoft Releases Seven AI Models With Lower-Cost Enterprise Options Securities.io
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI 发布 GPT-6.2 Astra，首次获得高等级自我改进评级 - Unite.AI](https://news.google.com/rss/articles/CBMingFBVV95cUxQSEdfdjMxWk9sQ196NkVvUTB1TWRQa1lXc1gzQklZQ1hNNUYyOU56bGo2aHQtcmR1aHVHZkwtUDBlLXpMTFphOUJnTlEzZGZtSURyam1USlBOcjYxeVl3SGR1UlZncG54RGZNblJfY25qR2FvOG5kUm5SQnBhQnRucmhsY3FGMHF5T0Rubkt2c0hKNFFvSzNkSkN0V0Jadw?oc=5)
+
+图像生成与编辑 / LLM 大语言模型 · 行业新闻检索 · image · CN · 2026-11-17T18:20:04+00:00
+
+OpenAI 发布 GPT-6.2 Astra，首次获得高等级自我改进评级 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [LORKA AI RELEASES 2026 STATE OF AI REPORT, REVEALING HOW AMERICAN - The National Law Review](https://news.google.com/rss/articles/CBMitgFBVV95cUxORkt0R214elJ2WjE1ck92ZWlFcFRhUWdNdjhKaUdCR2gtSmc1dENKbkdscHNhanN3MzVvRGVvTEFDUUJqZUdMVkxBdnFIZGMtU2FUR2daSlg4dHlyLVdGd05xS3J3Tk5rZzhndzJaX1dya3J5SHdCMG9qQUp1T09qWkZVeFB3TGotbWVWRWJNcEJTRlNfSjk5QVRvTjdvUXRnbURUSnhGamwtMVpPTjRLMXgyc3Bydw?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-17T16:11:29+00:00
+
+LORKA AI RELEASES 2026 STATE OF AI REPORT, REVEALING HOW AMERICAN The National Law Review
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Kling AI Launches Kling Image 4.0 with Photographic Realism and Native 8K Generation - SME & Entrepreneurship Magazine](https://news.google.com/rss/articles/CBMipAFBVV95cUxPR1pCZ1VpLVJDTnZnR0tlbXlDNjJHYmtwdk9ySXlSZS1WN3J2TWhvM2ZNSE5HRXdzeHJnMjc3SFJUb09EWHE1Z0tjMDhVY0ZtZ2k2dWxDeEVhUDZ1R2ZNdDczME1zaEQ3eDE5TkExT3N5VlVWdmtuWjRrUEV3T2J3WTJYYzNJNEwwbXlxamYwN29IbkdTUlBFa2dEcnl0bURONHkxcw?oc=5)
+
+图像生成与编辑 / AI 视频 · 行业新闻检索 · image · US · 2026-11-17T15:59:00+00:00
+
+Kling AI Launches Kling Image 4.0 with Photographic Realism and Native 8K Generation SME & Entrepreneurship Magazine
+
+证据：discovery；来源摘录，待原文核验。
+
+### [\[Sci-Tech NOW\] KAIST and Tsinghua launch joint mechanical engineering master’s double degree - DongA Science](https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwMHFyZlRUVzBEcmY1QjFENFo1dnZZdC1TUkpWU3BlRjFKQktFWENuc3ktSEs3VUZ3M2pPU196YmtEanlYWDFSVXBHWlIySUlNQ1NNMQ?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-17T08:10:00+00:00
+
+\[Sci-Tech NOW\] KAIST and Tsinghua launch joint mechanical engineering master’s double degree DongA Science
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ROBOTERA Launches High-DoF Dexterous Hand, Integrates With NVIDIA GR00T 2 Ecosystem - Gasgoo](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNnZpODFQbW1nMU5iY1h5ZUFrVkhHQVFvWllTX2tZTXBNYmh0MlR5X2tBdTRsX2ZIb3M4MHhmamN5cjBjOEcxQ0t5SE45b2tVOWFkeXBmb05pWlFncDNaejdQVVI3ekVHX2NTU2hBeWZDNWcySi1nSFpBcWU1OUlOazcxTWZoU0JoaWVsUVkwWUlXcUg2aHlYZzdnSXd3S0VNU3FTemZjM1ZRT1IzZGhCNjlhT2c4V3duXzFJSkcwdlRqY0xtM01ldE9YaGRFbFJra08teXY2c2dzTUNm?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-17T06:30:30+00:00
+
+ROBOTERA Launches High-DoF Dexterous Hand, Integrates With NVIDIA GR00T 2 Ecosystem Gasgoo
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI Launches Embedded Assessments with Independent Evaluators - Blockchain News](https://news.google.com/rss/articles/CBMicEFVX3lxTFBEZklaMjBNMGNQUU9Qa0dIS0dmUkdONEg3aEU4STd5UlpkSTdLUlFtYUx1b2l5bmFmaDVsZEpDRWlVUFp5bFpoT2VqXzByMENKWmt0MVRvbndTZGRqZmVzZ0FabDZDb1RkNnd4UjNBNEk?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-17T03:27:00+00:00
+
+OpenAI Launches Embedded Assessments with Independent Evaluators Blockchain News
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Astra for Law leads in legal intelligence](https://openai.com/index/astra-law-6-2)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-17T00:00:00+00:00
+
+Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.
 
 证据：primary；来源摘录，待原文核验。
+
+### [Databricks 发布 AI Runtime 表格基础模型指南 - Unite.AI](https://news.google.com/rss/articles/CBMimgFBVV95cUxQUDhTY0M5OFlCMU53U3VvR3owUlBUUm51QXJ2Z0xHSWg5QW0xUnFEb3l1VnlIQVB0U3hqSnRxZnJDS28yeGVWMXg3N1hsYjA4ekNwbkVHX3VnWndUc0ZESmtqQ0t3dVlSVnpTV3ZsZlV6RGhVS2dUN3BWbUdCVUVPYlB3ZG1LREFKNFYyM1BfSm9Kc0NOTDJzcTl3?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-16T18:22:04+00:00
+
+Databricks 发布 AI Runtime 表格基础模型指南 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Alibaba Releases Qwen4-Max with 2.4 Trillion Parameters - HPCwire](https://news.google.com/rss/articles/CBMinwFBVV95cUxQU1RwYndKLU00NmtGUG1tek1wSFI2R0kyQU5YYnBKYWx3WllzaVpXejZXX0x1MVMzanBKYy1FdG5OYmNSMEthYzJfVFpSVUlUZVBZandJN0hRdFRmUlZIc2dIaVpBRkhjcmFzTjBiaE40ZGx4WmtIRWVDR05ZZzctQUxzMmZVMUxwQ1Z3WmFJNGF2YVVrVHNsV3M4R3k5M2s?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-16T16:49:11+00:00
+
+Alibaba Releases Qwen4-Max with 2.4 Trillion Parameters HPCwire
+
+证据：discovery；来源摘录，待原文核验。
+
+### [抢滩具身世界模型赛道，华为云开源发布原生模型，吴小东：没人能独立把很多行业打穿 - https://www.caiwennews.com/](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ySU5iSnRzOFBJVjRkYTNFS2VobTRqVDkxWVp4TUlJelQ4YnpRQkxsaTFIbEVXMEFnakxmWUVMWjRkRURxVzVpX0NndVgyRDI3V05EcFA1TGdOa1hz?oc=5)
+
+具身机器人 VLA / 世界模型 · 行业新闻检索 · robotics · CN · 2026-11-16T10:36:03+00:00
+
+抢滩具身世界模型赛道，华为云开源发布原生模型，吴小东：没人能独立把很多行业打穿 https://www.caiwennews.com/
+
+证据：discovery；来源摘录，待原文核验。
+
+### [兴业银行金融科技研究院发布5个人工智能岗位，涉安全、架构、算法、产品、知识工程 - 移动支付网](https://news.google.com/rss/articles/CBMiY0FVX3lxTE83dVotemlTdXNSOHAzTkpQWDVDYXhRaWg3dGFsZEZMaVpacmw0alJoOGdEX0FDcVZ6Rzhjc0dKTXlHZkVja0xjUmFvOVZ2WFZRcWVSbHdmbFJ0OWpzdmltam9nZw?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · CN · 2026-11-16T09:53:03+00:00
+
+兴业银行金融科技研究院发布5个人工智能岗位，涉安全、架构、算法、产品、知识工程 移动支付网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [LingBot-Touch Release Targets the Sensor Divide in Robot Hands - remio](https://news.google.com/rss/articles/CBMikgFBVV95cUxQUFJSVlNCTTgtNlhFUVJpbm8xSEdmZW1YeXZCNjJVaFJjcU5zbmpWTkxMN0ZrOGNndm54YWlId082NUg1ODVNZjFCb29XbWNuMzZ5Ulh3VWsybDdlekJ5c3ZWWFNqMlF3dXlMd3dNOUZjcTVTMnNaTnhZbWVQNklGYU52Y2xVZVhIYllCZVpERE4yQQ?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-16T08:21:02+00:00
+
+LingBot-Touch Release Targets the Sensor Divide in Robot Hands remio
+
+证据：discovery；来源摘录，待原文核验。
+
+### [阿里云发布 Qwen4-Max，新加坡 API 价格下调 25% - Unite.AI](https://news.google.com/rss/articles/CBMimwFBVV95cUxPWDZsWkxNOFA1SHJnbWFkU25YV1VwdFFqblFIak9Dc3M0cmZnUW41NUJCSlpLYlVNOVdLODRsYTY2T2hRdEQxbE1NVHJLd1Y5eFhlWjNqREgzTFAxRGt2RVAzdWtlXzlibm9ENGV4TDJxZE1rdFV3X0p1aGlBYldINEpqTW5JdHFpX01TSTlfU2h0Rk9VU1NOY2dZYw?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-16T04:46:01+00:00
+
+阿里云发布 Qwen4-Max，新加坡 API 价格下调 25% Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [8868体育官网入口靠谱吗全新平台上线：行业首推全模态内容理解与生成引擎 - iheima](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5keDV2QWlXdUxDbmNGS0wwQ29GUXdOUHV6Q1ZySzFCSTliUk1RU3hUdmdqamcwdlJlTkRSX3dEYUxjY0dkYjVVTHVZYjJyUVR0Szk4dk91dm9ac001TzJmX2xB?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-16T03:10:31+00:00
+
+8868体育官网入口靠谱吗全新平台上线：行业首推全模态内容理解与生成引擎 iheima
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Google DeepMind launches Gemini Robotics 2.5 with improved dexterity and industrial capabilities - Robotics & Automation News](https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcEFaUHVBNmxBYUNlSDZYOTlfTlhHN2xKSmdJT0ExNXNNVlo5YlRJNnpoWjF5LUJkZEhoS3lTcUktRkRPLXEtMGV1ZWt5N3VPbklPbEFqUzFibGVEYUp5enNBWS1rOXZkTGNVY2pHSEtSNVU0LV9Pc3VBSkl0Mk9XZzZpY3pIaUdYa0Z3cXdZVDZDMEdURloyMWVIbnEwLURqWDJvTTdhN3lTVHd0Y1Zjc0kwX21heldUQ2xBLTVPQmpEcGFZVExGaXlpVGt2cF9DOW9tblBZMVlhaFBLNW1GYkNLWlEyVjNr?oc=5)
+
+LLM 大语言模型 / 具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-15T18:53:31+00:00
+
+Google DeepMind launches Gemini Robotics 2.5 with improved dexterity and industrial capabilities Robotics & Automation News
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Bland 发布全双工语音模型 Tofu-1：官方称可同时听与说，企业研究预览开放申请 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pR2JMaE1GYmhVSXZmWVhZZG1KMVdwYnZSV1pHLTdGWlhhSVNndHBROXpoLWxrQ05Uck9HdTRVb1BjVjU4VXpXeg?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-15T18:50:00+00:00
+
+Bland 发布全双工语音模型 Tofu-1：官方称可同时听与说，企业研究预览开放申请 智源社区
+
+证据：discovery；来源摘录，待原文核验。
 
 ### [A2E AI Launches AI Video Generator With All-in-One Video and Image Models - Yahoo Finance](https://news.google.com/rss/articles/CBMikgFBVV95cUxQT0JSMlNYQkJzY1Npc3VIekNLeVAtWEVveHpNLXFFcGdTUjEyd3NjbUFHZjdueUVrcl9Ed1Y4WHBVeEcyZG9pbXBDMHhqRHQzY0JRQ3cwRlBydnVCUzVXR05VbVdqcE5FMmJRbUpXUFhrRHpFOHNScl9ObjBFNTBPN3Y5dm42bmFyc1Bqdl9UNFIwZw?oc=5)
 
@@ -330,135 +714,375 @@ A2E AI Launches AI Video Generator With All-in-One Video and Image Models Yahoo 
 
 证据：discovery；来源摘录，待原文核验。
 
+### [ArchSpace LLM Architecture Framework Released - CASRAI](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUFR1Y3FhQ0dud05INXNTTTd6alBhMDlpUGhvd1k4YkFKbDNWVS10UzBPMG40R212UWdHV0xDWnFXemtJWVNjeW8tdi1oX21aV0NqXy1wSVJzc2JIN1RqN3RIVVRsYlFjbG02b1k1em55M1B0R0Jqa2J5WFh3SUFLTWFyakZNa3J0cVow?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-14T20:19:26+00:00
+
+ArchSpace LLM Architecture Framework Released CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Salesforce Releases SOV-Transcribe-1 ASR Model - CASRAI](https://news.google.com/rss/articles/CBMifEFVX3lxTE8zRHJqMXBENVlzS3FmTU5PS2NvVThmVl9GWXNodG5vQ001RkdYZ0VOOW5Sd1lZdldRdFNqVF82UDFiOHhNOHpfQlZVamRpNTFnLWNmbDZ1aXpSVFhJTVJ4bXo3dTZKRFY2MVFMSmFmTFJNSXNwZHRJdnFyRjU?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-14T18:31:24+00:00
+
+Salesforce Releases SOV-Transcribe-1 ASR Model CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Translated 发布 Lara Mini：一款支持 45 种语言的研究模型 - Unite.AI](https://news.google.com/rss/articles/CBMijwFBVV95cUxPY2owTTl4eXVKOTJlZnppRUZyYnVMVU9xNHZYdTl6WmpFS0JjUHgzZnpQcDdzd2doT2lVaWJMbDJnOV9LUDRqM0cwSWpEVnNQNTZaVktkWERpaEdHbXRRcVdvVEg4MThmb1Q1dnhVMWhmaW1pQjYtLU5iVHhOb0lSWV9rNVNhbGotSFIyUFBjRQ?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-13T11:42:02+00:00
+
+Translated 发布 Lara Mini：一款支持 45 种语言的研究模型 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [腾讯混元发布Hy Realtime实时语音模型：能说会唱，还能调用工具 - 凤凰网](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9WX0VYcGlOel90MGZQVUtlRW9STGdOSDR4N0ZXcTlUb3c0Z1ByWXdHOFBwN2NlRXZkc2wybWlqLVhCTmVDbERkMDdGcGg?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-13T09:10:15+00:00
+
+腾讯混元发布Hy Realtime实时语音模型：能说会唱，还能调用工具 凤凰网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [腾讯混元发布实时语音模型Hy Realtime：能说会唱、还能调用工具 - 凤凰网科技](https://news.google.com/rss/articles/CBMiTEFVX3lxTE1DRDdMVC1Eb0JsNDRCVU1TQzJPNFJMam9fN3NoZlp6cHp0UEI2NUtfbmRGTmFLTVl0VG1nZy1oTnNBMUNHTWRPZnJaYS0?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-13T08:49:14+00:00
+
+腾讯混元发布实时语音模型Hy Realtime：能说会唱、还能调用工具 凤凰网科技
+
+证据：discovery；来源摘录，待原文核验。
+
+### [科大讯飞星火语音基座大模型 SparkAudio 1.0 正式上线 API 服务 - AIBase](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBqSElJTTFPSmU1NFM2Um5aeFdOTkpRYUdxV2ZVSEw5V2liRU15UUp1RU1iNUkwUWFVNjlmWXY5NFU2MVc2dEY3dGZaTVFkdw?oc=5)
+
+LLM 大语言模型 / AI 音乐 / 语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-13T02:43:00+00:00
+
+科大讯飞星火语音基座大模型 SparkAudio 1.0 正式上线 API 服务 AIBase
+
+证据：discovery；来源摘录，待原文核验。
+
+### [三维声国家标准发布！当虹科技推动“有方位感”的声音进座舱 - 人工智能](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GN3FGMlR3U0NOZDk0cFl1OVZTWWJGQXBWOGVncy1McVFIQ1dKa2ZmMkVjUkxuYkFENkNXZmdDZ2J1LU1zT2s2N242THZqWnAzdVE?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-13T02:01:00+00:00
+
+三维声国家标准发布！当虹科技推动“有方位感”的声音进座舱 人工智能
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Launch of Winterlight™ speech assessment for academic research - Cambridge Network](https://news.google.com/rss/articles/CBMinAFBVV95cUxOVW1FOTBmR19zVG9QS0hhVnNSVlZleDJiSGlCdExseTFuUktaaDhMV082TkFTZjdFMWhvZHoyT3dXb0pIQkp3V2dzRnluZExjaVBTeWlWMjdxT0hqS0h1a3lvT2lLLWtOSGxYN2xWRzYzS2xGSXEwNmc3am90OGFSaktkVXRtY1FsLW5rdDVrWG9KVUVvSmNlNXNUaTQ?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-12T13:51:31+00:00
+
+Launch of Winterlight™ speech assessment for academic research Cambridge Network
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Hedra Launches Autonomous Post-Training, Inference Platform for Real-World AI - Business Post Nigeria](https://news.google.com/rss/articles/CBMisgFBVV95cUxPUDFNeDlJS2sxOWFERjNDVDU1UHVDRm0tWmZCdVpxMFRpbHNtOFNtMmNHTnlxS1F5NWx6U3J4SFU0bC12bjZGci1SbGxYR2JTeXVOT1dTSUljQzRDa2gzd1I0dDN2YjBkN0RFV1JTc0ZpQi1sQzhaNGhtM2RGbV84M1NlY05TUmZrcXVZZy1GUWVTSnpyY2htWVdOdk0wNHNCQzBVbkh5TmVTRXQzU2hDcFJB?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-12T11:58:12+00:00
+
+Hedra Launches Autonomous Post-Training, Inference Platform for Real-World AI Business Post Nigeria
+
+证据：discovery；来源摘录，待原文核验。
+
 ## 技术与论文
 
-### [WorldRuler: Interactive World Modeling under Configurable Rules](https://arxiv.org/abs/2611.24869v1)
+### [基于算法解锁宇宙：利用NASA数据与AI实现替代文本生成自动化的基线研究 - 生物通](https://news.google.com/rss/articles/CBMibkFVX3lxTE1BR3VVSkVZd1VLYlBpOFJ1M1FKZXRxcU9mcGpUZlhUeDk2djVMclE4WWNINnVCa3FzcEhRamhvTTlCaU8wVE05N3NFMUNJVVZxV1dFdEZxN1RPb0tuT3BKakNjMm5saTlQRGIzTF9B?oc=5)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-18T18:20:39+00:00
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-19T03:35:28+00:00
 
-Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that restored worlds follow the established rules. The latter requires accurately realizing rule-induced changes on designated objects and attributes, particularly when affected objects are unseen. In this paper, we propose WorldRuler, which organizes rule definitions, dependencies, and object states in an executable 3D rule graph and connects rule execution, video generation, and perceptual feedback in a closed loop. The graph supports joint saving and restoration of rules and world states, while dynam
+基于算法解锁宇宙：利用NASA数据与AI实现替代文本生成自动化的基线研究 生物通
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving](https://arxiv.org/abs/2611.24840v1)
+### [OpenAI Researchers Consume $2,400 Worth of AI Per Day; 46% of Research Tasks Equivalent to 2-4 Hours Completed Autonomously - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE5MbmFUV25RRFBPWUdRRTNjNGUtSXJmdUR5VGRSYzdkY3piYmM1ZHc3UHI1MHIzb0JNR3o5LXZ6bVNCRTJ3QUoxWE9wVHJBQ1lzZWFIMXpjdHlMdUxWRDRDR3dBbmZSanBqWjlJZ1JSeUJZZ29mbHc?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T18:06:20+00:00
+代码模型 · 行业新闻检索 · code · US · 2026-11-19T03:35:00+00:00
 
-World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. In this paper, we study action dependence in action-conditioned semantic forecasting, which predicts future semantic segmentation from past segmentations and the ego action. We compare a forecaster with feature-wise and input-level action conditioning against an identical model without action input, and measure action dependence with test-time action interventions scored by standard segmentation metrics. The evaluation is validated in a synthetic environment with known action-dependent dynamics and applied to Cityscapes and BDD100K, both within each dataset and across the two vehicle platforms. Experiments show that the executed action improves mid-t
+OpenAI Researchers Consume $2,400 Worth of AI Per Day; 46% of Research Tasks Equivalent to 2-4 Hours Completed Autonomously BigGo Finance
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play](https://arxiv.org/abs/2611.24836v1)
+### [Rising Researchers Demonstrating Their Originality: Professor Yasuaki Shinohara – Waseda University - 早稲田大学](https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxZ2NzU05ZRVhuNzJlaFgtMlpCMmFOaTFaSzY4di1SRGJtVzBWRlQ4SWNBM3JQVVBrN0Q2cnBPdWJQSk5ObFE2VWVrTnNCVjBK?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T18:03:14+00:00
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-19T01:19:45+00:00
 
-Learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. Humans can demonstrate skills in seconds, but their demonstrations lack the required robot actions. We introduce DiWALI, a framework that learns and improves diffusion policies within a world model trained on human and robot play. DiWALI infers latent actions from consecutive frames using an inverse dynamics model, enabling world model training without action labels, and grounds them in robot commands through a decoder trained separately on robot play. Skill policies are trained over latent actions from action-free human demonstrations and improved with reinforcement learning in imagination. On the CALVIN benchmark, DiWALI policies trained solely from human demonstrations substantially outperform baselines trained with robot demonstrations. Incorporating human play into the world model training also yields stronger policies after fine-tuning than using the s
+Rising Researchers Demonstrating Their Originality: Professor Yasuaki Shinohara – Waseda University 早稲田大学
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [HandWorldBench: A Unified Benchmark for Hand-Centric World Models](https://arxiv.org/abs/2611.24731v1)
+### [Medical Education AI Research Rose Sharply After 2021 in Global Analysis - Bioengineer.org](https://news.google.com/rss/articles/CBMingFBVV95cUxPXzAxQU00UmNJTnNENGRVSFlXc3ZValZjODNZNXBhZ3dUeEl0cHpoVE5yeG91MGpxd2NtYUtQZzhvYTc5ak5vR3FVaWozOHlWQ29oR1BCMnNQd0pBc3IwYlhnZ2hCck13bGQ2d1lnalZzTXNuajhUUUVWOW9ZeFNSM19EcGlmRmtNNjdJU3IwZ3RCZ1gzcHE1LUhLU1Rrdw?oc=5)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-18T16:47:46+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T21:41:28+00:00
 
-Recent advances in world models are opening new possibilities for fine-grained embodied tasks, with hand-object interaction offering a particularly demanding setting. Modeling these interactions involves capturing how hand actions change objects and how the resulting states persist over time. Yet systematic evaluation tailored to these hand-centric capabilities remains underdeveloped. To address this gap, we introduce HandWorldBench, a unified benchmark that systematically evaluates hand-centric world models across human hands, simulated dexterous hands, and real dexterous hands along six dimensions: visual quality, hand fidelity, appearance consistency, instruction following, physical consistency, and temporal coherence. To construct the benchmark, we develop a data curation pipeline that extracts hand-object interaction clips and screens them for quality, yielding 20,500 high-quality egocentric clips from over 600 hours of footage. We then manually select 500 clips covering seven tas
+Medical Education AI Research Rose Sharply After 2021 in Global Analysis Bioengineer.org
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [PhysResponse: Probing the Physics of Video Generation with Controlled Interventions](https://arxiv.org/abs/2611.24419v1)
+### [Google 推出 Gemini 4 Neon，面向编程、知识工作与科学研究 - Unite.AI](https://news.google.com/rss/articles/CBMimwFBVV95cUxNSERwR3dmWllTR2ZRQ0E4dVp3dW5pcnN4cmhFby1QQl9UTmJXbVNsUFh1VVZNVFh3LTQ5VmhXUjktby1UQnpGU1VOdmVucDgyZXNJb1h6eEo2dWgtRVdGUHBmbkY4M1FvOUs4NkIzYXEzb0ZWM3NPb1RhZm96ektGRk1PbThpWkFhLU5NUHdhcWlOamcybjVXbEZGSQ?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-18T13:42:16+00:00
+图像生成与编辑 / LLM 大语言模型 · 行业新闻检索 · image · CN · 2026-11-18T21:36:02+00:00
 
-Video generation models are increasingly viewed as world simulators, which requires not only plausible motion but dynamics that respond correctly to specified physical parameters. Existing models, datasets and benchmarks, however, largely target physical plausibility, leaving this physical parameter responsiveness insufficiently explored. We introduce PhysResponse, a benchmark that measures it at two levels: scene-conditioned simulator inversion recovers the effective gravity, friction and initial speed of generated motion, and event evaluation tests outcomes near and across critical transitions. Evaluating ten image-to-video models, we find that even the lowest parameter errors exceed those of physically correct videos by over an order of magnitude, that models rarely reproduce both outcomes of a transition pair, and that the two levels expose complementary failures that visual metrics such as PSNR miss. To supply the missing training signal, we construct 72,000 simulated videos of 20
+Google 推出 Gemini 4 Neon，面向编程、知识工作与科学研究 Unite.AI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model](https://arxiv.org/abs/2611.24408v1)
+### [卡内基梅隆大学研究人员为临床智能研究筹集3500万美元 - Unite.AI](https://news.google.com/rss/articles/CBMinAFBVV95cUxORlhUWm5LU3hIZjJpMXN3YmdkQ3FYb1R4UTg1YkZzZmhEVjNud1h2bEk1LWJWYnVHT2R4MUwyQlNfeVcxZVRvN21fNmtmcWZYTkstNXZEYktqRVkxZjBEU2dKdk1USk1FTGhUSWd6UkV6N2pDc0ZYNTUzd0llUk8tcU15UVc0OGotNFRqZ09lR3JZVThSSEJicE1WbVQ?oc=5)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-18T13:37:51+00:00
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-18T20:10:03+00:00
 
-Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchmarks mostly evaluate these properties against references fitted to the video under test, either a scene reconstructed from its own frames or a camera trajectory aligned to the command path with a free scale. Such references can absorb gradual scene deformation and changes in pace and route length, so these errors can pass undetected. We therefore introduce StrideWorld, a benchmark whose references are fixed before the motion they judge. It evaluates scene rigidity against the ground-truth geometry of the start view, and action consistency against the stride of each action, the camera motion of one command. The stride is measured on the model's first steps and then used to test the steps that follow, so each model is judged only against its own steps. Its measurements are
+卡内基梅隆大学研究人员为临床智能研究筹集3500万美元 Unite.AI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [EVF-Bench: A Comprehensive Benchmark for E-commerce Visual Effects in Video Generation](https://arxiv.org/abs/2611.24116v1)
+### [Humyn Labs raises $47 million led by Accel to scale physical AI research and real-world deployment - Moneycontrol.com](https://news.google.com/rss/articles/CBMi9AFBVV95cUxPaTNYS0RIMUtYaFhuTGV3UW95akV5aFB3Skw1Sk1ZcS1RLXhKTUFtTm4wMWVZX1prbWo0ZU1QMDNiNlN5T05FTWxISzR6LW1lOEtTclZvcVlQd19OOGZWMmlfNTRRR0pjOWRhSzNuOV9EdnZxWE9rU3dTX0dSOFZzN01jMV9CVzdyaGpPNWZWcFF1VVJwMUVDZkg4eHlFdC1jWGRmUnZ6SmpxZVJSX0tpc0Fkd2ZOUGMya0J6aXBBQlBLdmFTeXNaY2l2VlN2S0hPYlNRbDRtazY3NUZlMTBfWXpFSTNnUkhlS00wM2FTSzEzaGpj0gH6AUFVX3lxTE16bUVMUm5ndzU4N2VLNFVHY3Y2Z3RKa3lSYVBtbElEay1DQThWUEFaVm5hM0h2TnJyZU1IVm1oMUlKR1hKMEhKUnNLcTZPYWplNmoyUmF5TENxU2dRODVsLTRld1BUZzE4T2o0OEQ1NlpjUXpyLWNJTzNBYUVXQloyQUYtc2RmbDJvek5wVWp6WUZpa1BuN2p1TVZWMFM5VDBUU3lnMlB0cGU3c2xoSERvc2tzdGZNeGp5eUNnZVFrRzUzbGhycmowQ0ROaWZoOGtzUnk4b0pJNUp4bHRQWFlKRWpoTWp0dnUzanF1TGY3ODFUN0U2cTlCd1E?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-18T09:31:34+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T12:00:05+00:00
 
-E-commerce visual effects (EVF) are dynamic, product-centered visual presentations in e-commerce videos, often accompanied by promotional text. They play an important role in attracting viewer attention and conveying product information. However, general measures of visual quality and text relevance alone do not establish whether generated videos preserve product appearance, maintain readable text, and produce coherent, contextually appropriate effects. To address this issue, we introduce EVF-Bench, a dedicated benchmark spanning six evaluation dimensions: visual quality and text relevance as general dimensions, and motion, product consistency, text stability, and creative rationality as EVF-specific dimensions. To complement the benchmark and support task-aligned research and model adaptation, we further construct EVF-32K, a dataset of over 32000 curated image-text-video triples tailored to e-commerce scenarios. Using this suite, we systematically evaluate representative video generat
+Humyn Labs raises $47 million led by Accel to scale physical AI research and real-world deployment Moneycontrol.com
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Embodied Graph: A Relational World Model for Long-Horizon Tasks](https://arxiv.org/abs/2611.24115v1)
+### [谷歌RSI最新论文揭秘 自带记忆自主迭代 开启智能技术全新突破 - 36Kr](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJMHVpa0c3cUlDSElUZVJWYV9ObWpsUG5ZUjZGZUphcEs3WmNQWmZJNG02NVh4bm92b1NiVGxKQlFnaTl5MmJXak1xdzdZY2tickhR?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T09:30:33+00:00
+代码模型 · 行业新闻检索 · code · CN · 2026-11-18T09:19:00+00:00
 
-Long-horizon tasks in embodied and web environments involve extended decision sequences and delayed feedback, making accurate planning crucial for success. World models tackle this by learning latent dynamics for imagination-based planning. However, existing approaches merely rely on dense pixel-level observations, which forces the model to absorb redundant information while overlooking relations among task-relevant entities. Consequently, small errors may accumulate over long imagined rollouts and gradually corrupt the predictions. In this paper, we explore world models that imagine over sparse state abstractions, which poses two key challenges: 1) how to remove redundant information and form a compact state abstraction; 2) how to incorporate the relational structure to learn reliable long-horizon dynamics. To address these challenges, we propose Embodied Graph, a relational state abstraction that supports structured dynamics modeling and long-horizon imagination, and the Relational W
+谷歌RSI最新论文揭秘 自带记忆自主迭代 开启智能技术全新突破 36Kr
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [FastFrames: Video Generation at Interactive Latency](https://arxiv.org/abs/2611.23226v1)
+### [How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise](https://openai.com/business/customer-stories/sumitomo-life)
 
-AI 视频 · arXiv 视频生成 · 2026-11-17T18:59:13+00:00
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-18T08:00:00+00:00
 
-Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We profile the inference pipeline of state-of-the-art models and find that operations often treated as fixed implementation details, such as VAE decoding and KV cache updates, in fact account for over half of end-to-end inference latency. We challenge the assumption that these components are indispensable and replace them with lightweight alternatives. Our 1.3B variant runs at 36 ms per frame, or 28 responses per second (RPS), on a single B200 GPU while matching the generation quality of a state-of-the-art model that is nearly 8x slower. Our 14B variant runs at 45 ms per frame, or 22 RPS, on an 8x B2
-
-证据：primary；来源摘录，待原文核验。
-
-### [Beyond Co-Generation: Rethinking Jointness in Joint Audio-Video Generation](https://arxiv.org/abs/2611.22857v1)
-
-AI 音乐 / AI 视频 · arXiv 视频生成 · 2026-11-17T14:37:31+00:00
-
-Our aim is to advance the understanding of genuine audio-visual coordination in joint text-to-audio-video (T2AV) generation, with particular emphasis on semantic consistency. Evaluating audio-visual consistency in T2AV generation is nontrivial, as detailed text prompts obscure whether such consistency stems from genuine cross-modal coordination or merely from independent text following. To isolate the former, we introduce intrinsic jointness: the ability of audio and video to produce the same realization for details left underspecified by the prompt. Using semantically underspecified prompts (e.g., "musical instrument playing" rather than "electric guitar playing"), we investigate four recent models and reveal their limited intrinsic jointness. To address this limitation, we propose JointREPA, a simple representation alignment-based post-training method to facilitate cross-modal coordination. Since existing benchmarks use semantically detailed prompts, we introduce UNSAIDBench, a bench
+Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.
 
 证据：primary；来源摘录，待原文核验。
 
-### [FVScore: Specification-Driven Neuro-Symbolic Video Evaluation](https://arxiv.org/abs/2611.22673v1)
+### [微软 BitNet，一颗 CPU 跑 1000亿参数？论文数据怎么说 - Pasquale Pillitteri](https://news.google.com/rss/articles/CBMimgFBVV95cUxQN0g0eHpfd1BNZG9CODR0ZzU1S3lYYUxvNGt6NkRuSi1RT3lRQmQzcms4MjREaVJvclQ2OFBQQWNISERBdy04RG9FcUNnaUw0OUFYVlYtX2JNZTU2R09FeDNHWGM1clZYTVVnYkVTZC1qQ1VYaEIzNkNUaGMwQ2F4TUJDYzJHLXNWd3NGR2k3MGJveV9UZVcxSEpn?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-17T12:25:33+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-18T07:28:08+00:00
 
-We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open challenges. FVSCORE addresses these limitations by compiling each video into explicit propositions capturing prompt requirements and implicit propositions capturing unstated physical, temporal, and cross-modal constraints. It grounds each proposition using specialized perceptual tools and evaluates the resulting confidence traces with soft temporal operators inspired by Linear Temporal Logic. A Significance-Aware Calibration step then aligns verification with human perception by retaining only perceptually significant violations before producing a timestamp- and evidence-grounded report. We conduct extensive experiments across public and complex multi-event benchmarks with 
+微软 BitNet，一颗 CPU 跑 1000亿参数？论文数据怎么说 Pasquale Pillitteri
+
+证据：discovery；来源摘录，待原文核验。
+
+### [研究：大模型在气候议题上易迎合用户，反复质疑可令准确率下降31至35个百分点 - 디지털투데이](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNzItLUlrcmlJQWZnTEpuQTRPNTBzZ2ticGdkVm5ZWUQ1bUF5OW81WVhWQnJ3em5Gcnl5WUEtV0JDSzVJeEZacENhYUtnbmdwc3VESjJhQWJRcFN4cjFfTlNtNzNoR25vb1RfQ1NxbE0tUWVJd3l5RHh4aGRIeFFuM2wzZFlsc0dMRXlicHZVT0h0My1xVVY2T04ydXZELUprTUk0NFlaSEJGUQ?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-18T03:09:00+00:00
+
+研究：大模型在气候议题上易迎合用户，反复质疑可令准确率下降31至35个百分点 디지털투데이
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Lunit secures 11 oral presentation slots at RSNA 2026 with breast cancer AI research - Korea Biomedical Review](https://news.google.com/rss/articles/CBMibkFVX3lxTE5BUHRaR0xkdmlmZlBEVll0dHdvWDFKeWZPLXM1dU1TUWFIcjZPV29KYXprclctT1puUmdYbjlTalFFMUNFUC1zUVVGMFR2NmpTUmdKdzRqTllWaVBlclkxQi1uNU5jYUxTQ0UtQll30gFyQVVfeXFMT2t5YWJDR18xOWJzUXVnbVVZMTJGdTFod25xc1JzV0JzNTJRSjNkaG1pOE52YjhQQWRENVB6ZzFEdV82bjNrTlE1R3hlSDFnV2Z4aFRiYi1COEpFU3dzdTF5TnlZZENyTlJpVzFiN2Q1d09B?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T02:05:34+00:00
+
+Lunit secures 11 oral presentation slots at RSNA 2026 with breast cancer AI research Korea Biomedical Review
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ElevenLabs to Acquire Japan's Kotoba Technologies, Expanding Japanese Voice AI Research and Local Rollout - XenoSpectrum](https://news.google.com/rss/articles/CBMickFVX3lxTE9uSGh2dlI5emFZWjVHMHRSVUNGM1NJYTdxZk81TkROeGk3cE9CLWhYN3NxQzg3SE5tZGdfdmk1eDJuemJRazF1QkJTenhPam5ZazNxRWhmcVJ3RE1TSEpMb185UUIxOFpyY1FLNml1Smlodw?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-18T02:04:48+00:00
+
+ElevenLabs to Acquire Japan's Kotoba Technologies, Expanding Japanese Voice AI Research and Local Rollout XenoSpectrum
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Secure Code Warrior Research Finds Curated Security Rule Sets Cut Measured Risk in AI-Generated Code by Up to 70% - Business Wire](https://news.google.com/rss/articles/CBMi_gFBVV95cUxNaDFpYTI1NTI3RTZRM1Y5QUFoYVdCMGg2Zzg5eE1RemVkN2w4a09rQjdCNzRMa0NLQWJCUjRmb1E0YzBKc2N1YlFmTS12N0xmRjdwa2JqVkRuaXhhOUFCX1QyQXhaYXQwNV8zd0xxOGVHMy12alA0a2hzMl9pUXNVaHhnV0RiSm9BUHVDVGhKSXJYYUwtai01ZWRNMTQ2Nll5OG83RnhuUWJ1azJpVHNPVEQ1clpNWXN6YUUyUjd3bnZlaXVEX3JKM0NJdm5zclQ2VllSSDB2YTZHSmw0NVYzM3QtMjR5N1dRVUNJWjBSU2Q4NE1Qbi1ZalMzRzNBUQ?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-17T14:00:00+00:00
+
+Secure Code Warrior Research Finds Curated Security Rule Sets Cut Measured Risk in AI-Generated Code by Up to 70% Business Wire
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI study of 1,800 scientists finds autonomous AI research is the job almost nobody asks for - BigGo Finance](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OMXVTVUctR0FMLXBaUjlKZ2FzaXVDLWR6Vk1UYmJiaUpfNm1CeVEyREhkOUUwMEhRSHpDblppclVQUmwtUHdZaDdfYVNzYmhvUUVWQm15VFMxRlU?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-17T11:09:00+00:00
+
+OpenAI study of 1,800 scientists finds autonomous AI research is the job almost nobody asks for BigGo Finance
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Introducing ChatGPT for Sales](https://openai.com/index/introducing-chatgpt-for-sales)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-17T08:00:00+00:00
+
+Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.
 
 证据：primary；来源摘录，待原文核验。
 
-### [MAVE: Reconstructing Editable 3D Blockouts from Film Shots](https://arxiv.org/abs/2611.22464v2)
+### [OpenAI Is Putting Safety Researchers Inside the Lab - WeRSM](https://news.google.com/rss/articles/CBMickFVX3lxTFBrRmViUFRDMVR4bGYtTjNTQi0wVkhwb0kyV3F0YmM5MDFzZVNNdlgxcmVMczdrVkJEYnAyOURSVFMtZF9NSURxcmw1TXRCOWZWSllFbGZ0M2pDVUxINmdjZE05Sy1DTl9faUQtZXIwcF9kdw?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-17T09:25:47+00:00
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-17T01:58:24+00:00
 
-Animated 3D blockouts support previsualization and provide structural conditions for video generation, but manually reconstructing them from reference videos is costly. This limits both their use by creators and the production of paired training data. We introduce MAVEBench, a benchmark of 50 film shots and 416 keyframes for evaluating camera motion, spatial layout, and character blocking. We propose MAVE, a video-to-blockout framework combining Metric observation, Agentic modeling, and evidence-based VErification. It first recovers cameras, human motion, and geometric evidence in a shared metric coordinate system. An agent then constructs an editable environment under constraints from these observations, while programmatic checks report inconsistencies to guide refinement. The outputs are editable Blender scenes and frame-aligned blockout videos. On MAVEBench, MAVE improves overall scores by 27.5-41.1 points across three agents over their corresponding vanilla baselines. With DeepSeek
+OpenAI Is Putting Safety Researchers Inside the Lab WeRSM
+
+证据：discovery；来源摘录，待原文核验。
+
+### [LibriSpeech: Audio Corpus Guide & ASR Benchmarks - CASRAI](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhdmZDdGJKY2hlZndBWC1IZC1rQzdqN2hZUE42dUtVenFnLTNFRjZvLUM4RGhBR1h4Sk9XeGoxd1h2T0swVU1xMUZVVmZuZw?oc=5)
+
+AI 音乐 / 语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-16T18:59:32+00:00
+
+LibriSpeech: Audio Corpus Guide & ASR Benchmarks CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI to embed Apollo researchers to investigate AI subversion - Mezha.net](https://news.google.com/rss/articles/CBMif0FVX3lxTE9YUThHV2VOU2tfQlpHOE40MDBtdlVodFlSWUxHcThfMlk4NjJpdXJKN3JrUmQtTmE3U205M24wLWZLNWhZa1pucW52TzZ6RmJjdzBKQkdEZy03VzBvWTFMV0dpajFPbUoyZFRqM1FZMmYyZXZvOU1fREtPVGw1YjA?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-16T17:36:30+00:00
+
+OpenAI to embed Apollo researchers to investigate AI subversion Mezha.net
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI will embed safety researchers to investigate AI subversion - TechCrunch](https://news.google.com/rss/articles/CBMiogFBVV95cUxNTGwxMmpFWW1rLXdmMmZSeG9faHNxQjQzNmVZN1k0ZXVMY0wxQXhtRWNrNjFhOW9kRlp4M0RvVy0tczdJQ0k1TFZXa2xRTTNfSlJVMlViRXVQajZTRDhyMldKQ3hTVmIwT0FuVlBMcnJBeDlVNGxla2Z5TWR3MlBNTVh3N201c3N1bnQ4a3l6NV82cTg3ZzNYTjlVMmVHcVl4TUE?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-16T17:02:43+00:00
+
+OpenAI will embed safety researchers to investigate AI subversion TechCrunch
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Broadening access to AI for scientists](https://openai.com/index/expanding-chatgpt-for-academic-researchers)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-16T17:00:00+00:00
+
+We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.
 
 证据：primary；来源摘录，待原文核验。
 
-### [Evaluating the Evaluation of Music Generation Models with Generative Psychometrics](https://arxiv.org/abs/2611.21809v1)
+### [Hyperscale data centers’ energy consumption, carbon emissions newly estimated by researchers - Harvard T.H. Chan School of Public Health](https://news.google.com/rss/articles/CBMivgFBVV95cUxQZzd0S3YxcW5NSEE0eGp3cFFSeGZmQV96SnFGQWptc2J4ajJYb3h0cEI3ZmdhSHVFZ0FtZlk4NjRNNzZZUnRMSXhBeHlfN0UxZzNqcHRqLVRnNUlTZlRaeGZIdGJkVzlEY2JKY2poRTJLZ1B2Y082aUZMZ2dmOHhmTl90M3MtT3JWREppbmVhQ01RZFNINnpiM2ZBWGlvX3NGTlduX0FFNG0teTFWTnJ0OGdCRzdRdGlWeFdvTHV3?oc=5)
 
-AI 音乐 · arXiv 音乐生成 · 2026-11-16T19:23:47+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-16T16:00:00+00:00
 
-Subjective user studies are one of the major methods for evaluating music generation models. However, subjective evaluation protocols vary widely and are rarely specified in enough detail to be reproduced, hindering comparison across studies. In this paper, we map subjective evaluation methods in ISMIR music generation papers from 2020-2025 and apply generative psychometrics to assess the stability of their items. We extract 284 items from the papers' methodological descriptions, using an LLM and manual validation to standardize them. We represent these items as contextual embeddings and apply Unique Variable Analysis to remove redundant, locally dependent items and Bootstrap Exploratory Graph Analysis to estimate their latent dimensions. Results show the network converges onto a taxonomy of six stable quality dimensions: Rhythm, Melody, Audio, Composition, Structure, and Lyrics, pointing to a unified methodology for conducting user studies to evaluate music generation models.
+Hyperscale data centers’ energy consumption, carbon emissions newly estimated by researchers Harvard T.H. Chan School of Public Health
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [SciWorldBench: Do Video World Models Really Understand Scientific Experiments?](https://arxiv.org/abs/2611.20899v1)
+### [Science at the Frontier: How scientists use ChatGPT](https://openai.com/index/science-at-the-frontier)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-16T11:09:07+00:00
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-16T12:00:00+00:00
 
-While the ability of video generation models to accurately depict scientific phenomena has received growing attention, determining whether these models genuinely understand the underlying principles remains a critical challenge. Existing benchmarks typically evaluate video samples in isolation, making it difficult to expose models that simply fit superficial visual priors. In scientific experiments, a small change in one condition produces a markedly different outcome even when the rest of the setup remains fixed. Capitalizing on this sensitivity, we introduce SciWorldBench, a benchmark comprising paired scientific experiments. Each pair varies a single condition in an otherwise fixed setup, yielding two mutually exclusive expected outcomes. Each generation prompt specifies the condition but omits the expected outcome. We evaluate ten text-and-image-to-video (TI2V) models using an independent vision-language model (VLM) that assesses each video without access to the condition text or t
-
-证据：primary；来源摘录，待原文核验。
-
-### [VAHBench: A Harness Benchmark for Agentic Long-Video Generation](https://arxiv.org/abs/2611.20535v1)
-
-AI 视频 · arXiv 视频生成 · 2026-11-16T05:11:08+00:00
-
-AI agents are commonly used for everyday information retrieval and coding. We ask whether they can also interpret human requests and turn them into complete videos. We introduce VAHBench, a benchmark that tests this ability through five short-drama briefs specifying story, characters, dialogue and duration. Agents plan and carry out production using shared generation tools. Evaluation combines video completeness and basic quality with checks of production reliability and reporting accuracy. Across 240 runs covering 48 configurations of general-purpose and video-specific agents, higher quality scores do not necessarily mean more complete delivery. Missing episodes, repeated footage and static filler reveal gaps between producing a video file and fulfilling the brief. Added composition tools help some agents but do not consistently improve performance. VAHBench measures how well agents translate user intent into finished video content and helps identify where that process breaks down.
+Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.
 
 证据：primary；来源摘录，待原文核验。
+
+### [LightSite AI Research Examines How Large Language Models Determine Brand Trust | TechFinancials - TechFinancials](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXJLTTlrSUc5TGxkdHhFbW8tYWRyOC05UWU2eEs3MDRSTkR3YklRdE0xV2RJU2VQYXR0d1dOTzdsQkczM3BKajM4MGhUcXc3NWxkQnNxM1I1UUd3bmVEeE03QTJkSFlCekZDRDBqZXZMeFlHZ01udC15bkFaWkFMaGhRVWo0andBSFVlTjI1MjhFbmJLaGdPVVpPalh4MDNQVmZmcnNfU2NmOVBMcG5waElNMXNCczhOeGdv0gHDAUFVX3lxTFBLWTJYZWwtU1RQMTBOUFN1dGJwY1BIMUNZM3p4b2l2Z2tpTmJKRzR4X2pvSXdvSC02MU5HU1dQb3lHaVR6VzN5WGhHQW1od21tV2xQMTkwTkNsQXdoM2tUa0FBbFhHNWI4dVRTaGtmMEN1cFE1cmRSZEszOEdZNU1sOGhES0pXYlRXUXltYnJaUHdRU01CX2NDaS1lU19ibmJVVWxVWVhnUjIyZldDQzdfYnlsMHB1ZnRILTJMNnJHS1dxNA?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-16T10:26:57+00:00
+
+LightSite AI Research Examines How Large Language Models Determine Brand Trust | TechFinancials TechFinancials
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Anthropic’s Craziest Viral Image Leaks: The Single Photo That Forced a Researcher to Resign On the Spot - eu.36kr.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSR2phLXVndndZbUh0SmZZN2dYeDNtQnhaVDYwUzltNFpzUkN0TkljbUlsWTQ4SnlacVQ3eWxUcHlNX29Dalk1QUctTlhiZ3RkTkc4?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-16T01:31:17+00:00
+
+Anthropic’s Craziest Viral Image Leaks: The Single Photo That Forced a Researcher to Resign On the Spot eu.36kr.com
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Hugging Face Researchers Detail Token Pooling-Aware Training for Multi-Vector Embeddings - CASRAI](https://news.google.com/rss/articles/CBMijAFBVV95cUxNTnBlVGVPXzBfNWp4QWRIS2o4d0NHU2NrME1QQ05YMksxQU9KSmk0c1JGVVRUcm5nOWNzMnZZMnY4UmRSN00wUUstTUU3Q3h5T1pnZElxaTQxdlBQNFBBeTR0dDhybF9RSjlDcjdjczJZUWZhWUFTT2dTVTRUVGNoUDQ3ak55VlU4UTNOdA?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-14T20:15:42+00:00
+
+Hugging Face Researchers Detail Token Pooling-Aware Training for Multi-Vector Embeddings CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs - MarkTechPost](https://news.google.com/rss/articles/CBMilAFBVV95cUxNbmQ4dTFGc1BqUUk4YUdwN3RFcGJMbVBjeE0yRTM0dlZvSnFvUE5yS0JiV3VjblJXV1BJUnB5SFNJa1VFZ3BLM0Uzb1ZUSzhLUVdKdWNsc2hXeElhMjNjTllsWW41SjBvOTQ3MElUSThvSWZUT01WSnBRZFBMXzhsczVGMDdGeHB2SDVSb0dJUk1lUThS0gGUAUFVX3lxTE1uZDh1MUZzUGpRSThhR3A3dEVwYkxtUGN4TTJFMzR2Vm9KcW9QTnJLQmJXdWNuUldXUElScHlIU0lrVUVncEszRTNvVlRLOEtRV0p1Y2xzaFd4SWEyM2NOWWxZbjVKMG85NDcwSVRJOG9JZlRPTVZKcFFkUExfOGxzNUYwN0Z4cHZINVJvR0lSTWVROFI?oc=5)
+
+Embedding / 重排 / LLM 大语言模型 · 行业新闻检索 · embedding · US · 2026-11-14T10:21:21+00:00
+
+Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs MarkTechPost
+
+证据：discovery；来源摘录，待原文核验。
+
+### [观察丨OpenAI撤销独立机器人团队，通用模型“打穿”具身智能？ - ThePaper.cn](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kTks5NHhEMFlZSkk0YlBBY1BlWUt5MnJHSUR2aUxBTzZ2d0pYMW9SVC03bTA2czFTYjVjenJyRFBqanlVRjY0M05XM3dVQ3hqdm8zTXo5ZG8yUDdPbE5mYw?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · CN · 2026-11-14T05:20:58+00:00
+
+观察丨OpenAI撤销独立机器人团队，通用模型“打穿”具身智能？ ThePaper.cn
+
+证据：discovery；来源摘录，待原文核验。
+
+### [What's going on beneath West Antarctica's melting ice? CU researchers help generate the most detailed picture yet - University of Colorado Boulder](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSFgzRF8xUjdad3gwNmdxQ2Fwcnk0cXQ3RzB4UDF2LTQ3dENhRGhCeVJid0g3Tmw5RUt0amwxMEZRM1RhcjgyazdTQThtM0ZjLTJYTGVyNS1rNVJiOTl2b3Y5ZDJTVmxmZVhKS2JkXzN5UXFDaGZZN0hzcXh0NWdtMm9kSmsxMDhzREkxWDNVWTBIRkEtamVOS0l1N2JFUGhyOHJEVXJXNEptdGQ5MXdSSjJjX045RXAzczFpeHlDbGNZdw?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-13T19:11:26+00:00
+
+What's going on beneath West Antarctica's melting ice? CU researchers help generate the most detailed picture yet University of Colorado Boulder
+
+证据：discovery；来源摘录，待原文核验。
+
+### [中大梁小丹团队，GeoThinker 两项研究成果，破除空间推理「几何信息用不好、计算开销大」难题 - 雷峰网](https://news.google.com/rss/articles/CBMib0FVX3lxTE9JeHR0UDFxNGlid0VKSG1SWWhQNTRvWDJXYTE4cWw2OXBGMWtvQ2pQby1zS25SUU5VMVRRMkI1eXJhYlNmSHBjMDlDeVhUR3JxOFFmNjlJRGs4RHFHZ0dJSVpEN3dJdUxQVGtRX0VSbw?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · CN · 2026-11-13T07:40:00+00:00
+
+中大梁小丹团队，GeoThinker 两项研究成果，破除空间推理「几何信息用不好、计算开销大」难题 雷峰网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Theoretical Limits of Language Model Alignment - Apple Machine Learning Research](https://news.google.com/rss/articles/CBMie0FVX3lxTE1xN0NsRU1rbnNZNzZVcVFWbXctekQ1em91T2VlWEx1c2F6R1piWEloNkRkeG9CMlJPQ1NtdlhnWmo5eU5yQjloWnEyWFp3Z25lQTE0QnFTX3ZwaTd6OUZEcXJVNjdQR2xhUmNTMU1mVnRIMGl4LU9uV0pxcw?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-12T19:31:19+00:00
+
+Theoretical Limits of Language Model Alignment Apple Machine Learning Research
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Researchers Introduce SeGCIR Framework to Improve Zero-Shot Composed Image Retrieval - Bioengineer.org](https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUlSY0cwcndSWmFiU2FOUE9XQVAyVXZvckdCNVNSWTE5V0J5ZHV3ZXlpdTE2R0QxRHhIVXhrWkJpR1VNQ2IyWGI1Wng2N29VSEtZajl6dWN0WWlOakNBOFo4OG50Y0VTcjdsbGstY1Y4VElKTHdZeV9xYmZrTi05TGhxejk4YUhHNjVYSUNoLXN4d3lxdk82Xzlwdkt2bkNvVXdwM0VhdjEzSEg0Qnc?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-12T19:13:24+00:00
+
+Researchers Introduce SeGCIR Framework to Improve Zero-Shot Composed Image Retrieval Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Saitama University research team explores faster language models suited to hardware implementation using reservoir computing - EurekAlert!](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zazRWVDFqdWJfb0RGelkwamtYVnE4c25fWlQwWG83YWpmUjMxdGk3STFHWHNoOXc3b05rV2FXUFdQVUJkWkVPWGpIVUk4TU1YbktnZWRyRzVsdFlS?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-12T14:41:16+00:00
+
+Saitama University research team explores faster language models suited to hardware implementation using reservoir computing EurekAlert!
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Counterpoint Conversations: Qualcomm Brings Automotive Experience to the Robotics Industry - Counterpoint Research](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQc25fVEg1aTJvX3VMdmZuLVg5RHk5RW9NMDBKOW9nRmpQQjM1WkNRbVZSODFxaFB2UDhvU3J4UThBRm16VXdDZHl0MmpKc1B5OWRGRFQyaXM0bS1oejlRXzV2QjIxaFJEX1FmWU9XeUtuN09DNzhrdUJXeUctYWI1dXZ6OFhWZFp4dnlDb2NaSEE2OTFjZzRSajRzSzJDdUFjb3J5SVhOZU9LT3BGeVBjOTAyRTRZM2VMR0hTX0FvZllNV2w1X1hDTHlDZkh6c2tMb0Ixb2pR?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-12T08:03:26+00:00
+
+Counterpoint Conversations: Qualcomm Brings Automotive Experience to the Robotics Industry Counterpoint Research
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Can we make AI reliable? Victoria Palacin connects VTT’s AI research with the demands of the real world - www.vttresearch.com](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN20yTWJzQm1wclFFVFRVWmVxX0w0bG1ycU1meFc3N0FkZE9DUFY1aVZLV0tKajBrWXIyc3ZJamRQQVVabG10UXlVWXJpTUF2cENjLVdUczZxZzhCUnJhc2NmcWFfTm9JQzlmZkVTSjNDTFZlT2ZwZnNCUkpjMC15dkZ5dEZpdUNhRm9wTFQzVlQ3dUxrSURUNEhqMlpvcElyYnV2ZmJfcWo2cXcyQ0NFclRPSVgyeFgtcGdQTWs3Zko2S0k?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-12T08:00:01+00:00
+
+Can we make AI reliable? Victoria Palacin connects VTT’s AI research with the demands of the real world www.vttresearch.com
+
+证据：discovery；来源摘录，待原文核验。
 
 ## 开源与生态
 
 ### [mimba/mimba-tune · 模型卡/仓库更新](https://huggingface.co/mimba/mimba-tune)
 
-AI 音乐 · Hugging Face 最新音频模型 · 2026-11-19T06:52:27+00:00
+AI 音乐 · Hugging Face 最新音频模型 · 2026-11-19T06:57:51+00:00
 
 peft, safetensors, music, music-generation, lora, ace-step, african-music, bikutsi, amapiano, zouk, sega, makossa, afrobeat, text-to-audio, fr
+
+证据：primary；来源摘录，待原文核验。
+
+### [goodmai/LingBot-Video-30B-A3B-PV-MACaQ-4bit-MXFP4-MLX · 模型卡/仓库更新](https://huggingface.co/goodmai/LingBot-Video-30B-A3B-PV-MACaQ-4bit-MXFP4-MLX)
+
+AI 视频 · Hugging Face 最新视频模型 · 2026-11-19T06:57:28+00:00
+
+mlx, diffusers, safetensors, moe_video_dit, basalt, apple-silicon, video-generation, macaq, pv-tuning, mxfp4, text-to-video, base_model:robbyant/lingbot-video-moe-30b-a3b, base_model:finetune:robbyant/lingbot-video-moe-30b-a3b, license:apache-2.0, region:us
 
 证据：primary；来源摘录，待原文核验。
 
@@ -728,7 +1352,7 @@ not-for-all-audiences, text-to-video, base_model:Comfy-Org/MiniMax-H3-Image, bas
 
 ### [MiguelAiUser/sora-3 · 模型卡/仓库更新](https://huggingface.co/MiguelAiUser/sora-3)
 
-AI 视频 / 世界模型 · Hugging Face 最新视频模型 · 2026-11-18T22:44:23+00:00
+LLM 大语言模型 / AI 视频 / 世界模型 · Hugging Face 最新视频模型 · 2026-11-18T22:44:23+00:00
 
 open_clip, text-to-video, en, dataset:AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GGUF-metrics, base_model:SORALab/TriCosmos-2.5-predict, base_model:finetune:SORALab/TriCosmos-2.5-predict, license:openrail, region:us
 
@@ -803,14 +1427,6 @@ pytorch, real_time, android, text-to-audio, arxiv:2509.09550, license:apache-2.0
 AI 音乐 · Hugging Face 最新音频模型 · 2026-11-18T22:15:05+00:00
 
 pytorch, real_time, android, text-to-audio, license:mit, region:us
-
-证据：primary；来源摘录，待原文核验。
-
-### [Russ1on/MiniMax-H3-Multishot-Workflow · 模型卡/仓库更新](https://huggingface.co/Russ1on/MiniMax-H3-Multishot-Workflow)
-
-AI 音乐 / AI 视频 · Hugging Face 最新视频模型 · 2026-11-18T17:27:16+00:00
-
-minimax-h3, comfyui, video-generation, text-to-video, workflow, audio-video, license:apache-2.0, region:us
 
 证据：primary；来源摘录，待原文核验。
 
@@ -936,11 +1552,67 @@ transformers, safetensors, vits, text-to-audio, arxiv:1910.09700, endpoints_comp
 
 ## 行业观察
 
+### [BHASHINI Showcases Voice-First AI and Multilingual Capabilities at Dakshin 2026 - www.pib.gov.in](https://news.google.com/rss/articles/CBMia0FVX3lxTE8xM2RyUjl2bHNnMmlMSGFmNXNIRWNUWDdkTENQNkhWbWZ2aXdMZVNOSFYtbjNYSVY3aFl3NTNqVmFoZE1VUnFGaE56cVF6RXdvNWYyRU9uenQ5VUxsbU1lLWJtUjZ4ZC00Znhj?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-19T06:08:00+00:00
+
+BHASHINI Showcases Voice-First AI and Multilingual Capabilities at Dakshin 2026 www.pib.gov.in
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Reson8 Opens Rumble-2-Flash Speech Model for Free Download - SuaraGarut.ID](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ya3VjTFotWnM0Zy1QTjJCQ2k3T1VYSTl4SGxQbkdtNzRTWXNMX1J4WnVTZ3VueGk1cXBEaFk2cGlxcnVpcGRJbkxBMDdtQjc0a2ItblNnU0x5bFY2SUliMXVyaGw?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-19T05:27:35+00:00
+
+Reson8 Opens Rumble-2-Flash Speech Model for Free Download SuaraGarut.ID
+
+证据：discovery；来源摘录，待原文核验。
+
+### [fNIRS Reveals Auditory Processing Abnormalities in Preschool Children with Language Disorder - Bioengineer.org](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXNZRDdWTFNDeXl0V21SMTk0T1VzNVBiQTl6VkRFYW83X0RiRVN6d2FvVUxCemNjbnNqVUxrdlUwTzNSUUQ2WkFJb21GdWhMN202VUhiUDlQay14ODRZQXNMUTd5bGhKYi13VzJvekl3U3FYTDNESWVIUWk1X290eWVzb2dmWEd0bTJlUzVyWVFPekgzU2dFa2ZYTmZHX2hrcUREOVV0d1lCcE1oaUhBd2F4OG1KTlFR?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-19T04:32:18+00:00
+
+fNIRS Reveals Auditory Processing Abnormalities in Preschool Children with Language Disorder Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
 ### [国产芯片正在准备三级跳 - 36Kr](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBidjdMTFBWMFVNRDJoY3Z4UFNaX2M4SUNINWtRbkxGNmRjbjVPN0ROcnZ0X1dNSC04QkVodThTUzRtR3Q4emFxWjZjekdzTms?oc=5)
 
 AI 视频 · 行业新闻检索 · video · CN · 2026-11-19T04:19:21+00:00
 
 国产芯片正在准备三级跳 36Kr
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Stellar Intelligent Computing Secures Multi-Million-Yuan Strategic Financing to Develop Embodied Intelligence's "Brain Cognitive Black Box" - 36Kr](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WYlRQVDF6TllyUkNkdmJaamo5bE5GNzFPR0JoY0RaVTAwT1lPUk9nWjVaeEtsazFrakc3c1Jac0NKWGZaQUstUjMxdW5ISlpJY2ww?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-19T04:10:44+00:00
+
+Stellar Intelligent Computing Secures Multi-Million-Yuan Strategic Financing to Develop Embodied Intelligence's "Brain Cognitive Black Box" 36Kr
+
+证据：discovery；来源摘录，待原文核验。
+
+### [从像素到语境：医疗与医学科学中视觉语言模型的系统综述与临床证据缺口 - 生物通](https://news.google.com/rss/articles/CBMibkFVX3lxTE9XNV84TWxHSU8wNEpla0xMdEtfV1hQWDVpYVRNVlVWZnRrZUZEME55a0VlZjZJem80RnpjSWpBUlJGMEJsTlRjLVR4T3VHZDVyRVNPTVdPcHFQNG80RVRTTzB4S2lkYjNfYmF6T0pB?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · CN · 2026-11-19T03:40:29+00:00
+
+从像素到语境：医疗与医学科学中视觉语言模型的系统综述与临床证据缺口 生物通
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI助AMD芯片设计指标改善14% - 维度网](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UX2FUNEtfODRqWEc1ZGdseWNydG1FT0Uya2ExYk15T09FeVZXZXRJYXFwZGJSOW02dWxmUk1iMXN2U0dTV3B0RXJzbmxxdzg5WWU5NzhYQks?oc=5)
+
+代码模型 · 行业新闻检索 · code · CN · 2026-11-19T02:22:00+00:00
+
+OpenAI助AMD芯片设计指标改善14% 维度网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [面对算力资源有限和变现压力，中国主要AI开发商正不再局限于大语言模型（LLM）性能竞争，而是努力寻找新的增长动力，例如开发AI智能体、争取企业客户。近期，DeepSeek因算力不足，限制了网站和应用程.. - 매일경제](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzVFpncS1kV3AzcUpmMXdWUFBESGd3Q3p2dWszUnN6c09UX3ZWNTl1VHpNQkU4RGRKS08xWUpjZzNDNjJqRXFSdkF6MDVseGs?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-19T01:59:57+00:00
+
+面对算力资源有限和变现压力，中国主要AI开发商正不再局限于大语言模型（LLM）性能竞争，而是努力寻找新的增长动力，例如开发AI智能体、争取企业客户。近期，DeepSeek因算力不足，限制了网站和应用程.. 매일경제
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -952,29 +1624,229 @@ Best AI Image to Video Generator in 2026: 8 Tools Compared Memeburn
 
 证据：discovery；来源摘录，待原文核验。
 
-### [$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940v1)
+### [Structured Prompts Boost Language Model Accuracy in Concrete Beam Design Calculations - Bioengineer.org](https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVVJcWQ5Z0l3TDhuWm9UZ2phZWM0SUtqNDROUTFJZTdiWUplVVNXLTVjRnBzM0NkcTJfWU9JV1pwNmhHZFpjMEk5SHlMbFpLQ3Q1Z1h4ODlET2ZXeU82QVBleFBEY2Z5LUZsR0kyNW1FQ3lzaDBBLWExbmZJalY0TmNwWVU1ZkE3aXVrT0ZZZjBlQVJneTQyWmh6MFEweEJtRTB3aVQxSW5YeVcwWWdz?oc=5)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-18T18:59:38+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-19T01:06:30+00:00
 
-We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent latent-space policies avoid pixel generation, yet typically align intermediate features or rely on frozen target encoders, decoupling future prediction from the VLM's native feature space. $Z$-sight instead predicts the future directly in the visual token space in which its VLM perceives the present. Coupling a foresight expert and a continuous action expert with the VLM in a mixture-of-transformers, $Z$-sight jointly denoises future spatial tokens and actions at inference without pixel reconstruction or external encoders. Trained on human video and robot trajectories, $Z$-sight achieves 81.9% success on SIMPLE (+9.6 points over the strongest baseline) and 73.3% across six Unitree G1 tasks (+20
+Structured Prompts Boost Language Model Accuracy in Concrete Beam Design Calculations Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Is Google Gemini Free? Google's Free Plan Explained (2026) - Fello AI](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iREpNUDN0cWl4OUk2RWJuZHU1OUp5RVlQcXhjdmVISUtlb3NwZldETExEZnc5cHJJUm9BOGpxNmFHNjZvckFhVFdJZw?oc=5)
+
+图像生成与编辑 / LLM 大语言模型 · 行业新闻检索 · image · US · 2026-11-19T00:34:10+00:00
+
+Is Google Gemini Free? Google's Free Plan Explained (2026) Fello AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Gemini 4 Neon 与新的“Cobalt”名称：Google AI Studio 的代码究竟揭示了什么 - OrcaRouter](https://news.google.com/rss/articles/CBMifEFVX3lxTE54MEdRc2VBa0xNX2VUeXRyUnI5SnNrUEhKaVVRclo3SkpPWEJuMjRTTTdUS25XaHROQzNHaW5HdU53cGJFYXBKeU1WZFFGM1hnUHZNSjRkTXE3TXIycXdJVEQ4djJaZUE4bVM4cVNVVmg4RGZUM1NkQmNxSl8?oc=5)
+
+代码模型 / LLM 大语言模型 / AI 音乐 · 行业新闻检索 · code · CN · 2026-11-18T23:54:25+00:00
+
+Gemini 4 Neon 与新的“Cobalt”名称：Google AI Studio 的代码究竟揭示了什么 OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
+### [MIT scientists are teaching AI to explain what’s happening inside its own brain - Yahoo Tech](https://news.google.com/rss/articles/CBMilwFBVV95cUxOS0tVcVdocFRsbGlqMkFfTGhNdVFENVRMTDBsMU9YNnZCNEdRQVc1VFRhLWxWMUJRUndSMmJaZ3h2QlA5c0g1dW0wUUVJVnNNV3VMV0J5YzdWa1h3V05JVmowSkVFN3dTeUFBN2owbzhHb1lvejFxS1BhQ2RrZ21DZGVwNTA4dzdfWnlKUW9qcFdfVEg2ZXE0?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T23:37:33+00:00
+
+MIT scientists are teaching AI to explain what’s happening inside its own brain Yahoo Tech
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ElevenLabs Improves AI Speech Recognition Accuracy... Cuts Errors by Up to 43% - 파이낸셜뉴스](https://news.google.com/rss/articles/CBMiWEFVX3lxTE82M0NCQjBzU2ZpU2ZLUzVwakRfU3lpTGdDNy1tTkdyWmxJQXQ4SFhLektDdHlWWDZ4UnRJa2ZjazNqei1hZzAzam9hY0lIMWF0ZXRPWXNvTWM?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-18T23:16:18+00:00
+
+ElevenLabs Improves AI Speech Recognition Accuracy... Cuts Errors by Up to 43% 파이낸셜뉴스
+
+证据：discovery；来源摘录，待原文核验。
+
+### [FAU receives $300,000 U.S. Air Force award to advance AI-powered video surveillance - EurekAlert!](https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yLTFYSXRYQmd2Q2R1Q1NPSTE5WEZZQnVfVlYyM3hFMkJXanVRTkx3b3dNZld6STJkdVBRdHVMdFlOdWJ0eC05TXoyNFFueFJNM096SUlGYXFFUXk1?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T23:03:26+00:00
+
+FAU receives $300,000 U.S. Air Force award to advance AI-powered video surveillance EurekAlert!
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Air Force Grants FAU $300,000 to Develop Automated AI Surveillance Tools - Bioengineer.org](https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmZOb2ozV1NzRjZ1aVFjbmZGeXUwUzh4QVF6SWQzcEtvdzh0a1ZpbFp3VFVDcVRPaXdZWVZidGVVS001cEFBbUFNbjNvWnB6UVRYd3ItWTdGa1lsVEs4eWV5dm44U3lBdHR0ZXVLX3JxU3MtamhlUnZIeTJ1WlRhQ2xpbDBoWkp0NWI0cUtzcFBvZk54M3dYQ3ZjZw?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T22:58:04+00:00
+
+Air Force Grants FAU $300,000 to Develop Automated AI Surveillance Tools Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [AI开始优化芯片“大脑”：OpenAI称模型助自研Jalapeño与AMD GPU改善设计 - 凤凰网](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iZDdDYVRPSkIzSk9wY2Y1TzhLWHZ1SEYxeEUtYVU3RzVVTVlteWdTdlpJNFhrbHQyVUhjZ1lLOFpOOWFkMnBJX2FIdVNPU25BRnc?oc=5)
+
+代码模型 · 行业新闻检索 · code · CN · 2026-11-18T22:40:04+00:00
+
+AI开始优化芯片“大脑”：OpenAI称模型助自研Jalapeño与AMD GPU改善设计 凤凰网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [AI Pipeline Cuts NASA Chandra Image Alt-Text Creation Time by 96 Percent - Bioengineer.org](https://news.google.com/rss/articles/CBMingFBVV95cUxPbXR6cnlCN1NhdVRHcERxTjEyVHctUl9va1o1dVFfX1loQjI1MzBxZk1CY2IwanY0ajlJREhSZFJTZnNfRnp4TFJCNU9DV1Rtelp5OEV4ZE5NczFia3NaNXQwRnlZN0dkSnlsd3dqcnl5Z003ZTFQYktEODMtUWZBdzIxYlFWclN6Y2pEMmRCamwyaXU3UUZKSmNRZlB1Zw?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T22:11:28+00:00
+
+AI Pipeline Cuts NASA Chandra Image Alt-Text Creation Time by 96 Percent Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Introducing Gemini 4 Neon - blog.google](https://news.google.com/rss/articles/CBMinwFBVV95cUxNemJ2dmlaaUw0Vm9IWnV2N3JiaXg4a3BNcVVqZjEtNnlVTnExYzk0d2tzcEZ4SGhqY1MyQ0c5LVpYN2ZKdGJ6d1FTMmhWZ0J0VVJkcGhqOHk1eHB1SFA3M3NLNEdRZEhhbnNzekhRb2E1RnRVSjJFQmNRWC05ckI1NjlybWpvVzJUeWdwaURROFhOcmoySS03UllmRWJJMUk?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · US · 2026-11-18T21:35:21+00:00
+
+Introducing Gemini 4 Neon blog.google
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI Just Brought in Outside Experts to Vouch for Its AI. Every Business Making AI Claims Should Read the Fine Print - Inc.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTZaMXFLTkdIbHNoMExOY0hVaU1Vazh6YlBXMGxHTEdzMUxqTXhFM3I4UEtha3ppWWhYY3F1cFNmTWt0dTU1VXF0cGZPbVZqVzl2MXRzQWJsYVVzaWcwMHMwLVZ1d2Zkb3AxMnZ3NHRBXzRDR0pmNEdtN181bktuSVpPVzZQWmthYUJGNldCdmYtODE2bktVZ2lMbVg?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-18T21:11:01+00:00
+
+OpenAI Just Brought in Outside Experts to Vouch for Its AI. Every Business Making AI Claims Should Read the Fine Print Inc.com
+
+证据：discovery；来源摘录，待原文核验。
+
+### [MAI Code 2 与 Muse Code：模型对阵终端 - OrcaRouter](https://news.google.com/rss/articles/CBMibEFVX3lxTFBGdjNGOC01eFZqWGRraDZXTkItZ2daQ1VJb0l5WUYwcGZkaXd5cHpGc0VodUdyYlJvcDFYM3UxNUFFdkFSeTZYQ2tNSXhmVlZCakwyajdVVTZXOU1xcFhSNm0zWHVaREdLMWxDdw?oc=5)
+
+代码模型 · 行业新闻检索 · code · CN · 2026-11-18T20:02:06+00:00
+
+MAI Code 2 与 Muse Code：模型对阵终端 OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Elastic Makes High-Accuracy, Cost-Efficient Jina AI Models Available on Microsoft Foundry - Quantisnow](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ1l3X0hDYTlNaWRIVHdlZ3JpT2x1QXF1ZGMxS0tLNTFsbHlLQm9XZFBoUURIV2g4bEhJQmhMTXRlSDNpM3lsMFY1YU41M25WWG9HT2xWZVhRM1ZvaG9oMHVsbVBjbDU0Y3ptdDBnZ0EwR0lXaGR4ejhsSUhtQzZ4UGd1eExIX1N0THlYamlpaFFTN1BIM0I2QXlyQURzTXhNNkhnWU5TU2FxaDlzNGRUdkR2UjBjRTJ5dE9kcGRWYmU?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-18T19:40:05+00:00
+
+Elastic Makes High-Accuracy, Cost-Efficient Jina AI Models Available on Microsoft Foundry Quantisnow
+
+证据：discovery；来源摘录，待原文核验。
+
+### [GPT-6.2 Astra 首份实质独立基准：62.7 分登顶 Bug Hunt Bench，成本 28.35 美元 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9EQkZFYnpwZHZsdVBvNzF6ZDREN3JXMXpwTWdUZ0VfRjRlWnEtUzJUcmJZZW1FYndfcGxOR1VuM2R0WVE1V3VfQg?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · CN · 2026-11-18T19:17:00+00:00
+
+GPT-6.2 Astra 首份实质独立基准：62.7 分登顶 Bug Hunt Bench，成本 28.35 美元 智源社区
+
+证据：discovery；来源摘录，待原文核验。
+
+### [FAU Receives $300,000 U.S. Air Force Award to Advance AI-Powered Video Surveillance | Newswise - Newswise](https://news.google.com/rss/articles/CBMizwFBVV95cUxNcE8yVFdJSnFMS1ctenRRRXNWR3FFRF9UZENvMFRUVnNpN0NvcjYzOU1nM3M1V3M2STNtZ0tvd0hNUTVMcXNJNDVaeTllb2FSMEQyNzExZjM3a0ZCb1plMWhTX1hOSXFmRzFhc25YbE03ZUVxbjV2dlB4VHFyTHIzM3FyZDhLTjJGbjhXX0wxMG1jOERiNnFjTEFjNlBNU2RBSnZzVGlOZndROVF6ZlhtN21wREtzOEs4WmR0LUV1bXJYd3d5R2tZYkVJNlVyeXPSAc8BQVVfeXFMTXBPMlRXSUpxTEtXLXp0UUVzVkdxRURfVGRDbzBUVFZzaTdDb3I2MzlNZzNzNVdzNkkzbWdLb3dITVE1THFzSTQ1Wnk5ZW9hUjBEMjcxMWYzN2tGQm9aZTFoU19YTklxZkcxYXNuWGxNN2VFcW41dnZQeFRxckxyMzNxcmQ4S04yRm44V19MMTBtYzhEYjZxY0xBYzZQTVNkQUp2c1RpTmZ3UTlRemZYbTdtcERLczhLOFpkdC1FdW1yWHd3eUdrWWJFSTZVcnlz?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-18T19:00:00+00:00
+
+FAU Receives $300,000 U.S. Air Force Award to Advance AI-Powered Video Surveillance | Newswise Newswise
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives - The Decoder](https://news.google.com/rss/articles/CBMivAFBVV95cUxPNTBrdEFfTkl2OV9vRFZ6el9oM3QzUFpaS2FKbk1Oc2xkNnkzXy1yNEI4S1FsLU5UZHROekJwR25idlAxYmFfNjYyTXRWYWt4ek83RWZpTEpoQnN2ZW1CX2pFeEtZN1dwak9EVmpHR21QaTdXU05najh4OTBzdWhlblg3ejNoUEVSSG9LRDQ0a3pGVzdzWUxKUHpaTE9mbDRMRXhjYUxHZVRVSXZHUndRc2p2YmFxS3Y2QVdUWQ?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T18:52:37+00:00
+
+Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives The Decoder
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Google 为符合条件的 AI Ultra 用户将 Genie 4 引入 Project Genie - Unite.AI](https://news.google.com/rss/articles/CBMimgFBVV95cUxNbXk5Z1ZVVWZSdTVpeFQ3a1gwV3VraFRDN0ZJSWcxRl8zSHdBRF9fR0MzaFJmOW8zdHVMVzNuTW1BYk16ZGd5dHdGeXR0UGRDWk1ncG1CQUlPZnhRYk1jSW92VFJrc2NTSTBaanFJWmhtb0dmaEJwT1djanhVcEhsOHpEdXJHRFpQZEFtZUZCLUhVNDRLSW1mRUFR?oc=5)
+
+图像生成与编辑 / 世界模型 · 行业新闻检索 · image · CN · 2026-11-18T18:32:03+00:00
+
+Google 为符合条件的 AI Ultra 用户将 Genie 4 引入 Project Genie Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ChatGPT Extended Reasoning Improves Orthopaedic Exam Accuracy to 93 Percent - Bioengineer.org](https://news.google.com/rss/articles/CBMiogFBVV95cUxQY3JHaXJBUllVM0l3TGxHNklzdExOVVhmdkNKUEFITGNKLXRIUE03ZlF4N2lmZV9HYVFRV21CLTd5VGw5MjhDUjdOb3B2NlhYdlZTU3pqaXpHbk5EYngyR2Z4TWZZREMzUVY5YWYxanpiN1VKSHlibl9qUDhJb3JfYkFVX2lrMlh1eExzUTBPZ04wRWUxUnhMSlRXOGY5emRWVHc?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T18:21:21+00:00
+
+ChatGPT Extended Reasoning Improves Orthopaedic Exam Accuracy to 93 Percent Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Genie 4 is now available - blog.google](https://news.google.com/rss/articles/CBMirwFBVV95cUxPTFJhV3ZyQ05iWllkRDVUaHVjX3RhUGpwUUFnVVVScEpjT0ZSR2VaekRZa2c4ZTNfNkFxNGRaYTdWV2owd1ItRmpkTWllY0hFVjI5XzNTcG1GbUotaV82cHpOMFVNQ193V0JhSndMcGp3RTZWMnUyUFZBMzY4czd2cnZtNFkzRS1sT3VjQkp6ci1rSUk0aGtPcUdMU2F2RHBJTTJQcDk3WFEwTk1lVnU4?oc=5)
+
+视觉多模态 VLM / 世界模型 · 行业新闻检索 · multimodal · US · 2026-11-18T18:19:18+00:00
+
+Genie 4 is now available blog.google
+
+证据：discovery；来源摘录，待原文核验。
+
+### [MAI Image 2.7: Microsoft's #1 Image Editor, Its Price and Where to Use It - Fello AI](https://news.google.com/rss/articles/CBMiSkFVX3lxTE80NkNTV1kyNFE2bTFKeVdjVVNqVUtRdG1sYUptTFA5UGhLVUFOaXh0WEhNQkcyYWNSQTVTRVVqS0wyNEF4eTV1WFd3?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T18:18:12+00:00
+
+MAI Image 2.7: Microsoft's #1 Image Editor, Its Price and Where to Use It Fello AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [InfoTalk opens free Cantonese AI hotline, no app or internet needed - Dealroom](https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmNWVGtRbkt4eV9VWDlZQWluVW05a0JvNXpMVWNzN29lZzRwclAtSElIdjBqd0xKLUN2Q2l6UkNTZjMzY29DM2xyZVNReElCQ2g2YzM3T1BOaGpTZ1NmekZIRzVfV2cwQTF6UXp5amJFRGtnekNVNHppd09lcVl2MnhYeHpoN3lhR2lsel92M1VlY3VNRWo0bFdDMkVRTlRGWkE?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-18T17:32:59+00:00
+
+InfoTalk opens free Cantonese AI hotline, no app or internet needed Dealroom
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Advancing chip design with OpenAI models - OpenAI](https://news.google.com/rss/articles/CBMicEFVX3lxTE1RejBWQml3ekRqeU9ieU5OdmN6ZGNMNHd6UkZhcWMzYlRfbEV1Uk1fRlVNZ2pkNXhlR2dJZTVfUEdoSzVaV2ZNQ2JZX05PRnppRm9BY3lYOG1YSTVBYll2bWNLdlNMbFkxRkxHaHh6QjE?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-18T17:06:03+00:00
+
+Advancing chip design with OpenAI models OpenAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Mosaic Reporting™ Passes 100,000 Daily Radiology Reports - Business Wire](https://news.google.com/rss/articles/CBMisAFBVV95cUxOZGV3dUJVX0NFUXRJOHU2cU1LaXlSSFFTUmlqdmpYS1QwSEVuV1Zvc09HdFlwZ0pGZ0I5X3ZDM212TW5Zbm12WnJ3djBlZm4teDZSQVU3MW9RWVk3VGhtc1dnY2VaMkFPeFh4SXNjVjdCUHY0TUtOTmJVUDZjYjQyRFZQTEt2d2ZuOTBNUWx1R2tyc1ozUnh2Yl9lQTBaU0RvZHhILXN1SGlldng4U0VGYw?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T17:05:00+00:00
+
+Mosaic Reporting™ Passes 100,000 Daily Radiology Reports Business Wire
+
+证据：discovery；来源摘录，待原文核验。
+
+### [The Gemini app is now available on lower-memory Android devices.](https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/)
+
+LLM 大语言模型 · Google AI 官方博客 · 2026-11-18T17:00:00+00:00
+
+The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.
 
 证据：primary；来源摘录，待原文核验。
 
-### [Render the Robot, Generate the World: One Video World Model Across Embodiments](https://arxiv.org/abs/2611.24925v1)
+### [Microsoft (MSFT) Stock: New AI Model Takes Aim at Anthropic and OpenAI on Price - Blockonomi](https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3lFMWFTTnBhU21mU3BPU1R6cDJUVTVpS1JLMTRrOUZReVBtb05ad2tHQVNJdDMwRFoyR0hLLThhNDkybUFaQlFVSTNoOHJqbFdKWmNZbEVfeXRpQnZ6WmZiMWFEdVd1ejlqMDJOeWg0MTZadC16YWtQT0JSOHlYWlNTemxLM1gyR1ZNOTV5MXVSQnp4WmZ1YTAwZ2pHckpYV2c?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-18T18:52:28+00:00
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T16:59:53+00:00
 
-Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment-agnostic video world model conditioned on camera-aligned renderings of future body configurations and numerical action trajectories. By explicitly providing the intended motion, Doppel can focus on predicting object motion and interaction-driven changes in the environment. Rendered motion also provides a common visual interface across different embodiments and action spaces. To train on robot datasets without camera extrinsics, we recover camera poses and align rendered trajectories with recorded observations. We jointly train a single shared video backbone and conditioning adapter on eight datasets spanning eight robot and human embodiments, from single- and bimanual robot arms to a dexter
+Microsoft (MSFT) Stock: New AI Model Takes Aim at Anthropic and OpenAI on Price Blockonomi
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Counterfactual World Models: JEPAs That Reason About "What If"](https://arxiv.org/abs/2611.24778v1)
+### [From black-box trial and error to glass-box flight: Physics-embedded AI for flapping-wing robots - EurekAlert!](https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxYWxNeGRLenVFOGtIQ2h1bWRTZTdVdU9ISXFzN0RNaFZOZklNODlrVXhjaTBKVmZSdkZydlpYVGlySHpyeHVtYWQ1UE9Oa0hkb1YxdlZwRkVreVEt?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T17:24:00+00:00
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-18T16:58:16+00:00
 
-World models operate in a world they cannot fully observe. When a hidden disturbance, such as a current pushing a boat, changes the outcome of an action, a counterfactual question follows: what would have happened under a different action, subject to the same disturbance? Its answer separates bad decisions from bad luck. We prove that world models trained on factual transitions cannot answer it on their own, whatever their data or capacity. For many physical systems, the observed outcome and a simple property of the dynamics suffice: natura non facit saltus, nature makes no leaps. When actions and disturbances act as separate forces, their interaction is second-order in time, so the counterfactual outcome is, to first order, the observed outcome plus the difference between the world model's predictions under the alternative and factual actions. This yields a counterfactual world model with no counterfactual data, extra parameters, or retraining. For transitions of duration $h$, we prov
+From black-box trial and error to glass-box flight: Physics-embedded AI for flapping-wing robots EurekAlert!
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
+
+### [EchoPeer Framework Accurately Measures Echocardiography Report Quality Across Clinical Training Levels - Bioengineer.org](https://news.google.com/rss/articles/CBMixgFBVV95cUxNUi1uMXFxeWVja3d1ZVNobU55T2lYdjUwWmNVS0RHMURWRXo4LXl2MHgzdnJjNHZsLVB4WWpjazBnOVhEWHplLThBRmd3MnF6ZGVPRFlRVTFYZG5VZW83MlFZMXJBOGYwZkhacllaNFpTZW9QNC14NncwYVdsSWlnYlY2MzcwMkJwalFMVXpROGdhaUllOHFfcHdYYzk2b0VXMmZQZGEyeUt0Zjc4X0ZIWlhVZXRrY2RqZE1kVXN4ckpsa1JBN3c?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T16:31:03+00:00
+
+EchoPeer Framework Accurately Measures Echocardiography Report Quality Across Clinical Training Levels Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [微软推出多款AI模型 Apple、TGA公布年度提名 - 茉莉花新闻网](https://news.google.com/rss/articles/CBMiRkFVX3lxTFAyYlJSNU5wdGhrWHhsek9LdjJXUlhPQ0ZKcHY0TC1oS1RQVkJTTHY2YU5fNmgwSzZWN1ZWSWE2YVF5akp1Wmc?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-18T16:29:30+00:00
+
+微软推出多款AI模型 Apple、TGA公布年度提名 茉莉花新闻网
+
+证据：discovery；来源摘录，待原文核验。
 
 ### [Humanoids Summit Returns to Silicon Valley, Bringing Together Tesla Optimus and Global Leaders in Physical AI - Business Wire](https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdVRHRHlhU2xKbnpBUEdKZFdpNi02c0kxMGNVVjJKQXBIZ1FNYjZMcFl2MWJKV2VNUWdKWUZXV0FQdFZOQW5NQzVxcWppNF84SUhIQjBHNHNubW9BR1BHNVQySnNndkFRUHFFeTE2R0ZEUm4yLUlRcUl4Q0NiaW1zWHN4QWxOUkE1NDdTYk0xVy1wY2cta05SZlFvbWRmRkFLTm5zenVIc0FjelB3V29OQ3dyWGcwMnNINl9EYTg3U3ZVUmM3MFZZQ3lQcU54eTBSY2ViUTRvbXk4UjZXWFZzRVRvUlRwV0s5ZWdySW54ZzcySl84QkhVSA?oc=5)
 
@@ -984,67 +1856,91 @@ Humanoids Summit Returns to Silicon Valley, Bringing Together Tesla Optimus and 
 
 证据：discovery；来源摘录，待原文核验。
 
+### [New AI method reveals which concepts vision models recognize and where they appear - Tech Xplore](https://news.google.com/rss/articles/CBMif0FVX3lxTFBtUzBGc2ltaXczSl9fNVEzSEkwazB0NG1GcWFnY2F0amRxZjg1QVZOeVQ5TlJMNE1JZTU2UEZlQ0VhS0JPWm8wQUdkbmc5U1NFZWxtVXFxYjNsamI2M05vb3YtWERRTmlydkJBZ0FzUV9UZ2QwdFViNzZ5aWpTQlU?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-18T15:40:01+00:00
+
+New AI method reveals which concepts vision models recognize and where they appear Tech Xplore
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Beyond LLMs: AmericanAI Announces Major Advances in Six Proprietary AI Model Platforms in 2026 - The National Law Review](https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUdlOGptSTFyekNvT0ZOb0owLTZXMG1nQVpCNnpILWFWdHRVY05hS1RBVzNMSXVSOUxTcXE0S016MmJWc2xrdGYyd0tXeDRTWGlic0lDdFdGM21IVnNLRnd4Y0pQbkw0clFReV9lN3BSaXR6LVdGcVRwd1dwa1k5UV84bFg0ZkVhZ1pFQjF4elhPemwxMU8zNDdtS1JUeUNQVFozT05ULS1RWUNLN2trQW9n?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T15:02:41+00:00
+
+Beyond LLMs: AmericanAI Announces Major Advances in Six Proprietary AI Model Platforms in 2026 The National Law Review
+
+证据：discovery；来源摘录，待原文核验。
+
 ### [$11M-backed AI startup Sonilo, founded by TikTok veterans, inks licensing deal with Symphonic to train its model on opted-in indie recordings - Music Business Worldwide](https://news.google.com/rss/articles/CBMiigJBVV95cUxOcHRiX0ctVWxzdzVEY3kyQWYyVUpGNkwwTE5ocDE3RzBvLU80VEgyZzdGRDVlZE0yU1FVV2p1T0wzRGQ5WnIyWjVoV1kwcjl3a2s3cWQzaGQ0SjQxRFpkME0xeXFtdkczYUtiMTh1N2llU1VmLTFqbjNCYmZxblJTRXBOTFBiOUxhbmtYWXZkRDl3YWRoeUZnQ3JpdHFkUndkd21nMVFXMFB5dlNJc0tfQnR0cDdUcy03SVZ0TXJMbUl5YklURGtIOWlvSmVXeVdVZUpDXy16V3NQVTVDcDJ1MDlJdWZkY0pYTWJiMlZzcGFoTjM0U29OOUNfM2ZPX2piVURxOVlpQU85QQ?oc=5)
 
-AI 音乐 / AI 视频 · 行业新闻检索 · video · US · 2026-11-18T15:00:25+00:00
+AI 视频 · 行业新闻检索 · video · US · 2026-11-18T15:00:25+00:00
 
 $11M-backed AI startup Sonilo, founded by TikTok veterans, inks licensing deal with Symphonic to train its model on opted-in indie recordings Music Business Worldwide
 
 证据：discovery；来源摘录，待原文核验。
 
-### [Comparing Each Generation with Independent Siblings Gives Video World Model Post-Training a Proper Objective for Outcome Frequencies](https://arxiv.org/abs/2611.24512v1)
+### [这个世界模型“活”了：你递出一瓶水，AI生成虚拟人接过去喝！ - 智东西](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Mdy1TMGZBNHN0SllTYnl0bGJvUE5hYTJuVUM5T0VkdFdraGltSmY3SHI4b2FSeXRsVDhHNU5GdVhEb1poeE00ZQ?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-18T14:34:06+00:00
+代码模型 / 世界模型 · 行业新闻检索 · code · CN · 2026-11-18T15:00:24+00:00
 
-Video world models are used as simulators, so when a first frame leaves several physical outcomes open, repeated generations should produce each outcome as often as it occurs in the data. Physics post-training scores every generation against the single recorded future of its history, which makes single videos more faithful, but the expected score is linear in the model distribution and is maximized by always producing the most likely outcome. The log-likelihood of the recorded outcome is maximized by the data distribution, and its gradient weights agreement with the record by the inverse of how often the model produces the generated outcome, a frequency that other generations of the same history with independent noise, its siblings, can estimate. To train with this weight from a finite group, we propose SibPO, which performs Sibling-paired Policy Optimization: siblings estimate a truncated inverse-frequency weight for agreement with the record, and a second term subtracts the same weig
+这个世界模型“活”了：你递出一瓶水，AI生成虚拟人接过去喝！ 智东西
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [When to Refine: Selective Search for Frozen Visual World Models](https://arxiv.org/abs/2611.24470v1)
+### [APEC promo answers era’s question: Why does China lead global tech? - USA Today](https://news.google.com/rss/articles/CBMitwFBVV95cUxON0JtcTZVblh4WC1XTzEyTk1qVWdhc0phRkd5NHo3bnJBQXo4Y1FVWUkxM2Q4QUhBLXNKZmVjQTB5ZnBZcktURGpMeVRpVXNfbDQtUnFGNHM0bUt4VkVtTm9FTk9pSTJSemsyYlNVbVZoNUt2UDRpVFM5RUJJcnZEVlpSVlZiRzhsZnhJZHVRVUFFZklGZVZ6SG1QTlc4NERHT25ZN1JKSEZsd09yYXBjYzNZSG1iN1E?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T14:08:01+00:00
+代码模型 · 行业新闻检索 · code · US · 2026-11-18T14:59:15+00:00
 
-Planning with a visual world model requires deciding both which actions to execute and how long to search for them. We introduce Selective CEM Refinement (SCR), a learned rule for deciding whether to continue cross-entropy method (CEM) search with a frozen LeWorldModel. After five it- erations, the gate measures how far the mean first action chunk has moved, how much the mean terminal cost of elite plans has fallen, and how widely their first chunks vary. It returns the current plan for execution or continues the same search for ten more iterations. The gate requires no addi- tional world-model rollout. On 16 PushT scenes evaluated with two planning seeds, SCR succeeded in 25 of 32 trials, compared with 28 of 32 for fixed 15-iteration search (Fixed-15). All 25 SCR suc- cesses occurred in trials that Fixed-15 also solved, yield- ing 89.29% paired success retention. Across complete episodes, including replanning, SCR evaluated 23.81% fewer candidate plans and reduced mean controller time
+APEC promo answers era’s question: Why does China lead global tech? USA Today
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model](https://arxiv.org/abs/2611.24457v1)
+### [OpenAI's Attack-Focused AI "GPT-6 Cyber" Detects About 35 Vulnerabilities Across Apple's Entire Product Line - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFAxUG5qY1Bkb0FkenZ4Ni1oc2xHN0F0Ykd2Xy1CZl9RV3JVRG1hV25JV3ppaFo1VHZsMXVvak5jLTBfZ1QwQ09mWGtfOW5GRUxPRjdRbnZic2J1SWhsb0hTTHV4bHFNUnlkV3FVYVBkR05nVW42WkE?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T14:02:31+00:00
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · US · 2026-11-18T14:55:00+00:00
 
-Occupancy world models struggle to forecast moving objects due to motion uncertainty and shape distortion. A single trajectory can average plausible futures into an implausible path, and repeated re-voxelization can erode or inflate object shape even under correct motion. We introduce ShoWorld to address these challenges through separate motion and shape representations. The motion forecaster predicts probabilistic trajectories conditioned on scene layout, nearby agents and the future ego trajectory. Each hypothesis is rendered into occupancy and fused according to its probability to retain alternative futures. The shape component predicts sub-voxel points with occupancy probabilities and offsets from local geometry. These points move rigidly with the object, and voxel occupancy follows the probability that at least one occupied point falls within it. This representation reduces shape distortion under motion. ShoWorld achieves state-of-the-art results on Occ3D-nuScenes. With ground-tru
+OpenAI's Attack-Focused AI "GPT-6 Cyber" Detects About 35 Vulnerabilities Across Apple's Entire Product Line BigGo Finance
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Harmonic Circuit: Chord Progression Lies in a Sparse Principal Information Flow in Symbolic Music Models](https://arxiv.org/abs/2611.24453v1)
+### [APEC Promo Answers Era's Question: Why Does China Lead Global Tech? - TMX Newsfile](https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjllNXgtbXR6QnlmZTJ2dTd2OHNQNlhRclFYYTh5X0ZXZ21IczVlQTlqYVFScXFUdV9SU3A1bHloakkzYWctZW90akdRM2VCMnhyaXd2bEVkVDhwb0dHZjZBWXY3TU5EQms2VEpjdUJ5bXdjaE82OFBtQXRpS2xLdFluZjNxVVFrZ0pXNFBkT2t5TVNmMFBHejNfa0RpNXhkZkJZLXBGaDdFZWst?oc=5)
 
-AI 音乐 · arXiv 音乐生成 · 2026-11-18T14:01:33+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T14:16:00+00:00
 
-Mechanistic Interpretability (MI) seeks to decode neural network computations into human-understandable logic. A core methodology in MI is circuit discovery: identifying the information flow in sub-networks that drive specific model behaviors. While circuit discovery has matured within Natural Language Processing (NLP), the interpretable circuits in music models remain largely unexplored. In this work, we identify a music-functional circuit within two symbolic music generative models: ChatMusician and MuPT. The music function we consider is the prediction of the terminal tonic root in a classical harmonic progression pattern $I \\ldots V \\rightarrow I$. We use the Auto-Emergence algorithm to extract a principal sparse sub-network as the identified circuit. Validation via causal intervention confirms that this identified circuit is a primary driver of harmonic progression behaviors in the symbolic music models. To our knowledge, this represents the first systematic circuit-discovery stud
+APEC Promo Answers Era's Question: Why Does China Lead Global Tech? TMX Newsfile
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Risk-Triggered Search: Behavior-Preserving Safe Control](https://arxiv.org/abs/2611.24409v1)
+### [Language Models Extract Clinical Notes to Predict Next-Visit Parkinson’s Disease Falls - Bioengineer.org](https://news.google.com/rss/articles/CBMirwFBVV95cUxQcWROaVAtM1ZmdGxJcFQxNFV4MHZEMURfMXl2d0huVldVYmwtbkVFMEZBRnFFcGdNVkFHUUpwbjZUbEdsYklPcFQ1TWI1OXJMckxpT2RqUTdmSFJyQ1FYWEJENmxsY2FwTnJSeENPZ2xGcGtaY2diZm1oMVUyWm1feVhJQzJuanlTYnBVbkhEekhvRWhLU3B1Y3p3YUY1QW5TMlUxY1JFcTg1Z0tfTHFN?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T13:37:59+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T14:15:49+00:00
 
-Pre-trained visual world models generate multi-step action plans from current and goal observations, yet terminal-proximity objectives fail to prevent forbidden-zone traversal or rigid-body collision sliding. Purely visual interfaces may lack analytical dynamics, structured states, or explicit collision geometry, requiring internal prediction of action-conditioned process risk. We propose Risk-Triggered Search (RTS) for frozen Joint-Embedding Predictive Architecture (JEPA) world models. Rather than relying on static state features that cannot distinguish candidate plans sharing an observation, RTS unrolls action-conditioned future latent prefixes in the frozen world model and trains a lightweight risk head with process-violation supervision. To intervene selectively while preserving safe nominal behavior, RTS uses the same predicted prefix-risk criterion as both the search trigger gate and hard feasibility gate: safe nominal plans execute directly, whereas alarms trigger local Cross-En
+Language Models Extract Clinical Notes to Predict Next-Visit Parkinson’s Disease Falls Bioengineer.org
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models](https://arxiv.org/abs/2611.24384v1)
+### [Seedream 5.5: What's New, Real Rankings and API Price - Fello AI](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9vVnR0alh4MjF6Q25WTnZ1LWozSGkwOU9XRS0yMHg1QzV5eVJjWXNpSEJjc2NhRVR5TTN0MWMzY2V0YmgwcGZoNw?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T13:15:03+00:00
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T13:11:57+00:00
 
-In active object detection, selecting the initial labeled pool is essential, especially in complex datasets with expensive labeling and low resource budget. This study presents an active learning framework designed to optimize the initial training cycle of active learning for the object detection task. Our approach diverges from traditional methods by utilizing feature-based clustering from the YOLO-World model and refining images based on objectness scores rather than relying on uncertainty sampling in the initial cycle. This approach focuses on finding samples with various features and emphasizes training in areas where the foundation model is most confident. Doing so helps the model better understand different types of objects. For subsequent cycles, we employ a consistency-based sampling technique to maintain the robustness of the training process. To evaluate our method, we use two complex datasets called Aquarium and NWPU VHR-10, which are well known for their diverse object size
+Seedream 5.5: What's New, Real Rankings and API Price Fello AI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
 ### [Suno Moves From AI Music Into Video, Adopts Chinese MiniMax Model for Music Video Generation Feature - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE9qN2FZQ2JVelZIRW5Vd2tOQzM1YXpqaHZBQlJWSEM4MzBEektVQTJiY0E1SkxVcGxWdlRTall3ZjRCUUVueEduWkVqaTV3N2ptdXFMX3FzVmUwRFB1c3VfaGdvQ0JvZUNpQzZXUS1tMlhpZVdrS1E?oc=5)
 
 AI 音乐 / AI 视频 · 行业新闻检索 · video · US · 2026-11-18T12:55:00+00:00
 
 Suno Moves From AI Music Into Video, Adopts Chinese MiniMax Model for Music Video Generation Feature BigGo Finance
+
+证据：discovery；来源摘录，待原文核验。
+
+### [NVIDIA Unveils GR00T 2 and Other Robot Technologies at CoRL Conference - Gasgoo](https://news.google.com/rss/articles/CBMizAFBVV95cUxQSVF6UF96aTBwRFdNeVZ6Q1hHMDVVUWVNQ01CZ2VEZmd4SXhaTlJMR0FTWmhWSTVJa2t3UVkzWThiYzh5b3FQUkVqejVqV2g0WVIzbE5GUWFTc1E4QXlpNndxZVR1YWFSN1RPRGlkSDd3NjdOSmEzdjBJdkRnUWxNNEVYRTlPRElTUTN1M0FFR1BOMVMtZHNLS0c5TmFKOVdmX2tCbVZ5Ul9zX1pHSkxBbnVrT2lxS3JxbWhFaXhiZ2dSSUVFYmdtaGkzNjQ?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-18T12:45:24+00:00
+
+NVIDIA Unveils GR00T 2 and Other Robot Technologies at CoRL Conference Gasgoo
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -1056,6 +1952,14 @@ Sector Snapshot: Investors Turn Up The Volume On Voice AI Crunchbase News
 
 证据：discovery；来源摘录，待原文核验。
 
+### [Ignite 2026 上的七款 MAI 模型：MAI Code 2 的定位 - OrcaRouter](https://news.google.com/rss/articles/CBMidkFVX3lxTE1Odml3RzFNMlZOUFBTZTktbmRsczNZWUtTTDdoejBXbEoxc05lOWJCdXM5dGFEWkszR3pxbm1YQzBSaFlNWWdBRnBLQ3RoUkxnTUN0aU11cXRHeGdQVGktMmthMjQ1S0NFTDd5OEpHR3hiR1JHVWc?oc=5)
+
+代码模型 · 行业新闻检索 · code · CN · 2026-11-18T11:46:33+00:00
+
+Ignite 2026 上的七款 MAI 模型：MAI Code 2 的定位 OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
 ### [Indian startup Humyn Labs raises $47 million for robot training data — TechCrunch - UA.NEWS](https://news.google.com/rss/articles/CBMivAFBVV95cUxPY2F1VUwzZkdSQjVDc2x1RVF5RDNoNzVzTmtDdS1CbXgybkpHQXhKa1hhU2V3Sl9oR0oxdkFPUnQ5VGJEREhibmxIQ3VoNnFnc1ZrMGRpZW12MW0zRFNhUXh3LTllZ2JrbWlkdFBwZFlqRk5xVEk2Z2kxS2hQZTQxVXhucXpHS0xEa3NFSDJqYXEyTlBQdS1tX2NGcW1MRTlGUFhqYkMxR2RKeDhOckZhSjNNRm1qMEJXQXI5MQ?oc=5)
 
 AI 视频 · 行业新闻检索 · video · US · 2026-11-18T11:41:49+00:00
@@ -1064,117 +1968,293 @@ Indian startup Humyn Labs raises $47 million for robot training data — TechCru
 
 证据：discovery；来源摘录，待原文核验。
 
-### [CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning](https://arxiv.org/abs/2611.24244v1)
+### [FastFrames Video Generation vs Runway Gen-4.5: When 720p Meets 480p - OrcaRouter](https://news.google.com/rss/articles/CBMiggFBVV95cUxOaWVETzJVWkwzUmpyNnFlSjU2aEZGX2tscmhCOWI5U2ZsbkpzbkNqMGl6d2ZGejVMeGt3eWtzallGbjZVSnk2MUlBMjFhSW8tVjkyeXFJWFZ4YXlhcWJIV0ZjVHRXY3UyQmZMbDd5RVNoSVRYY0RIbXpLdFNROUxnc3ZR?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T11:22:40+00:00
+代码模型 / AI 视频 · 行业新闻检索 · code · US · 2026-11-18T11:34:45+00:00
 
-Reliable cellular connectivity and collision-free flight are essential for unmanned aerial vehicle (UAV) operations in low-altitude urban canyons, where dense 3D buildings obstruct flight clearance, shadow serving base stations, and create strong co-channel interference at street intersections. Existing planners either require prior 3D city meshes and channel knowledge maps unavailable onboard, or rely on model-free reinforcement learning with low sample efficiency and poor cross-city generalization. We propose CommDreamer, a mapless radio-geometric world model that fuses raw onboard 3D LiDAR scans, multicell cellular reports, and shift-invariant relative kinematics to jointly infer local obstacle clearance and directional signal-to-interference-plus-noise ratio (SINR) dynamics. Using a categorical recurrent state-space model, CommDreamer compresses multimodal measurement histories into a coordinate-invariant latent belief, enabling the UAV to foresee deep shadow zones and train a ligh
+FastFrames Video Generation vs Runway Gen-4.5: When 720p Meets 480p OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
+### [FastFrames Video Generation vs Vidu Q4 Preview: A 4K Preview Against a 480p Loop - OrcaRouter](https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0s0X1FHWTJrQjRackhHSmJhRi0yNDhsY05YTzMwWUJFWm9qSWNubU9MYjdEMGVyaTR6S1AwWkpTQ0JteENVbW1CYkRWUVA5NEQ0Um5lR29WRUpMTHFuYTRsYU5McWl4WTFzZVVmMmdqNEs4RVBCbFNOZjlDTTN4aExtUQ?oc=5)
+
+代码模型 / AI 视频 · 行业新闻检索 · code · US · 2026-11-18T11:12:08+00:00
+
+FastFrames Video Generation vs Vidu Q4 Preview: A 4K Preview Against a 480p Loop OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
+### [AI Models Mark Civilians As Targets When Told It Is A Game - Dataconomy](https://news.google.com/rss/articles/CBMimAFBVV95cUxOakxxcGZUVHgyd21XR29oVmY4YjlnUjNyaVJFOFFCQ1FENFYxc21wRWpFM2phQzhmNTlkOEs4Um1Vb2hOVkpwRmxXMTAtQUtRUkNmTWpGQXFHeEhiYk5WZkdQRXNzbE5HSG9PcW5tSHNaSHlJQkZSRkJVdklfRWdaVlhTV3hWbzFZakVTbXYybTluN3pDSUE4Vg?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T11:08:22+00:00
+
+AI Models Mark Civilians As Targets When Told It Is A Game Dataconomy
+
+证据：discovery；来源摘录，待原文核验。
+
+### [A*STAR and Future of Finance Institute team up on financial sector AI - 联合早报](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2x4SmJ1OWhobEU4RTJULUU5ZGFFZTlnd2F6TERSOGEyVDd6enJNU0V5Y1VnbUR1LUhncG9JTlF4eU5xVUhmeEtOaUE2aU9XN0ZmWUlOUUNLeWZEdGg0RTdFdDNYd2t2eGJudUxDaGpCMmoyLUJvR0h5OVdJRUFvNWU0Q3BkeTJ5U1FkVTBJbTExSFR3Ny1WQVF4c25ad2wwNGNJQWl5TDI?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-18T11:04:05+00:00
+
+A*STAR and Future of Finance Institute team up on financial sector AI 联合早报
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Microsoft unveils new coding models; Challenges OpenAI, Anthropic amid cyber threats - The News International](https://news.google.com/rss/articles/CBMiwgFBVV95cUxObkFYQmdMdzNBSlpQMWtsdGM0YURiTDc2bDV6YURmVXZjdDJUWENURFgtX2FuNmpfRXBHN0NvZWx0Y1pTUXlHQldrdjBKRUllMDB6b000UGhOaDVFWmtXWTl3NklDeG0wMmkwaklLbHFHX3l0alFTeXFCWjFDc01sNjY5LVM1LUthWjRJdV94U1hHSkRhclk3OFpUUm95aDJWVW5MUHBfN0JYaHd3cTVzLWFUR1FwdUVua2dLVmhfc1hxUdIBvgFBVV95cUxOdVNpcTFzaTYzdDFlU2h5RmhYX0hOYm5aSkkweE5xckRvbC1wLUZzTmNxZW5xVU0tMGZNMUdYZ0R0bWxaYUgxUFU1Q2lYbjNIWUYzeU1rZlJwTEVzam1Uc3VKeVoyajU5cFNDYmNET19VRUQ3YlVCM21PUTNUU2NhR2x2eWRJSVduUkhfTV95NmNIajlEZ3ZSc0J2ak9ES2daQnBUb0tuWnpNdW5rT0l4ZW1TS3FDbGVGSjhWMEpR?oc=5)
+
+代码模型 / 图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T10:58:00+00:00
+
+Microsoft unveils new coding models; Challenges OpenAI, Anthropic amid cyber threats The News International
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Ubtech Robotics Corp Ltd (7US.HA) interactive stock chart - Yahoo Finance UK](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rNWZtdFh0NkJHX2ZHMnFLbGc5QkpsR3hiTEM3Vk9qYVJSTlJwejFTM1lsd1VlcUtEcnFDdkZ3T0RvaHg1RVhnNmVzSGlxM1V4V3c3VEx0MXM5NVF0?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-18T09:56:40+00:00
+
+Ubtech Robotics Corp Ltd (7US.HA) interactive stock chart Yahoo Finance UK
+
+证据：discovery；来源摘录，待原文核验。
+
+### [FastFrames Video Generation vs Google Veo 3.1: Real Time Against Finished Film - OrcaRouter](https://news.google.com/rss/articles/CBMiggFBVV95cUxPeVkxSWtfT1A4SGRoTWhobUdzQUs4V1B0Z0FiRVhhVkNKbG5oVWgtaFBKTk0wSzZuR3NBbnJoVEwybHhJSzlicF90aHBVYmQ0eXNKSU5SNHNFTTBFS2NHUklqZUdQNy16OUxmYmdMeFczaHd3cHNzRDJrY1RmR1JPekJR?oc=5)
+
+代码模型 / AI 视频 · 行业新闻检索 · code · US · 2026-11-18T09:34:21+00:00
+
+FastFrames Video Generation vs Google Veo 3.1: Real Time Against Finished Film OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Microsoft Unveils New AI Models to Challenge OpenAI and Anthropic - Analytics Insight](https://news.google.com/rss/articles/CBMipgFBVV95cUxQcGEzTkhmd3FBeEQwU1NHNDgwVjRDY25xT0N2N00wZ0ZJbzhnaDdZS2lya3drUGJkRVFfTEp0MnZ4Yk1rcWxKTW1rcHBiZlUzUjJ5ZkdHNGo3VHRyZTg2cG1wOTdiZFZ6czdMRjY1VjhNU1pFOG42ZWFKbmQ4WGtrMGtfRVB0aTZyc0xDOW1VY19yVFA0UnA0WHNJRFRWU1dzcEd4YzlB0gGzAUFVX3lxTE1lWUNsSGVsUEJJTGVGVk5qRi1xZmJmOTgwVmd4cng1OFUwR095SWQyRHRsTGhaMlp0MEc5VFp0OXdhRm9hOHItNmdtOXNXc2lYdmxHcGFZZThieTREaGFiUTd0dXF1ZUw2RllKY3o0eWJrcWtCR2FnNHBiU2xVUndMVXFPcUdnNkhsVmdNY2p6d1hPY2stMDUtVnhsRzI4SFVYLURCUUdvc09pRUNiT0RXMUtr?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T09:30:00+00:00
+
+Microsoft Unveils New AI Models to Challenge OpenAI and Anthropic Analytics Insight
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Chain-of-Thought Father Jason Wei Exits Meta to Join $20 Billion Valued AI Unicorn - eu.36kr.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBua1VEQnQ3VGh2NmhxdFVibVZzOE9WRGhlX2QyUGdpUHpRcWRFS1FQRS1fdUE0aGJXaTZBWHJJZjFWVG9wejVDYzFlaHhFcjMwZFBz?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T09:12:46+00:00
+
+Chain-of-Thought Father Jason Wei Exits Meta to Join $20 Billion Valued AI Unicorn eu.36kr.com
+
+证据：discovery；来源摘录，待原文核验。
+
+### [国内人形机器人代表企业清单：2026具身智能商业化可持续性五阶段盘点_行业新闻 - 证券之星](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yLTVkQlhfNTFEOFdOb0N4dVlNQldyVlM2VVBtZVk5RV9BaVZaXzZPLTNxLTFtbklmblJCTWozelZOeXExNDNLVmVKQmo2Rlc1QVkzMXRPR0lORDV5dU1XeEs3VEo?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · CN · 2026-11-18T09:08:47+00:00
+
+国内人形机器人代表企业清单：2026具身智能商业化可持续性五阶段盘点_行业新闻 证券之星
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Apple FastFrames: Video Generation at Interactive Latency - OrcaRouter](https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2FwRnoxRk45RktVVmxuWm1kTjJpMnpSVk01a1RjMWJOb05QTUFQTWozMzkxMG1Fb2FCbjFRSEdIaTcwMzBWUWhremJ0b2FwV3o1bW9pWHJXSlM2MjBJbkh1dGstT2wta2xmX2dpTEhYcDNlYVUtODMzVkVvUTRybEtVQTE0TG44NlBmag?oc=5)
+
+代码模型 / AI 视频 · 行业新闻检索 · code · US · 2026-11-18T08:57:34+00:00
+
+Apple FastFrames: Video Generation at Interactive Latency OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Nvidia Isaac and GR00T: The Race for Robot AI Platform Dominance - Science Monitor - 사이언스모니터](https://news.google.com/rss/articles/CBMieEFVX3lxTE9YSFY1NEJMVEZDMGFkOW9mdHRWUU1Kb3FucGs5T1I1S0Rkb3VVa3A1N3phTEllakI5RVhJOEhIZWQzTklYNTc3VmJBOE93c0RxMHNtVHROVEZHY0FZbWtod1VyZ3V5UEJnQUljRmRYTDVnZXRncXpsRA?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-18T08:44:22+00:00
+
+Nvidia Isaac and GR00T: The Race for Robot AI Platform Dominance - Science Monitor 사이언스모니터
+
+证据：discovery；来源摘录，待原文核验。
+
+### [72% of Organizations Have Delayed, Scaled Back or Paused AI and Edge Projects Over Resilience Concerns - Via Ritzau](https://news.google.com/rss/articles/CBMijgJBVV95cUxQZm5JYXUzRnhIT0dScWxyaURyTnhRSi1JajUwUWFuamRBdS04LWN4MzFPMU5odTg2LWtfbVVyOU9aWjgzOHZLekRFMUpUOF83ekFOaUdibmVyMl8xVlFYOFRYUXEtcXM3QThQWTVUaDlFYlNJX0pZblp4akxOQ0VPUnlsdWxlUkgtOW5pdngzOFJ6eUlhZ1V0d0hXNTBLZklDbl9EaTdfUU81UkxzLUVqVmhVY0ExSzIxRHBqeWd1bDVpSFlpYWFrUnI2OUozbm9CQy1mam84MWVIa0dfNjFUMHJmQXU4TzVwZlZVSF9BRkZyTWowNTlvV1RncXl3N2VYWjJnYk03YnNXRzhsWkE?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-18T08:01:00+00:00
+
+72% of Organizations Have Delayed, Scaled Back or Paused AI and Edge Projects Over Resilience Concerns Via Ritzau
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Microsoft unveils AI models for coding and cybersecurity - ForkLog](https://news.google.com/rss/articles/CBMihwFBVV95cUxOVjZVRzJnNXJvMUdPU2NoZDBCWGh1OXlfTUM5SGcweXRhVTNVR3JCamxLTUJpMEJhZVIwSXFmcG9Cdmk5aVppeWlUZWdlY2JPZWJMZWxTa3ZPQlk0a2dHU2V4OGFSR3VQVVd4aEpkUWhvUWlkcE5pa1Zpa0tlOHFtbU03Zmk5eUU?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-18T07:56:48+00:00
+
+Microsoft unveils AI models for coding and cybersecurity ForkLog
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Kling Image 4.0 对比 MAI Image 2.7 Preview：一个有价目表，一个只有一个标签页 - OrcaRouter](https://news.google.com/rss/articles/CBMigwFBVV95cUxPdnppTWZreEg1VlRXM29MZVlkQUU1cklqY2s4ejZFVVZaTWVSZ0s5cm5GZTBPeWJzNFE3VTZOUnZqcGRsZVpZQ29CVWVwek9mODg1TWFVOXhicHZGMGpxVEJxdWdFdTJiQ2hOaE9fVUExN1ZXTmc1dXkxSUk3eF9RX0tLYw?oc=5)
+
+图像生成与编辑 / AI 视频 · 行业新闻检索 · image · CN · 2026-11-18T07:11:20+00:00
+
+Kling Image 4.0 对比 MAI Image 2.7 Preview：一个有价目表，一个只有一个标签页 OrcaRouter
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Google最新报告：黑客进化了！AI Agent自动挖洞，补丁刚发就被武器化 - PANews](https://news.google.com/rss/articles/CBMif0FVX3lxTE8wUkYxbTVpOE44ODBqVUcwTHlKNmllcGFvTV9vN2NiNGZnRHlNbXBPNDIwU2NlNTF4dnpubmJsYS1hV05xU2ctSlY4QlhkTllsYzkwMzZZcDVpY0xGd3VtWjZaeWlFSzNLMXgxaWxqSWkzSVhVRkNsT0N0Y2k0eFU?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-18T06:29:38+00:00
+
+Google最新报告：黑客进化了！AI Agent自动挖洞，补丁刚发就被武器化 PANews
+
+证据：discovery；来源摘录，待原文核验。
+
+### [一文看尽微软Ignite大会：模型7连发，狙击Jev，Copilot成5000万智能体管家 - 新浪新闻_手机新浪网](https://news.google.com/rss/articles/CBMickFVX3lxTE9nQ093YkJncEVxOWZrZGs3MG9DX0d0aVpjNzV2MDR5M0ZiNFpEaU1reU5QNXM5T2hydU9XS2NzcW53QWR2Ql9oSFhXZ1Z1aTUzOVZuRXB0UWY1cXp1RFpldU9vM0pXNkhqR1dSYWtiQ2NBUQ?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-18T06:22:42+00:00
+
+一文看尽微软Ignite大会：模型7连发，狙击Jev，Copilot成5000万智能体管家 新浪新闻_手机新浪网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [给世界模型装上「生成式显卡」！Code World Model 2.0实现30分钟一镜到底 - Sohu](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IYnVaQTE4VENGMmN2WHJqOGtvUmxFOEh0VTNVQlhRa25VSnpzMWI3dlQyamZNSUNvNlZGTDFNaDRmODhUZVB1WHpoazZlM1ItcVE?oc=5)
+
+代码模型 / 世界模型 · 行业新闻检索 · code · CN · 2026-11-18T06:03:00+00:00
+
+给世界模型装上「生成式显卡」！Code World Model 2.0实现30分钟一镜到底 Sohu
+
+证据：discovery；来源摘录，待原文核验。
+
+### [决策模型新王易主！麻省理工大牛创业，Jev已被甩出一条街了？ - 智东西](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BZk4tTGZaY3Vrd0I3dGlNN0czclc5ODNPNm5xbUZvVWpoeWhsTklfTDh3Rl9EQnh2T3U2X215VGJwZUctdXlQdA?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-18T05:58:05+00:00
+
+决策模型新王易主！麻省理工大牛创业，Jev已被甩出一条街了？ 智东西
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Xing 4: Advancing Large Language Models on Domestic Ascend Chips - Blockchain News](https://news.google.com/rss/articles/CBMihwFBVV95cUxQdFJhZjFFdzNfbzBCVGJiVGprTGFvZ1FtQ1hNN3hoSktSQ1VCbWdINEpSNnZRdGZ6WXJ5dTlKTmItOWF2OHhwRk9BNjNiX0I1dmdwcDAyUmRQei1TaDE2T1JDd19VcnVKX0pYUFUyaXVuVjEyalUxSl9OTGZuNVN6c1JYWFFNeWs?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T05:31:00+00:00
+
+Xing 4: Advancing Large Language Models on Domestic Ascend Chips Blockchain News
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Ultimate Gemini Model Comparison 2026: 2.5 to Gemini 4 - Fello AI](https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zcWFFUUNFRmY3ZmJmTXVzMzJLRi1TVlY3LVhNekpjcXdmNWttbGtjOXVOV3VrNnlkWVo0MkhWNU9UeXlySEpKUXNRLV9UYkc5cU1zbVVsRTY4dG5IRUhENHgwTQ?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · US · 2026-11-18T05:24:46+00:00
+
+Ultimate Gemini Model Comparison 2026: 2.5 to Gemini 4 Fello AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [从北京具身智能机器人方案看亦庄机遇 ——|具身之家 - 具身之家](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfYUJkVmtFODdIaV84eXZJT3VMRHVTVV9nVFNKTlRSS0N0NmVNWWJkcWxlZ0Z4ZjU2OHg0VndmdWJHQjBwdWtkWU9sZWRoQzhuaktWZUt5aVE?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · CN · 2026-11-18T05:01:40+00:00
+
+从北京具身智能机器人方案看亦庄机遇 ——|具身之家 具身之家
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Helping AI text detectors keep up with changing conditions - MIT News](https://news.google.com/rss/articles/CBMikwFBVV95cUxNV2FmdGEyNmVWUHdMU3d3dkJCQ1BXd2JEcTd1LXQ2aVRjMV9feE1Xdzh1S0M3OXBGVFdDd0gwa2RMWDFfcVdNVmh6TUxFRzBQY1JLUHpZb0czUFlxT0ZjeWpoYkMwaWJDeDBzcG5DUVYxLWc0MDNYcUNYYVp4enlIMmp1VFlid1pfV0taMURmWTBoSFk?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T05:00:00+00:00
+
+Helping AI text detectors keep up with changing conditions MIT News
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Mapping Language Model Internal Representations to Physical Laws and Scientific Reasoning - Bioengineer.org](https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXFUNWlLZ3l1ZHhXNjlhS09kQzY5ZnRDUW1lWmplVnZXTnBrWE9YRWFNY2JuWW5qV2pEdi1WOFNTTm5Ic0xJanJyalhUdXhESERrOVdZNF9FOThQRzd2Sk5pODN3eTBkTHpyaVR3SzZDbl9JaVFnQUNGdXFXZVRhY3Y0UHFKcjBya1dfQTMwcDhVcmNkVmdrZXhIS3BuTU1iVmFhM2ZVSUd3RlRXamJraXU2ZXI?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-18T04:51:41+00:00
+
+Mapping Language Model Internal Representations to Physical Laws and Scientific Reasoning Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [GPT-6.2 Astra难产真相曝光！OpenAI突然彻查迄今最大RL训练 - 智源社区](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9DSktPajdselBjWkFPck9rLXRseUJybUg3REhiYWNkWmtObHVVZUk5OXRsZnVPaVMyYU5BeDVtb205QjQyVHhXMg?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · CN · 2026-11-18T04:40:00+00:00
+
+GPT-6.2 Astra难产真相曝光！OpenAI突然彻查迄今最大RL训练 智源社区
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT](https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-18T00:00:00+00:00
+
+Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.
 
 证据：primary；来源摘录，待原文核验。
 
-### [ProbeShare: Probing a Few, Sharing Across Many for Fast World-Model Planning](https://arxiv.org/abs/2611.24229v1)
+### [Video Emotion Reasoning Models Anchor Heavily on Initial Facial Predictions - Bioengineer.org](https://news.google.com/rss/articles/CBMiogFBVV95cUxPWXhHN1czUmhtVzlfcWs2aFIwSFZtNkRITTBvdnl5MGFuTTRITnVfZmo0R2lTYmZweThIcWJwRWhab2otS1FBM2dlYkxDTENnWk1YbEpSQkFXUnlra2NZa29tbmU2eU9yc1p1YTM2X0FZWThkQmxaWU9PZGxwSEJxVHRCdjJFS3lHVjNFdTdYcGs3UTc5aWRpNThSMU1uekZSQVE?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T11:05:38+00:00
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-17T23:31:04+00:00
 
-Visual planning with a frozen joint-embedding world model supports robotic reaching and object manipulation by evaluating candidate action sequences against an image goal before execution. Standard cross-entropy method (CEM) planners roll out every candidate independently through a billion-parameter predictor, even when nearby actions induce similar scene changes. This redundant computation grows with population size and search rounds, slowing closed-loop replanning. We observe that candidates within a planning step share an observation history and thus a common action-to-feature map. Based on this insight, we propose ProbeShare, which measures local responses with a few representative probes and reconstructs each candidate's feature grid through scene-conditioned, geometry-aware weighting. When promising candidates move beyond existing probe coverage, ProbeShare evaluates a new probe to rescore nearby candidates. Across four RoboCasa tasks, ProbeShare accelerates episode planning by 4
+Video Emotion Reasoning Models Anchor Heavily on Initial Facial Predictions Bioengineer.org
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models](https://arxiv.org/abs/2611.24222v1)
+### [Baseten 将四款开放模型引入 Microsoft Foundry 预览版 - Unite.AI](https://news.google.com/rss/articles/CBMikgFBVV95cUxNZERqME9lMW15WXZnQlFTbFZKNTlVNUhNNVBYSTN2RmMtQW10TG9xR1g1V0kwUHdpUU1udWV5T1NHVjUxWk5uTi1Fa3dYYldESUg5VGQzM2cwSHdlNG1oSEtZaUZVdlNnR2tqdksxQmh5QktUT19QTUpqZG9weFY3UUpvX3psRWl5RjIzNEMzSXdYQQ?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T10:58:48+00:00
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-17T22:56:03+00:00
 
-Action-conditioned world models let robots imagine the outcomes of their actions for planning and offline policy evaluation, but these uses need many rollouts, which multi-step diffusion makes expensive. Drifting models move the iteration from inference to training and generate samples in one network pass. DriftWorld brought this paradigm to action-conditioned world models; to strengthen action following, it repels predictions from the current frame, a construction borrowed from classifier-free guidance. We show that this accentuation has a target bias: the push persists even when a prediction matches the recorded future, in kernel, balanced, and unbalanced Wasserstein drifting fields alike. We introduce Mass-Share Accentuation (MSA) to remove this bias. MSA treats the current frame as a counterfactual destination competing with the recorded future in a semi-relaxed optimal transport problem; subtracting the closed-form share of the correct future makes the guidance vanish at the targe
+Baseten 将四款开放模型引入 Microsoft Foundry 预览版 Unite.AI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [WM^MLLM: Turning MLLMs into World Models](https://arxiv.org/abs/2611.24193v1)
+### [NVIDIA Unveils Robot AI "GR00T 2," Mastering New Tasks at 95% With Just 5 Human Demonstrations - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE9HamwxSzFFR2tDUW5lSnRab0NPZXBHeFpLMld0eVFoejkxWExUNHR0dTM5WlVvRVJ2YzdpZnpSMWhMeS1xTXlWb0VrOGE0OWY1OGt5MEVvTklhbzZCOW5PbUJ0Z2c1SkFHZHhoWFNacllMa2pPX1E?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-18T10:29:16+00:00
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-17T22:55:00+00:00
 
-Video world models keep the world in the context of a generator, so a revisit is synthesized again and earlier edits can drift or disappear. We present WM^MLLM, the first interactive world model built on multimodal large language models (MLLMs), for persistent, editable world generation from a single image. WM^MLLM keeps the world state outside every generator, as a panorama with a revision history, and lets the MLLMs write it: they turn each request into operations on this state, select where a local edit is written, and check every candidate before it becomes the next state. Image generators only propose views, and video only presents them. Users can walk to new places and return, edit objects through text or a box, place subjects, and change lighting, weather or season. By construction, a revisit at the same revision reproduces the earlier view exactly, a local edit leaves every panorama pixel outside its region unchanged, and each request starts from the result of the previous one.
+NVIDIA Unveils Robot AI "GR00T 2," Mastering New Tasks at 95% With Just 5 Human Demonstrations BigGo Finance
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Efficient World-Model Planning via Physics-Guided Search Distillation](https://arxiv.org/abs/2611.24171v1)
+### [ForeFlight to Add AI-Powered ATC Transcriptions - AVweb](https://news.google.com/rss/articles/CBMifkFVX3lxTE51RUxiUVhrNWZJMFloWHVzSnRyZnlSblZXX3dQQVVSdnZ4OXU4ZjJuOVAwMk02ZnRMSG1DV1lOY2VnbWMzaFpyempIUmVyLUtGV1U5VGhvckh2dEZlSmxYWnlXM3RYTDNpTWdER3YxNlhzVXV1WWZ0X3lzNjlZQQ?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T10:14:22+00:00
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-17T22:23:06+00:00
 
-World models support autonomous driving by evaluating candidate trajectories through predicted future scene evolution. However, accurate future prediction does not ensure road-compliant execution; when all candidates violate road boundaries, re-ranking cannot select a feasible trajectory. We propose Physics-Guided Search Distillation (PGSD), a single-view planning framework that combines future representations and execution feedback for verified beyond-pool repair through three components: (1) Execution-Aware Selection checks ego-vehicle road compliance under simulated execution and selects the highest-scoring feasible trajectory; (2) a Clearance-Aware Search Teacher generates beyond-pool corrections and selects demonstrations with larger minimum road-boundary clearance during execution to buffer imitation errors; and (3) a Future-Conditioned Repair Student predicts one correction from rewarder features and execution feedback for single-rollout verification. The pretrained planner and 
+ForeFlight to Add AI-Powered ATC Transcriptions AVweb
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models](https://arxiv.org/abs/2611.24074v1)
+### [MAI Realtime 1：每分钟一美分，一个未经证实的 Copilot 说法 - OrcaRouter](https://news.google.com/rss/articles/CBMiekFVX3lxTE9ickFZZFFSQ1RPOVprR1FmWF9jbkpJdmpFZFhqb282OEQzY0p4b0hnajZZYVRDUFV2SHh0R0cxUFhaRUYtUjdWX2hnbmd5RjlmeC1EaWFNQ0k4RkdDT0x1TURrZE5QMDdGT2lKN0ZrMjc0RV9ubmRieTN3?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T09:03:59+00:00
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-17T22:04:04+00:00
 
-In human-robot collaboration, natural language lets people direct a humanoid's whole-body movements without programming joint trajectories. A common approach generates a kinematic reference from an instruction and relies on a tracking controller to execute it. However, as the controller maintains balance under contact constraints, the executed motion can depart from the reference in ways that change the action it conveys. Our central insight is that semantic alignment must be evaluated directly on the complete motion the robot physically executes. Building on this insight, we introduce \\textbf{SemPhys}, a framework that trains motion generators using semantic feedback from simulated executions. A differentiable world model and a fixed tracking controller predict a short segment of a recorded execution. SemPhys inserts this prediction at its original position, scores the complete trajectory against the instruction, and backpropagates through the predicted segment. A paired anchoring los
+MAI Realtime 1：每分钟一美分，一个未经证实的 Copilot 说法 OrcaRouter
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [JEPA Dots: Dual-Latent World Model for Language-Guided Robot Control](https://arxiv.org/abs/2611.24062v1)
+### [The evolution of GraphRAG: Advancing systems and evaluation together - Microsoft](https://news.google.com/rss/articles/CBMitgFBVV95cUxOSUExVHp4ekY3TW9iQ2pSNzByellvSkJtb2k0Zmp0ZDBDVjgzQVo5QjM4cktPOV9XeHZtaWZBNl9xcVd2OXhCY3BRYWVrZFFpUWxHRFIyMGl6UWlrd1gwMV9SSHQ5RmFOVmMzM25weTBrTVpKSXJ6dTJFcVNJc21JNHJlb1ZtdDhzNXNzemE5RFNocjZsZUV1eUZpdGI1MHhSNUNKOV81Vm13N0tvWU5BR1k4Vml3QQ?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-18T08:55:54+00:00
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-17T20:40:53+00:00
 
-Predictive world models for language-guided robot control face a fundamental conditioning challenge: instructions should influence action selection without altering the predicted consequences of fixed actions under identical observations. To address this challenge, we introduce JEPA Dots (Dynamics-Oriented Task Separation), a compact dual-latent framework that jointly learns visual dynamics and language-guided control through separate dynamics and task representations. Language-conditioned task features guide a flow-matching policy, while masked attention restricts world prediction to instruction-independent dynamics history and supplied actions. In closed-loop evaluation on 40 trained LIBERO tasks, JEPA Dots achieves 84.9% overall success with approximately 39.1M parameters, compared with the published 78.7% of NanoVLA-S with 161.0M parameters under a different evaluation protocol. In the reference experiment, JEPA Dots also improves overall success from 76.0% for our task-ID-conditio
+The evolution of GraphRAG: Advancing systems and evaluation together Microsoft
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning](https://arxiv.org/abs/2611.23974v1)
+### [Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007 - wiz.io](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BQjYySjNZRkM1ZWR3ZDZFb0NKQW9XOWlpWWdCNTNpbklBWFRZUVIybnBkYjlMYWNWNVk5SlNJUldzeVctWEJ3T0xpeXhqLU9CU0Jka3M3NGdNZkJneUkzUW5xZ1dfdw?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-18T07:13:27+00:00
+代码模型 · 行业新闻检索 · code · US · 2026-11-17T20:35:00+00:00
 
-World-Action Models couple action learning with future prediction, enabling robotic policies to capture environmental dynamics for robust control. However, prevailing methods take a reconstruction-oriented approach to model future videos, allocating substantial capacity to appearance details that are incidental to control. In this work, we reformulate world modeling for manipulation as control-centric future prediction in latent space, and present LaST1.0, a unified latent World-Action Model. Rather than modeling an observation-complete video future, LaST1.0 predicts compact, geometry-aware latent targets derived from future wrist views, focusing the supervision on the evolving robot-object interactions required for fine-grained manipulation. To better support this control-centric paradigm, LaST1.0 revisits the visual input interface and attention mechanism of its unified architecture. It adopts a vision-encoder-free design with a lightweight patch embedder, exposing fine-grained visua
+Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007 wiz.io
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation](https://arxiv.org/abs/2611.23953v1)
+### [Microsoft AI 面向企业推出 MAI Code 2 和 MAI Code 2 Flash - Unite.AI](https://news.google.com/rss/articles/CBMingFBVV95cUxQbFUzdWkwTWJIMVR2aEdlVnFQcHN0cmZZMG80NllrSWtwQmJMekJFb2U0UDRQRU1VWWJkSFIxdVpuSElBQ3pfOXRWOEtuZk9BZG9ob0stLVpYNjhmX3hkbUtuT1FrbkdBUXNpdzFoZjJ1a05pTW85c2dCS040b1hEellZSGNlZnlmU2NLYXJKZjdoRTJnQXpQOVh6MUcyQQ?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-18T06:42:32+00:00
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-17T19:37:03+00:00
 
-A cell observed after a gene knockdown has an uncertain future, both in how its appearance will evolve and when it will divide. Existing approaches predict endpoints or population-level changes without jointly modeling individual trajectories and division timing. In this work, we present MitoWorld, a stochastic world model that generates these future appearances as continuous evolution in a Gaussian reference latent, terminated by a division hazard and converted into images by a conditional diffusion renderer. The ordinary transition provably preserves its Gaussian reference, tying its noise to its dynamics; paired observations identify its discrete transition where stationary marginals cannot. The hazard turns division timing into a survival likelihood that can be tested against real cycle lengths. On 325 held-out MitoCheck tracks spanning 17 knockdowns and a control, MitoWorld lowers FID by 34.6\\% and the video metric JEDi by 45.6\\% relative to the strongest baselines. Its latent-spa
+Microsoft AI 面向企业推出 MAI Code 2 和 MAI Code 2 Flash Unite.AI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [EVA-RSI: Recursive Self-Improvement of Video Evaluators for Judging Temporal Quality](https://arxiv.org/abs/2611.23890v1)
+### [Pay $27.97 once for a workspace with 50+ AI models - Cville Right Now](https://news.google.com/rss/articles/CBMikgFBVV95cUxOeGJ5SzhOVlEtSXBQTzRaTjVneU9ySXFZdjV6blRQbUFaaWlVa0FxcFFWTUQtSzRpU1hpWDZxSVdEQlpiNnl0YVhuMHhvNGVJeWFHaGQ2X3NadkhnWXF6Zy1TWXVOY3UxLXVmOVgtcm50RXVlRk4tR1oyZ3FEQ1FRZ25oeGpTcTBZb1pwT1RpOGRCZw?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-18T05:41:49+00:00
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-17T19:12:46+00:00
 
-Video evaluators play an important role in video generation, yet they miss motion defects, limiting the quality of generated videos. Recursive self-improvement (RSI) has made strong progress in mathematics and coding, where explicit verifiers provide reliable feedback on a single goal. Video evaluation poses two difficulties for RSI: it has no verifier, and it must judge many dimensions at once, such as physics, smoothness and dynamics, where a gain on one can cost another. We introduce EVA-RSI, a multi-agent framework for exploring RSI under these two constraints. We build a fixed proxy exam with construction-defined targets by applying controlled changes to videos, such as temporal reversal and frame dropping. These edits supply supervision without human annotation. A small set of human-labeled real videos anchors the exam to human judgment. Each dimension has an LLM agent that proposes improvements. A leader agent coordinates the proposals, and a Nash bargaining rule selects updates
+Pay $27.97 once for a workspace with 50+ AI models Cville Right Now
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [ZERITH V2.5: From Predictive Power to Policy Learnability](https://arxiv.org/abs/2611.23746v1)
+### [HeyGen 推出 Avatar 6：支持理解脚本的手势与 2K 视频 - Unite.AI](https://news.google.com/rss/articles/CBMilwFBVV95cUxOSk1OQ0JyWk5QaFQ3bWJrVUszN0FIWkUxbDhMTndmRkwtZW9mS1VmTEF0SzNucExGVTc5QnNiV1VhNlhUa3FBMGw4OWR5b1NuQURwLXFJcEFNc1E3QmhfWFJ3MllFRlFqYW93a29wMnZMR3RpcEU1cnpEOHlld3owdmVST1locmdUQ1Y2U1d3OFdibk94bmdN?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-18T02:58:31+00:00
+语音与音频理解 · 行业新闻检索 · speech · CN · 2026-11-17T19:06:02+00:00
 
-When humans learn to manipulate an unfamiliar object, they may already be able to anticipate how its state will change while still being unable to control it skillfully. This gap between prediction and control motivates us to study how the priors acquired by video generation models can be used effectively by an action policy. We present ZERITH V2.5, a video-action model (VAM) in which the action policy reads intermediate features of a video generation model, and use it to study, under fixed demonstrations and a fixed total number of updates, what kind of predictive training improves subsequent action learning. We find that the way video predictive training is supervised affects subsequent action learning. In our experiments, adapting at many noise levels yields a large gain, while adapting only at the noise level used at deployment yields none. Weight-transfer experiments further show that the gain stays with the adapted weights when they remain in the video generation model and disapp
+HeyGen 推出 Avatar 6：支持理解脚本的手势与 2K 视频 Unite.AI
 
-证据：primary；来源摘录，待原文核验。
-
-### [GTA: Generative Tower of Agents for Scalable Holonic Scene Generation](https://arxiv.org/abs/2611.23727v1)
-
-世界模型 · arXiv 世界模型 · 2026-11-18T02:39:21+00:00
-
-Scalable world modeling requires coordinating scene-wide goals with fine-grained objects and dynamic characters under limited time and context budgets. We introduce GTA (Generative Tower of Agents), which represents every unit at every level of an adaptive scene hierarchy as a holon, both a self-contained construction task and a composable scene unit. Parallel agents recursively plan the hierarchy top-down, generate assets, and assemble and refine them bottom-up. Uniform interfaces carry scene-wide requirements down the hierarchy, guiding local construction so that each holon fits into the larger one. GTA accelerates scalable world modeling through high-throughput parallel execution while preserving well-structured layouts and fine-grained asset details. GTA then populates the assembled environments with dynamic human characters whose appearance and motion are guided by the scene, yielding realized 4D worlds. Project page: https://zt-zeng-tao.github.io/GTA/
-
-证据：primary；来源摘录，待原文核验。
-
-### [Measuring the Conservatism of Latent Safety Filters for World Models](https://arxiv.org/abs/2611.23685v1)
-
-世界模型 · arXiv 世界模型 · 2026-11-18T01:17:45+00:00
-
-A latent safety filter decides from the latent of a world model whether a planned action is safe. Conformal calibration sets the threshold of the filter so that it accepts an unsafe action only with a small probability. However, the filter can still be conservative and refuse many safe actions, depending on the latent. To measure the conservatism that a latent forces on the filter, we group similar latents and actions into cells. A filter that gives one decision per cell can refuse the unsafe transitions of a cell only by refusing the safe ones in it as well. We call the share of safe transitions that lie in such cells the overlap. We prove that the overlap is the minimum share of safe transitions that such a filter has to refuse in order to accept no unsafe transition in the data. Both the overlap and the conformal calibration can be applied to any latent. We use this to compare three existing designs, in which the safety labels train a classifier on top of the world model, the world 
-
-证据：primary；来源摘录，待原文核验。
-
-### [How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models](https://arxiv.org/abs/2611.23620v1)
-
-世界模型 · arXiv 世界模型 · 2026-11-17T23:23:42+00:00
-
-A frozen latent world model combined with sampling-based model predictive control is a visual planner. At deployment, the executed action can depart from the commanded one, and the frozen model has no way to notice. We show that the model can be run in reverse: for any hypothesized actuation shift, it predicts what it should have observed under that shift, and comparing this prediction with what was actually observed quantifies the shift and lets the planner correct itself. Unlike the residual energy, which mixes the shift with the model's own error, the score keeps only the part of the residual that a shift can produce. This shift score detects the shift with a locally optimal test, estimates it with Cramer-Rao error bars, names the dominant generator, and compensates the planner once an alarm fires. On PushT, TwoRoom and OGBench-Cube with a frozen latent world model, measured detection follows the prediction to within 0.05 AUROC. Self-correction raises success from 0.650 to 0.862 on 
-
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
 ### [The Most Promising Companies in AI Creative Content Generation - BBN Times](https://news.google.com/rss/articles/CBMinwFBVV95cUxORV9FTlZoOXY1RWs5WkMwMm5vX0FFMG9qb0xFaGRXVy1ldk9nRE9UcEhJS2FKZUFSRUhyd01CcC1TRDJ1RHNMMzBDY2pWQXBVXzB6dlhRSG42LXBCOFZEOVI5RE1PTlRqNUR5MTF6cXZXb2lZbHVpVTc5WFV1M1hNVGhxOWJvVjg0NnJvS0I3aXpDY05TZ2VsSjNGX3o2Y1k?oc=5)
 
@@ -1184,53 +2264,61 @@ The Most Promising Companies in AI Creative Content Generation BBN Times
 
 证据：discovery；来源摘录，待原文核验。
 
-### [stable-envs-v1: Fast and Reproducible Environments with Controllable Variations](https://arxiv.org/abs/2611.23151v1)
+### [Microsoft aims to challenge OpenAI, Anthropic with cheaper, specialized AI models - Axios](https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnpSWUhVX2NkMm9wR1R1dE92a2VBYVM5TUpKc19Ia3NsSlVmUmZfTjNfYVVuTnU4ZjJPMHJJWHNrclcxT3dSZGZ5ckdDYlM3M3BvcGVNNGtkb1ZKZk5KM2ZvOGJKdVhtLU5fQ3JtSDZsMW5rbGwwczhEX2R4TTY5Nm9n?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-17T18:04:00+00:00
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-17T18:44:34+00:00
 
-Training World Models (WMs) relies on processing large amounts of high-dimensional data, which typically needs to be stored, read into memory, and moved from memory to compute units. In principle, GPU-native rendering avoids this movement of large image tensors from memory to compute cores, allowing for better GPU utilization, and training speed-ups. Rendering on-demand also allows to control perceptual appearance through the application of visual variations on-the-fly, allowing for higher diversity in training. To this end, we introduce stable-envs, an open-source library for fast, GPU-native rendering allowing to apply controllable variations on multiple simulation environments. By rendering image observations directly on GPU, stable-envs allows end-to-end training speed-ups of up to 1.33x, with no loss of performance. Besides faster training runs, stable-envs also enables reproducible, large-scale evaluations through batched physics while maintaining full determinism. stable-envs cu
+Microsoft aims to challenge OpenAI, Anthropic with cheaper, specialized AI models Axios
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI - The Korea Times](https://news.google.com/rss/articles/CBMizAFBVV95cUxQVGNKeHVRTzlJOWZzUjAwTWxHYVN5T184aGF0Y2FidVhESGR3cDI3RW1JVjNzRGRYczgyeVJMWF9HWTRtMlRrcTFmaUZqN0Y2ek9iSDRFVi1obFJLdHBlZVdYNGNOWlZuaDA2NDNqYlpXR29MV0JuTWFGQXNCWWZiTnNsMDB5dTFKMVRlR3g5S0lyUVZIRUthTjhUVzhjTjBXUU1ZZTVMSUtNdUJHQkxULXVKa1l3aFNyRUN1MDIwTjJ0MGREeUh4Y2JJS0vSAcwBQVVfeXFMUFRjSnh1UU85STlmc1IwME1sR2FTeU9fOGhhdGNhYnVYREhkd3AyN0VtSVYzc0RkWHM4MnlSTFhfR1k0bTJUa3ExZmlGajdGNnpPYkg0RVYtaGxSS3RwZWVXWDRjTlpWbmgwNjQzamJaV0dvTFdCbk1hRkFzQllmYk5zbDAweXUxSjFUZUd4OUtJclFWSEVLYU44VFc4Y04wV1FNWWU1TElLTXVCR0JMVC11SmtZd2hTckVDdTAyME4ydDBkRHlIeGNiSUtL?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-17T18:22:03+00:00
+
+Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI The Korea Times
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Introducing GPT-6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-17T17:45:00+00:00
+
+Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.
 
 证据：primary；来源摘录，待原文核验。
 
+### [Midjourney: Zero VC, AI Image Models and a Meta Licence Deal - AI Magazine](https://news.google.com/rss/articles/CBMijwFBVV95cUxQdFFsbGw2TUtKSU52RDBJLTVubFBQT19iMHVsS2FIa0hNTkFyYUlmUjFJSGJPWHNBb05Fb0ZpeGRhQllIMzNEbUdJZExuTzY5V3F6eXIwQUwtcHl4RXNYQk50VDFsVC1Rdm9ic1AxU0prWWZVLU14Tk9VbVF2LVZiVFBMMkRmM05MVEpweXUtSQ?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-17T17:09:16+00:00
+
+Midjourney: Zero VC, AI Image Models and a Meta Licence Deal AI Magazine
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Put Gemini to work for you](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/)
+
+LLM 大语言模型 · Google AI 官方博客 · 2026-11-17T17:00:00+00:00
+
+Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.
+
+证据：primary；来源摘录，待原文核验。
+
+### [Beyond the model: How startups are turning AI into real-world outcomes - Qualcomm](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaDdMQkFTUkw5Z0tuV2VFWUhKUE1wQS1DZDU2aWZXc01yb3FuNTNnQUlQMktuWGtsMzVSWTlDMFdSSzZQZ1ViS1lYOHF6UWhISUZxQUsxSW9SWEpGMzg1NDFQc2Z6VVRXbkFmUVR6UDBaaHhHWjQxTXpKRFZ0ZFBCLXFPMXJhMGJxMlpqVTdRUE9oMUlTWkMtUEI3czlkV2NjQ2t4ZldEeWJhZw?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-17T17:00:00+00:00
+
+Beyond the model: How startups are turning AI into real-world outcomes Qualcomm
+
+证据：discovery；来源摘录，待原文核验。
+
 ### [LanceDB raises $57.5M to accelerate AI model training with multimodal data platform - SiliconANGLE](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcnQwMUhZbDZadEc5bms2NEpRTks1V196ZmR5MnpMZ005Z1JabmNwRjcxMmRZS3A4WG1zLVJFc0dEV1FjUHRKUTlMZkhqR0pleTM1cG8ybUZGUHhGUldqa3FQcGtCSnpoUlR1NFBWUTdUVm9GdEZ0N0FERUZ5dWxpY1RUY2V3WUE4cmptdFpseUNteWtlOXhLTFFMMTFRV1d6dEtsUElYODBNNnFfNXFzMlBfTGpNRHNfenFV?oc=5)
 
-AI 视频 · 行业新闻检索 · video · US · 2026-11-17T16:30:00+00:00
+视觉多模态 VLM / AI 视频 · 行业新闻检索 · video · US · 2026-11-17T16:30:00+00:00
 
 LanceDB raises $57.5M to accelerate AI model training with multimodal data platform SiliconANGLE
 
 证据：discovery；来源摘录，待原文核验。
-
-### [Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model](https://arxiv.org/abs/2611.22998v1)
-
-世界模型 · arXiv 世界模型 · 2026-11-17T16:12:55+00:00
-
-In automated driving, world models provide future scene predictions for evaluating candidate trajectories, but fixed selection rules may not capture scene-dependent trade-offs. We propose a residual-guided reinforcement learning (RL) framework for lightweight trajectory selection with a frozen world model and a fixed candidate bank. The framework uses proximal policy optimization (PPO) to fine-tune a joint policy over candidate selection and bounded trajectory residuals. A context-conditioned ranking network learns candidate preferences from feedback obtained by evaluating local perturbations of the selected trajectories. At inference, the selector combines learned preference and predicted risk ranks using fixed weights and returns the selected candidate trajectory without modification. Fine-tuning updates 16,106 parameters across the actor and critic, while the deployed selector retains only the 11,725-parameter ranking network, with the residual branch and critic used exclusively dur
-
-证据：primary；来源摘录，待原文核验。
-
-### [SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning](https://arxiv.org/abs/2611.22981v1)
-
-世界模型 · arXiv 世界模型 · 2026-11-17T16:00:02+00:00
-
-Goal-conditioned planning with image observations and goals requires predictions that distinguish visual states and action consequences. Spiking neural networks offer sparse computation, but single-step spikes can obscure motion cues and merge actions with different physical outcomes. We propose the Spiking Latent World Model (SpikWM), an end-to-end joint-embedding predictive architecture (JEPA) with one simulation step per image and one neural update per latent position. Spiking Regional Encoding retains spatial cues through regional pooling. Bi-Spike Action Encoding combines positive and negative binary responses, while Causal Membrane Prediction carries subthreshold evidence across the latent history with learned group-wise time constants. The encoder and predictor are trained jointly on reward-free image--action trajectories using next-embedding prediction and SIGReg. With a common planner, SpikWM achieves mean success rates of $88.67\\%$, $97.33\\%$, $99.33\\%$, and $86.67\\%$ on Push
-
-证据：primary；来源摘录，待原文核验。
-
-### [Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives](https://arxiv.org/abs/2611.22954v1)
-
-世界模型 · arXiv 世界模型 · 2026-11-17T15:42:13+00:00
-
-Failure avoidance in complex robot-environment interactions is challenging because the underlying dynamics are difficult to model accurately, and available predictive models may not provide reliable derivatives. We present Sim2CBF, a failure-avoidance framework that solves the Control Barrier Function (CBF)-Safety Filter (SF) optimization problem using only forward-model evaluations, thereby avoiding differentiation of the predictive model. Specifically, we approximate the CBF constraint using finite differences and local linear interpolation over sampled control inputs while preserving failure-avoidance guarantees. The underlying CBF is implicit and constructed from backup-policy rollouts, enabling the use of expressive predictive models such as physics-based simulators and learned world models. Compared with purely sampling-based SFs, our formulation requires fewer control samples and yields less conservative behavior than direct nominal-backup blending. We evaluate Sim2CBF in simula
-
-证据：primary；来源摘录，待原文核验。
-
-### [Code World Model 2.0: Towards Infinite Controllable Video Generation](https://arxiv.org/abs/2611.22925v2)
-
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-17T15:23:57+00:00
-
-Visual proxies decouple explicit world-state simulation from photorealistic video synthesis, offering a controllable interface for both offline clip creation and real-time interactive streaming. Yet a practical renderer must address two challenges. Upstream proxies vary from coarse layouts to fine articulated geometry depending on the interaction, and streaming inference must operate in a few causal steps without accumulating drift across self-generated history. We present Invoker-Render, pairing a bidirectional creation model with a causal four-step streaming model under a shared conditioning interface over structural proxies, an appearance reference, and language. Trained on an aligned approximately 200-hour multi-granularity corpus, Invoker-Render honors fine geometric constraints when supplied while synthesizing plausible local motion under coarse proxies, enabling runtime selection of input detail. To bridge bidirectional creation and real-time streaming without compounding step c
-
-证据：primary；来源摘录，待原文核验。
 
 ### [AI Music Generator Suno to Let Users Create Music Videos - Bloomberg.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdnpHaGdtSS1QSnNMekFIc3daQzJ5UTljaWZiazhKS2h4WlRnXzM0ck5aM1hWUm9RZERtSlhIbENRV1hvS0Rub3ZMX3RoNXJwVDZ5cUpIS19jNG83T3ZyQWNobW5ELUpFcTNDMHJORjNUZVZfekx4dHAwWUN4WFhZQW12LTFpdGlsR2JsRE9UVGJieVlRVVFacWd6ZVhlcE5FbGJrUWJnOGVmZms?oc=5)
 
@@ -1240,85 +2328,125 @@ AI Music Generator Suno to Let Users Create Music Videos Bloomberg.com
 
 证据：discovery；来源摘录，待原文核验。
 
-### [Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2611.22880v1)
+### [OVHcloud推出Olala Mini 7A1B，作为其首个开源大语言模型 - Unite.AI](https://news.google.com/rss/articles/CBMilwFBVV95cUxPVU8yM0pjY3VEV1VFZmhOampmbXJOUmRRd1E1NjJsQ0hMVmY4MkphUHlvVkFTM0o0WmRLcVRpczA1YlpoWGlqb2wwRXo0amNJX20tYVBSNVl2NUltaUlkbXZXa3pXYXVCY3NydTlPZzI1Z19IcDJYaGhkc0JLR21VMnd3ZENyOFFaUlV5ajNHcnBXeU1wOXNv?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-17T14:53:49+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-17T13:37:03+00:00
 
-Recent progress in integrating vision-language-action (VLA) models with world modeling has significantly advanced end-to-end autonomous driving by allowing systems to reason about imagined futures instead of merely reacting to current observations. However, most world VLA models generate future frames at the pixel level with plenty of dense visual tokens. Although such generated futures can be visually plausible, they preserve many driving-irrelevant appearance details, i.e., only a small portion of the tokens directly encode critical planning-relevant factors, such as agent geometry, motion dynamics, and interactions. This introduces a significant performance bottleneck. An important question thus arises: what world state should a world VLA model reason over to support planning beyond pixel-level prediction? We argue that planning-oriented world modeling should focus on a compact and structured agent-centric latent state that captures the interactions between objects in the driving sc
+OVHcloud推出Olala Mini 7A1B，作为其首个开源大语言模型 Unite.AI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Evolve in Panorama, Render in View: Panoramic World State Evolution for Video World Models](https://arxiv.org/abs/2611.22733v1)
+### [MLCommons publishes first MLPerf post-training results in Training v6.1 - CASRAI](https://news.google.com/rss/articles/CBMie0FVX3lxTE9vR3EtaVdaVXdRLU1zNU1PVjhPVXlJVEo3cnd2M1RhQjAwM3Q4RjdEem03Q1pNMGhQYmJ5TWVCWmJfd3ZGYlFIRHM4bmphVWxFcWdRNkNpbW82eWp6WkRtM0pWUGhHbTdkUTY4bnhrZFY4TU9RcThPZ2x1QQ?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-17T13:03:41+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-17T11:35:08+00:00
 
-Video world models should maintain a world that keeps evolving as the viewpoint changes. Yet when the camera turns away and returns, current models often freeze the unobserved scene, lose objects, or change their appearance, because content outside the view has no representation that keeps changing. We present PanoEvo, which uses a Panoramic Evolver to evolve the world state in the latent space of a panoramic video diffusion model, where every viewing direction is present at every time step, so the scene evolves whether or not it is observed. Existing panoramic video models are not trained to evolve a scene from a single image or the objects within it, so we build PanoEvo-Data, an event-centric dataset from real 360° videos, and train the Panoramic Evolver coarse-to-fine as an image-to-panoramic-video model. Since each view covers only a small part of the low-resolution panorama, directly projected views are blurry and often show low-quality details or structural errors. A Perspective 
+MLCommons publishes first MLPerf post-training results in Training v6.1 CASRAI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation](https://arxiv.org/abs/2611.22717v1)
+### [英伟达、百度、宇树…32个世界模型揭开物理AI底牌 - 36Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvS2hvbHJlSE1SYUtFblM5TnZURzEtSHJJelRxU2FBemswZUFETzNlNjdVaUE5N0p2YV9tWGpHM2RGeEJwSVRyUloyN3NsUQ?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-17T12:56:13+00:00
+图像生成与编辑 / 世界模型 · 行业新闻检索 · image · CN · 2026-11-17T10:04:47+00:00
 
-Reference-to-video diffusion transformers pack the variational autoencoder (VAE) latents of all references and the generated tokens into one full-attention sequence, in which reference tokens make up about half. Because attention cost grows quadratically with sequence length, these tokens take up an even larger share of the attention computation, yet most of them are static, smooth or irrelevant to the output. To accelerate reference-conditioned generation, we propose pruning and caching of reference tokens for video generation (PCRG), a training-free, plug-and-play method that uses two signals the model already computes to assign each reference token to one of three tiers, namely pruned, cached or kept. The first is a low-level redundancy r from VAE latents, since a token whose latent barely changes over time or across its neighbors adds little new content. The second is a high-level importance g from the vision-language-model (VLM) conditioner, where the attention that the prompt and
+英伟达、百度、宇树…32个世界模型揭开物理AI底牌 36Kr
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving](https://arxiv.org/abs/2611.22691v1)
+### [OpenAI Embedded Assessments Let Evaluator METR Probe Largest Training Run; Findings Can Be Redacted - Tech Times](https://news.google.com/rss/articles/CBMi5AFBVV95cUxOenZEMklVekFlMDIzMVZINjNKWEFEeWZaTnhwdkVDVndNYnctVjJaZ2UyN3VjVE9KallkUVY5cWNRU0F5X1JUQmEtUmFaTkV0VlkzOTMwWEFnc3dLZkVUaWhUcHdqcmN6T205eUh6aGpoM3JUdjIzbTVEXy1PVU5EMUNzOWM4YlNLTFh3WW5JblYxUWRLOWl3ZDEyaG8wbTVqTXlnYk9rLUNjdGlMMUtHZWdrU3g4QUhFYmIwem05OVlfQWRveFVTOGFsSktLcHJZYkZUbE9lODFrMlNrNzF6eGRBUHc?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-17T12:39:42+00:00
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-17T09:08:16+00:00
 
-World models (WMs) generate driving scenarios beyond recorded logs, enabling the training and evaluation of autonomous driving systems in unseen interactions. However, existing WMs struggle to ensure both behavioral realism and visual fidelity, since they overlook the relationship between vehicle interactions and the ego visual observations. We propose a closed-loop interactive WM that couples behavior modeling and visual rendering. First, imitation-learned background-vehicle (BV) policies are fine-tuned with multi-agent reinforcement learning in the closed loop against an end-to-end ego planner that reacts to the rendered images, so that their interaction behaviors match those in real logs. Second, the viewpoints exposed by these interactions guide a per-Gaussian diagnosis of each 3D Gaussian vehicle asset, which attenuates view-dependent colors on under-observed Gaussians and fills never-observed surfaces with generated Gaussians, while preserving the observed appearance. Third, sign
+OpenAI Embedded Assessments Let Evaluator METR Probe Largest Training Run; Findings Can Be Redacted Tech Times
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction](https://arxiv.org/abs/2611.22686v1)
+### [Speech Recognition: Making Sense of Sound - U.S. National Science Foundation (.gov)](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BQ1k4T3lyUm80ZTA1SXRxaUEzS291NVlxWEY0Z1M4eWxQMTVvTEt5WGtLNWJocXRFQzFJS2xBeDdyYzFLWENjcW9VeUZVX1ZNdzRwaTE2ZWZCdw?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-17T12:36:05+00:00
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-17T08:00:00+00:00
 
-Joint-Embedding Predictive Architectures (JEPAs) have emerged as a promising paradigm for predictive visual representation learning. However, our analysis of I-JEPA reveals a growing discrepancy between semantic and geometric learning: improved semantic recognition during pretraining is accompanied by degraded 3D geometric representations. We hypothesize that this partly stems from predicting highly abstract latent representations with incomplete spatial context, favoring semantic regularities over fine-grained geometric information. To address this issue, we introduce CascadeJEPA, a spatially coupled cascaded prediction framework that promotes richer patch-level interactions through full-grid context encoding and cross-attention between prediction stages, while largely preserving the original I-JEPA architecture. Extensive experiments demonstrate substantial improvements over I-JEPA across multiple 3D geometric tasks while maintaining strong semantic recognition performance. Furthermo
+Speech Recognition: Making Sense of Sound U.S. National Science Foundation (.gov)
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather](https://arxiv.org/abs/2611.22669v2)
+### [Google Open Source Blog - Google Open Source Blog](https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ya0FhbmRwTzlLdzJQWlFCcE5MRmxpSElRbnF4d3ZDMU9GME82NDN3NjNFMF9IZ3RPMEtrS3JXOXlRX1dvS2gta1JR?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-17T12:24:09+00:00
+代码模型 · 行业新闻检索 · code · US · 2026-11-17T08:00:00+00:00
 
-Driving world models forecast what a vehicle's sensors will record next. Most forecast camera video and some add LiDAR, but thermal cameras, which still see in darkness and some adverse weather, are rarely a forecast target, and to our knowledge no world model forecasts all three sensors. We study joint forecasting of RGB, thermal, and LiDAR on real adverse-weather sequences of the DSERT-RoLL dataset. We post-train a pretrained video world model for each sensor and represent LiDAR as a depth video aligned with the RGB camera, with densification and encoding chosen by what the model's video tokenizer can reconstruct. A tri-sensor model sees all three sensors as one video. We score LiDAR in meters against measured returns and compare against persistence baselines passed through the same tokenizer as the model. With this matching, an apparent loss of the thermal model to persistence in fog disappears. On all 58 validation sequences in six weather conditions, post-trained RGB and thermal f
+Google Open Source Blog Google Open Source Blog
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning](https://arxiv.org/abs/2611.22561v1)
+### [NVIDIA Unveils Nemotron for Science, an Open Toolkit for Building Scientific AI Agents - XenoSpectrum](https://news.google.com/rss/articles/CBMihgFBVV95cUxPRVdjal9BWmRiSzZEZXlpMXFxS3JhXzBvUzJNek1yYkFzTFIyT2NMamE5RkU2eU8tbTlpVmJncFRBeHdYTEtvajdjX3lOWG1jdks4UURzNUFlWnlUQjVwUk1FbTRwenh2TXhaSHlIN29TSHpkbThNa294MUozQkZ3U2ZZdGszdw?oc=5)
 
-AI 视频 / 世界模型 · arXiv 世界模型 · 2026-11-17T10:46:50+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-17T07:09:06+00:00
 
-Action-conditioned world models are increasingly used as world models for planning, yet a world model that makes plausible, realistic-looking videos that are consistent with the training data can produce poor decisions. We address two key questions: (1) when can we trust a world model for planning, and (2) what should we do when we cannot? We introduce CURE (Certify, Upweight, Rollout, Explore), a certificate-guided technique that assesses whether a world model can be trusted for planning and determines what to do next: whether to upweight the training data to debias the model; roll out more samples at test time; or explore by collecting new data where support (how well the training data cover the planner's decisions) is missing. We deploy CURE across multiple domains, spanning simulated physics based on PhyWorld, MuJoCo arm control, and Language-Table pushing in simulation and on real videos. The decisions our certificate trusts have lower regret than those it does not (e.g., 0.06 vs.
+NVIDIA Unveils Nemotron for Science, an Open Toolkit for Building Scientific AI Agents XenoSpectrum
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling](https://arxiv.org/abs/2611.22543v1)
+### [ElevenLabs to Acquire Kotoba for Japanese Voice AI Expansion - Unite.AI](https://news.google.com/rss/articles/CBMiigFBVV95cUxNeEZSTUd5bGUwajdxSzF2Q1VlLW9iX1BWOWxidTRIc1FxQlRZeTR2LXJyX0Y0LS13amRKR0l4SlgyMUF1UWZ1ZTFIQkl4SVhWN3NZUzE0aXltaUhPdlhFWU84dnowU3B5dC1lOGp3QmQ3d2RZc3ROb2VDYjdzd0Y2RnEtVUpHenA4Tmc?oc=5)
 
-世界模型 · arXiv 世界模型 · 2026-11-17T10:33:21+00:00
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-17T06:53:04+00:00
 
-Visual world models predict future visual states conditioned on actions, but recursive errors in entity poses and spatial relations limit their long-horizon prediction for robot planning and control. We ask whether a separately predicted relational state can correct this drift without restructuring the visual model. This is challenging because graph nodes and visual states share neither elements nor a feature space. We propose Joint Graph--Visual Dynamics Correction (JointGV), a plug-in based on a cross-granularity dynamics hypothesis: despite their different representations, graph-node and visual-state changes describe the same physical transition. JointGV rolls out a task-conditioned scene graph alongside the visual world model, couples their predicted changes, and combines the resulting graph-motion context with graph-predicted node positions to compute a bounded residual. Graph-learning and correction gradients do not propagate into the original visual dynamics. We attach JointGV t
+ElevenLabs to Acquire Kotoba for Japanese Voice AI Expansion Unite.AI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Decoding Without a Decoder: Direct Pixel Prediction from Diffusion Transformers](https://arxiv.org/abs/2611.22287v2)
+### [AI公司开发决策模型以避免模型幻觉 - 至顶网](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rRTVPaFpqZEF2dVY0V2lMcXI0TXRMME5TWWN5cTRxUGdBWDVIdWE2VmJYYmRhelFha1U4OWR3bVoxM2FzMDRpWEZXQWpOWFllUEZaa1l1XzdvSjYyeDc3T3dDQQ?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-17T06:40:08+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-17T06:01:57+00:00
 
-Latent diffusion models rely on a decoder to map denoised latents to pixels, adding complexity and inference cost. We introduce Decoding Without a Decoder (DWD), which lets a finetuned diffusion transformer produce final pixels directly through a linear head. Unlike previous methods, where the denoising output leads to final pixels, DWD separates the two roles: the original denoising head continues to drive sampling, then the new DWD head predicts the pixels at the final step. We extend pretrained latent models with DWD efficiently by finetuning only the last few transformer blocks, training the DWD head with pixel quality losses while anchoring the denoising head to the pretrained model to preserve the sample trajectory. Across latent image and video generators, DWD removes the decoder while maintaining or even improving pixel quality. On Wan video generation, it visibly reduces detail distortion and flickering, lowering warping error by 23%. Remarkably, the same separation also impro
+AI公司开发决策模型以避免模型幻觉 至顶网
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [DreamFAR: Real-Time and Long-Horizon Interaction with Diverse Objects](https://arxiv.org/abs/2611.22001v1)
+### [Japanese Voice AI Startup Kotoba to Be Acquired by ElevenLabs - Wowtale](https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wR1ZlcWsxQXh4cTlWRDN5ZnBjYVdRNHRDREROeUVtYV9mdnMtY1IxYmJsRDFXZkdhQjV5WW1RNmI4UEI3aU9YWkJRTTdMeFVieTlR?oc=5)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-16T23:31:41+00:00
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-17T02:13:58+00:00
 
-World models have shown great potential in serving as a simulator for robot manipulation. However, existing models are either fit to a single environment or lack ability to simulate long-horizon contact-rich events. We present DreamFAR, a world model whose dynamics model is trained from scratch on a large robot-native teleoperation dataset, with no internet-video pretraining. We present an architecture and learning recipe designed for training on robot-native data. DreamFAR is significantly smaller than the high-performance video generation models, yet shows better understanding of contact and causality, and runs 10 FPS on a commercial GPU. Experimentally, DreamFAR significantly outperforms existing models in predicting the long-horizon future. We further demonstrate various applications where DreamFAR can be used, including policy evaluation and mixed-data co-training. Project page: https://www.yimingdou.com/DreamFAR/
+Japanese Voice AI Startup Kotoba to Be Acquired by ElevenLabs Wowtale
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
+
+### [谷歌Pics升级Nano Banana 2.1模型：画质更细，改图更准 - 手机新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE1fWVRHbzhWOWFVNE1vaFZmWHZOYVkwWTV5NThhZHRobndpUTBqRkVkVGc0a1lKRmtmeGxMd0R3cDVZYm5DNFFqa2NJczF5bG9EcUJNSDZPNU5Xb1A5Y2lBYzFmQU5nWGNjeXl1NktNSWlPamIwaVlZNC1rVV9oQ2M?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-17T01:57:55+00:00
+
+谷歌Pics升级Nano Banana 2.1模型：画质更细，改图更准 手机新浪网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [全球权威大模型盲测榜单公布，阿里千问3.6登顶中国最强编程模型 - 第一财经](https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ycDJmaDd2OVNaYWkzWW1iNlBoLVJNazhmV1VlTnp4Mlp2a2tsTmVUaGxWTVQ4VG1ydHd6WkJ0eTNHY3BPbmNpTnMyYmVqQ0FMMmNv?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · CN · 2026-11-17T01:40:05+00:00
+
+全球权威大模型盲测榜单公布，阿里千问3.6登顶中国最强编程模型 第一财经
+
+证据：discovery；来源摘录，待原文核验。
+
+### [谷歌Pics升级Nano Banana 2.1模型：画质更细，改图更准 - 凤凰网科技](https://news.google.com/rss/articles/CBMiTEFVX3lxTE11bFNEYk5Zalhkc18zVWdMOVB2bWFsaE5aaUtoZ0pfYWFuWk44MXcyX2JaY2NQN3d4OFduckVQSkxRYkhoYzAyNG5vMk0?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-17T01:25:09+00:00
+
+谷歌Pics升级Nano Banana 2.1模型：画质更细，改图更准 凤凰网科技
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Let the Agent Write the Workflow - Medium](https://news.google.com/rss/articles/CBMigwFBVV95cUxONm1PMXNSbGdaUU1oUzg1U0JCc294TUd4UzVZVFlZNlBreEhGZDhlQW1SRmpYYWNsdVFJaVh1YmFNT2pMWUZBS0k5YVd1X3czUDhEZlpBSTBXTzQwYy1tOTJ3UV9RMFlGN2NWa3lWdlo2QVFNUUZITm5DOWZ3OHlmSUFVZw?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-17T00:13:16+00:00
+
+Let the Agent Write the Workflow Medium
+
+证据：discovery；来源摘录，待原文核验。
+
+### [CircumVolve：利用大语言模型自动发现审查规避策略 - Great Firewall Report](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MQ29raTdqV2QyM0k5dUxjV3ZsQVJsLWNsZFJWbEZ5OXZrRmVLVEJOWlg0ejJMQjhjNzB4LVZ0LXpfa2Ntc1dSelF5Qk04NVNwSDE0?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-16T23:17:10+00:00
+
+CircumVolve：利用大语言模型自动发现审查规避策略 Great Firewall Report
+
+证据：discovery；来源摘录，待原文核验。
 
 ### [American billionaire Lisa Su's AMD closes $8.2 billion purchase of World Labs - Billionaires.Africa](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN2psaklJWFJKRXBEdHFWVUdnaVpGNFMwdzF0bFpQM19EV0p4YV9LdlRUZmNRMXRXVnJLVTJiRWNQaW5faFZCR1drdDBrVW5RdnVqZ05BUm02RUI0VzZBVFVxYi1oLUM5VGY3SGd0N2VUTjZZaURBNEFOSkpUbXV1RFJrWEJmVDAxZHRkUUliaDdMU29PNnlGdkFhdjBvNzNIZHM5TC1Zd0tUR1VabnNVRUVyTmVrbmtOMG1V?oc=5)
 
@@ -1328,107 +2456,331 @@ American billionaire Lisa Su's AMD closes $8.2 billion purchase of World Labs Bi
 
 证据：discovery；来源摘录，待原文核验。
 
-### [REEL: Brain-Guided Video Generation and Selection by Reranking Encoder Embeddings with Linear Decoding from fMRI data](https://arxiv.org/abs/2611.21907v1)
+### [NII exhibits at SC26 in Chicago - EurekAlert!](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yREdQZUJBLXA5a3FaRHE2RkdDQ2VBa2ZzRHQ2cGZGQXdqSFdfREkxY0hpdUhWU1N2QjRQT0NxVWtQOVNBWGNFenRFa3pKaE5xcHpGVU5HYmhZN2dt?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-16T21:21:27+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-16T22:03:20+00:00
 
-Visual brain decoding from functional magnetic resonance imaging (fMRI) data has made remarkable progress in recent years, driven by increasingly powerful artificial intelligence (AI) models and the growing availability of large-scale public datasets. However, despite the impressive advances achieved in static image decoding, the reconstruction of videos from fMRI signals remains challenging due to the temporal mismatch between rapidly changing video stimuli and the slow dynamics of the blood-oxygen-level-dependent (BOLD) response. We evaluate a Bayesian-inspired proposal-and-rerank strategy on CC2017 and the BOLD Moments Dataset (BMD), using a linear semantic decoder, a pretrained video generator, and three neural encoding streams with ridge readouts and learned pooling in two streams. We refer to this framework as REEL (Reranking Encoder Embeddings with Linear decoding). Compared with a single generated candidate, reranking increases mean Video 50-way accuracy from 0.2359 to 0.2434 a
+NII exhibits at SC26 in Chicago EurekAlert!
+
+证据：discovery；来源摘录，待原文核验。
+
+### [成本只有1/20的冲击：日企也开始选用中国AI - 日经中文网](https://news.google.com/rss/articles/CBMigAFBVV95cUxQa1NoT2JPWm9Gb3hrRS1XWHctZG9ORXlsbzFLc05HZk5icVZKcG5vTWxnd2wzZ2NyeWk1a0lTU21vTWRtRTNodkc1YWNPdkhNNHFZTzJ0YUdIb0w3N3JMY2pQMWlYQ3Y0bi1wMWxaV2Vnc25mSTFhRV9MRWlqb29oUA?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-16T21:04:34+00:00
+
+成本只有1/20的冲击：日企也开始选用中国AI 日经中文网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Giving Every Artifact a Voice - USC Viterbi School of Engineering](https://news.google.com/rss/articles/CBMifkFVX3lxTE9mOFppTjc2MFNnZTdXSlZYaVFqdkdLUUJhYnFKbWtEVmhSWGRPV095b0drcm1RVGRlT3k5N3V5YlNrM0ZLc2VwZkYxc0c0clVZRlA5ZEE2U1FRX04xVUU4eVZHVC1WaUN2YjllNjd6dXB0alJncVVLSWJfSmZrUQ?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-16T20:39:07+00:00
+
+Giving Every Artifact a Voice USC Viterbi School of Engineering
+
+证据：discovery；来源摘录，待原文核验。
+
+### [当 LLM 学会抽象，语言学还有什么不可替代的价值？ - 手机新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTE1qRVFadi1lMDVKYlVYUGd6Q0Q3Y3R2TVlpamZNQmlpblFEd0tyTXY3VkZPbnJzQXExQzczcW9vYmpDejcyNy1KakVzWGNEQU45YWs1WGwxU0NKOFA5cF9fSWgyaGJuRWw3dTQ4YkZLREpIemE1eDhlSzRoOXFvOG8?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-16T20:21:54+00:00
+
+当 LLM 学会抽象，语言学还有什么不可替代的价值？ 手机新浪网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI签约四家独立评估机构，开展嵌入式安全审查 - Unite.AI](https://news.google.com/rss/articles/CBMimwFBVV95cUxQZTFzZV9NZEJHSlBKZU5qenZQLXJDVmN0N3dmUzlEREx1VmNyVnZsSjd2SVp0al9ZS2hfQkRQSm9tejRmQzBUZHJpSDRZVVRucWgtVUVIZGtXR01OY0NQVkxPV3FodDgwT2xLUk5kYWViLW1ibG51YjR0dm1HVnhDeGRudmNJZ3kzNGJGOFJlNFVQR3ZyZ1E3dFI4aw?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-16T19:52:05+00:00
+
+OpenAI签约四家独立评估机构，开展嵌入式安全审查 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Software engineering after code becomes cheap with Satya Nadella｜The Pragmatic Engineer - finance.biggo.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQZmZZUEVtanY3OVVkamtLQ0dpR0pKaTJneEhSUzg1Sm40MjVVdXUwWjNIV05zOVhzcmRrUjNjWDRDSEZkMFR1cVRYVFl6Qk5FRUNBaF9fdERfWTJxRWJn?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-16T19:49:52+00:00
+
+Software engineering after code becomes cheap with Satya Nadella｜The Pragmatic Engineer finance.biggo.com
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Apollo details four-month OpenAI safety pilot - CASRAI](https://news.google.com/rss/articles/CBMid0FVX3lxTE56UmlkQXpObHNKTC1NcV81dFNtcVhlTDNWbXhnQjJIcTlCaXNaeHNRT2liQUlfcWZOUlg3YmNhN01BSWxxUGk0YnVRU3NoNlFnc0xiVm9mamk3T3pyVzdkQWFzaUtBTi1GYkJGQllFSUw2WG9JR3Zz?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-16T19:09:14+00:00
+
+Apollo details four-month OpenAI safety pilot CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Nvidia Opens Up Nearly 50,000-Question Chemistry Dataset, Slashing the Barrier to Entry for Science-Specific AI Agents - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE5rWkpuWVFzRjhJc05tR2dhYTA1bWV5cU00OGF1RU5TeW5yWF9UWHgwOGE1WC1LbGV6cjczd0lHZjkxMy1BdHh5UHVPZWRtdjV1cnY2V2Jfb3lhSWdnYTJqVi0yVjZMc2N2SV9HMXRfMFJYU2c0Rmc?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-16T18:25:00+00:00
+
+Nvidia Opens Up Nearly 50,000-Question Chemistry Dataset, Slashing the Barrier to Entry for Science-Specific AI Agents BigGo Finance
+
+证据：discovery；来源摘录，待原文核验。
+
+### [NVIDIA and South Korea MSIT Back Four Korean AI Startups in Seoul - CASRAI](https://news.google.com/rss/articles/CBMiggFBVV95cUxQZjFVdEJLd2N3ay0xb0ZXMEtIbGJLcG04T3lGYVgtV1NTSnozcDhzWnVvdG9BcXF1NFFUNF9fTkQwQ3c4ckplNGl6ZlNnQ041YXo2QnZDVk9ISlVoQzVUYVdYSzR2Zk5PclVUYWtCam9PMHJDTWloNmdHakxyRWZmaGd3?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-16T17:49:13+00:00
+
+NVIDIA and South Korea MSIT Back Four Korean AI Startups in Seoul CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Announcing an Embedded Assessment Pilot with OpenAI - Transluce](https://news.google.com/rss/articles/CBMia0FVX3lxTFBGamFfX3d1WFdJTjE0UTFtT25NYTJYa1B1UE5ySGRXR1FwdWkzVUJMVzYyMFdXWVZrdU1GZFY0d3RqSTRDVE5ta0RWY0g4WmotcXUzVHBNYXVSWUxFYUl5QlFVR1VreFBzd0Nn?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-16T16:13:43+00:00
+
+Announcing an Embedded Assessment Pilot with OpenAI Transluce
+
+证据：discovery；来源摘录，待原文核验。
+
+### [英伟达的夏天 具身模型公司的冬天？ - 驱动之家](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SNHVaQVNrX2FPTkRpWVl6WGxpRVRPZEhaRVhvSlhsQklHRmN1ODVmVGdQVXBWcVJTVmJGYkRPa2NEeFRwcm5qQVZhVk9QT2hJTHRGNHV0eHE?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · CN · 2026-11-16T15:30:00+00:00
+
+英伟达的夏天 具身模型公司的冬天？ 驱动之家
+
+证据：discovery；来源摘录，待原文核验。
+
+### [GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold - Google Cloud](https://news.google.com/rss/articles/CBMisgFBVV95cUxQOEsyMTZIZmRtLWR2emJyWkNVVldUdW9Pay12YUZPRDdJZEtQN3VUWWNnWXVnaVJYUHgzdnM3NXF1Q3RKclp5Rzk4Z2QtVllIMGZCVXlCb3cyQ25sVzJna1RVLThYYXJJYXdURkpBZlRTV0RYaDdhOE9TMjhCYXpjZnNrdlhkYTZYb2psdjhRVUctUG5tVUFSbHdQa2FjVlJTMFBGR3RRaXBaNWZrSGh5NUJ3?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-16T15:29:09+00:00
+
+GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold Google Cloud
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Google Confirms First Case of AI Exploiting Vulnerabilities Without Human Involvement, Generating Attack Code from Patches - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFBZMnRLS3laRjMwSmRJTWhFN25RQ1JnMjJIWkZtOWxhU2s3c3BOd084ekJtc2dId2c0NW1DRnB5QlYtcXVnM2tVY1ZYVnhxLTFXMXQ3LWFLR1VqcjgzNkxBejNTV3k3bEREWHZyOHR0Q3BteHFIN0E?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-16T15:25:00+00:00
+
+Google Confirms First Case of AI Exploiting Vulnerabilities Without Human Involvement, Generating Attack Code from Patches BigGo Finance
+
+证据：discovery；来源摘录，待原文核验。
+
+### [谷歌发现攻击者正使用全自主漏洞利用流程 - Unite.AI](https://news.google.com/rss/articles/CBMilgFBVV95cUxQNWVEd0lUemlNcXdFVDVUc3I0bFlDVmt5T1lGMzE3X1czQnEwcHpNdHFTM2tDa0VOd2xzdklfM0tRR3NhRmNKZk5qYkg5cUV5cUh6VllnbHBtdDJReHprWkNUWVo2WnpkLWU4RzlGVXVZandrMmxMME93TzJ1TnI0WXBudUtocWZXX3ZmYUYxaDBrMFAxSEE?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-16T15:00:02+00:00
+
+谷歌发现攻击者正使用全自主漏洞利用流程 Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches - The Hacker News](https://news.google.com/rss/articles/CBMihAFBVV95cUxOMU1mNVUtaU1mbFc5RkYtbVl5SndUcjJPVm1FVjcxWnB1NW9KRHJoTloxZ053STNBdUxuVHhqLXF6dV8xRWRGMUNhRzVMSnhrNTRnNnRtY2s0WWMzeEVjR21HOVQwT0R3RkVXZDNYbFRqY2FYZl9wOElWc3JVRklDUFdRcWw?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-16T14:00:00+00:00
+
+Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches The Hacker News
+
+证据：discovery；来源摘录，待原文核验。
+
+### [AI models abandon climate facts at the first sign of user push-back - UNESCO](https://news.google.com/rss/articles/CBMitwFBVV95cUxPbktQVEVqcHBXUmYzQW1rQlcweWJESjd3SWFOM0Vlamd5c0QtWHNfMXExRVpXelRUY1lEcUNvVWFuTGI1RnJzRFpUTU5JeDlYc0NHVU5wbHpJYzRzR3hMdXk1bFdlTThNekhpVjhxVDZIWUV1eTVJOTdkQWY5aHp2cld3T3lORVJuRTQ0eFFGX2VFMTE3RzFCV05XaVBzRVlTT2NhbW1XSTVxZlFvNmFLZnpwN0ktTUE?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-16T13:19:54+00:00
+
+AI models abandon climate facts at the first sign of user push-back UNESCO
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Jensen Huang Resigns: NVIDIA Stable in China for Now, but What About the Long Term? - Gasgoo](https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMmhmbHlraDVzMGZUQlRabUtpWFA3WDg3LWV1M0JwUEFrT0FhMFdCWVhINUpCZGNWTzJtakItdUh4SHgxSzNMN201U2Z4ZEMtcUhaQkJNUjQwQjB3MHFUNVE4R0pHTnVjQ19XczFMNWt0amR6dkwtWWt3SnEtSWxnbEQ2cm1IbHFBdzh2WmpUUlpqNWxScWlJSkd5U0VpN1JpQkxyanFlN2ZkRV9LcEJZQmFGUjR5dWUxSk83bDA5Vk9UOGVGY2NuaVYzV254T1JTOXRGVmNBdlRKUQ?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-16T13:10:44+00:00
+
+Jensen Huang Resigns: NVIDIA Stable in China for Now, but What About the Long Term? Gasgoo
+
+证据：discovery；来源摘录，待原文核验。
+
+### [TARSBOT and Aptiv Deepen Strategic Collaboration on Embodied AI - Yahoo Finance UK](https://news.google.com/rss/articles/CBMimAFBVV95cUxOdTllaFNzMUVlS3BfUnJBakkwNkkzb1pZWlphUWN3RnV3d1F5ZF9GMTU4U1N2VjhKT00zeVdjZUZoZGg1R19vdl9xT0RXc29RZkxVbWJDRWxNcHhrVDd3T08tSnJONU42N21SdU10M0tEOGFtS2dEQmNfel9sOUZtb0hhcWJEYVFhSlIzSl8ydEdfRnJBbVJISw?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-16T13:00:00+00:00
+
+TARSBOT and Aptiv Deepen Strategic Collaboration on Embodied AI Yahoo Finance UK
+
+证据：discovery；来源摘录，待原文核验。
+
+### [15 Finalists Named in Global Quantum + AI Challenge - The Quantum Insider](https://news.google.com/rss/articles/CBMilgFBVV95cUxPSnRRbzJFaWNCM3VPQ1pMYXFKOFNRVEJtWURpeVF6MDBZdjBoTHppWnBZdmFBZ3hjYnJ5SzhaUVRvcXZzZGVHb052YVA5YjVWUm91d0p2VElGbU84a2JsQUljUnZTaWhSeThzZWx5YzZPMDQtUkZ6eVRyLVNMeFc5U0tiYy1Jc3RtSVNEUk1EX3pVdlhDVFE?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-16T12:01:15+00:00
+
+15 Finalists Named in Global Quantum + AI Challenge The Quantum Insider
+
+证据：discovery；来源摘录，待原文核验。
+
+### [让AI成为自主进化的科学家！书生-S2.1 Flash登顶机器学习工程基准 - 手机新浪网](https://news.google.com/rss/articles/CBMif0FVX3lxTFBVc09DYUw2Z2J6MjFjdGVGdFkxLWtsbDE0ZnFxb1hqWWJ1czNCc1dmeHFsV1hua1BTYUdCbmdySDAtLWM4MnZkaTExLVZkOEpOcTNNcEhaSGZib3hreVcxRzVhU2pkVTNUaEtqaWZ2b2thMWhSejhPb193ZEZxb2c?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-16T11:55:06+00:00
+
+让AI成为自主进化的科学家！书生-S2.1 Flash登顶机器学习工程基准 手机新浪网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Cognitive Grounding Improves Large Language Models in Simulating Human Collective Behavior - Bioengineer.org](https://news.google.com/rss/articles/CBMitgFBVV95cUxPb0dlZDhGOVZuTG01QmM3WXp0YWZoMVgtc0RyenY4VjBNNnJyUUF6bUpvdkpPZHZ3Ui1COFk3SWV6YXVReUQxdXc1bDZlUmVLTXBkOG05WkRSWmJoSXRDdXFsWTFTcUJmUTAtX3dNN2o4QUFjX3FRa0hKUnNZUmZSTVdnMm80UkZPZXNzY0JKMzFJaWdsejVNYlZwdUNISzVUenZNUE85bm5wQ0RCcVc4b1pfVTJ5QQ?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-16T11:01:10+00:00
+
+Cognitive Grounding Improves Large Language Models in Simulating Human Collective Behavior Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI机器人团队解散！六年前缺数据，今天怪模型进化太快 - 创业邦](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBNVjNnMEJzTkxRUlo4SlBpZVZWM3dMbVUwV3NuZ2NaVlJvWnVQNEVDeDFVRGVzTm9ocGlmdUFyNnI0ZDluek5vbjFDZ1BzSHQx?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · CN · 2026-11-16T10:57:50+00:00
+
+OpenAI机器人团队解散！六年前缺数据，今天怪模型进化太快 创业邦
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands - MarkTechPost](https://news.google.com/rss/articles/CBMijwFBVV95cUxPQ3ZRblZ6ZVE3LWtPa244ak53RDdITldMUkhfN3FZVm9BVlYwQ1BfeEZjelo3SVJaajR5Q2h5Vnptd0FodG9zYzlRbU00bDNrVUd5OHZpSVgwTHpHeDgycjE2Vk5rZXVGWWE3aC1VX01PYzlMT2pzWW92RzI5aFVOc0JtVGM3bFRQeTVkeWZ3UdIBjwFBVV95cUxPQ3ZRblZ6ZVE3LWtPa244ak53RDdITldMUkhfN3FZVm9BVlYwQ1BfeEZjelo3SVJaajR5Q2h5Vnptd0FodG9zYzlRbU00bDNrVUd5OHZpSVgwTHpHeDgycjE2Vk5rZXVGWWE3aC1VX01PYzlMT2pzWW92RzI5aFVOc0JtVGM3bFRQeTVkeWZ3UQ?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · US · 2026-11-16T10:39:41+00:00
+
+Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands MarkTechPost
+
+证据：discovery；来源摘录，待原文核验。
+
+### [About the Guest Editors | Innovation in Digital Surgery: Artificial Intelligence Across the Surgical Care Pathway - Nature](https://news.google.com/rss/articles/CBMia0FVX3lxTFBfYjk0MHBVUGJSSWhMZndXS1NacUJGamJ0Wml3MTgwaWExWTZNNjdDR1JYaGdERUR3UDRnVmFGZ2pWZjJvUENZb2pVd2YwQ25zc3VUMDJpLUt5V2FIaDFCanFxYzgtYVJ3S3kw?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-16T10:07:20+00:00
+
+About the Guest Editors | Innovation in Digital Surgery: Artificial Intelligence Across the Surgical Care Pathway Nature
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI | ChatGPT, Sam Altman, & Microsoft - Britannica](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Ba1QyTkx0cjRqbWxxX2ZPbmpGSmpBU2lkNEdpcXRWa09JNjRkZEswMk8zcFFDbFA1dGJ3LV9KUU96RkRJUjZ1WU1GWnNRVGw0?oc=5)
+
+图像生成与编辑 / LLM 大语言模型 · 行业新闻检索 · image · US · 2026-11-16T08:00:00+00:00
+
+OpenAI | ChatGPT, Sam Altman, & Microsoft Britannica
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Bias in AI: Examples and 6 Ways to Fix it - AIMultiple](https://news.google.com/rss/articles/CBMiREFVX3lxTFBBQ3N2UFFqZms5c0NxdXl5VUo1cDhuUkZuSWllcnZuMHRmcXcxNkxmU0JieTBVbVZhbWphVUJXajR4QjZD?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-16T08:00:00+00:00
+
+Bias in AI: Examples and 6 Ways to Fix it AIMultiple
+
+证据：discovery；来源摘录，待原文核验。
+
+### [New iPad in 2027? What the rumors say – and why you might want to wait - Macworld](https://news.google.com/rss/articles/CBMiowFBVV95cUxOemhtSVRTaVdPMWVVQkliTDRJbXc5dEViNXBSS09obHlFN2taOHE4UG9nbmxCa3NCbDdkNEM0c3ZOS09vQXdpa1hMVFdXYnFLREpGQ0ZTaUdneUdCTHg0WjlFWFRSNjBTc2gybTNLSkFCN1JJT2NmUFo1Z0hKUlRPVGJZc0U4NWJYUEFtZm5fdGVwZ3V5c0Rtd0l0NW0ydUxqbmQ0?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-16T08:00:00+00:00
+
+New iPad in 2027? What the rumors say – and why you might want to wait Macworld
+
+证据：discovery；来源摘录，待原文核验。
+
+### [How to submit | Innovation in Digital Surgery: Artificial Intelligence Across the Surgical Care Pathway - Nature](https://news.google.com/rss/articles/CBMia0FVX3lxTE5vMkllTG8yTTF6ZWZ5ZHRSVUxYQndoa1hjeHVTWlVTdklQbGFsSTNkY3JBRnFiRTRyekZndmhpVlV6Wm9fVExRUjl5RGtzWXBsTGI4RnpVUUh6NE1yOXNlNkZfT19OZG1nZ3Yw?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-16T07:30:28+00:00
+
+How to submit | Innovation in Digital Surgery: Artificial Intelligence Across the Surgical Care Pathway Nature
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Best AI Image Generator: Ranked by Blind Votes, Picked by Job - Fello AI](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTYnktVU1HWkJzdURlaHF1NTNmeG9qV3hIX1BXSDZfZXZmV0R4UG1vQlVQazhvT2Frd3kyd3FTX0xCYUFsSUVFbjdfUml5RUY4YVVSN1FzYw?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-16T06:11:18+00:00
+
+Best AI Image Generator: Ranked by Blind Votes, Picked by Job Fello AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Seven Studies Advance Explainable Machine Learning for Robotics and Intelligent Systems - Bioengineer.org](https://news.google.com/rss/articles/CBMisgFBVV95cUxPa3IxbU5nUDAxZV9BRkR2aHFyMVZBVFZCRjBjMUFFQlJZVUNzY3hFVU05eVVFbnk1bXpOd0hoUTlvQU1WS1dGcWpkNWdLNVpfSkJMRFhTR3hKTzdCdG9sLWJGQ25yalQ0TUFucm1rVDZOajVKQTMzakhvRzNRM3Jnb0hwQVNhQ1hXM1NGUElFX3J1WWE1eGtZTXhmMDkwUFJDWnlPNU1VdFBwY2Z0a3M1SURR?oc=5)
+
+视觉多模态 VLM / 具身机器人 VLA · 行业新闻检索 · multimodal · US · 2026-11-16T06:11:05+00:00
+
+Seven Studies Advance Explainable Machine Learning for Robotics and Intelligent Systems Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [VLM记忆机制最新综述，从When, Where, What, How四个维度看懂记忆 - 腾讯新闻](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUYzNmY2ZTWkpMSmhTZ09nRXphOE9OVm5ZRXprNmMtWkZGcXhYbnZsV05PMXlKRGREWl96d1d2SjNnTTBuS240c3RHenNsR0V3Uk5PSnlSUHFnbGRrZVJoZGln?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · CN · 2026-11-16T06:09:00+00:00
+
+VLM记忆机制最新综述，从When, Where, What, How四个维度看懂记忆 腾讯新闻
+
+证据：discovery；来源摘录，待原文核验。
+
+### [More ways to move care forward with ChatGPT for Healthcare](https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-16T06:00:00+00:00
+
+Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.
 
 证据：primary；来源摘录，待原文核验。
 
-### [AR-WAM: efficient streaming world-action modeling for autonomous driving](https://arxiv.org/abs/2611.21851v1)
+### [Apple Health AI Usage Study 是什么，怎么参与 - Meteora Web](https://news.google.com/rss/articles/CBMiigFBVV95cUxPUF9jNmxQaTF0emdoNGFUYjR1S0hkOE55b21yN29ySjJwNHNScUs4bjc4Z1RpV0hlYmsxdFYyT3BHVlh3TVhtTlB2NlVhSkFtXzF4cHdBeTE1ODRJVjNwSGxwaHpFVTU1TUMtLWxpQTNnTVR0OE0wbm5lQVJBQWtpaUVHVmNPOEh4QXc?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-16T20:16:08+00:00
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-16T01:46:36+00:00
 
-Autonomous driving requires anticipating how traffic will evolve while responding quickly to new observations. Video foundation models offer the first ability, but repeated history encoding and iterative video generation make them costly to use for driving. We present AR-WAM, an efficient streaming world-action model that combines autoregressive temporal modeling with single-pass future conditioning. Because its video backbone is causal, AR-WAM updates its visual context incrementally, reusing past computation and conditioning future prediction on observed motion. We further hypothesize that future features computed from recent observations can improve generalization in dynamic traffic without iterative video generation. AR-WAM therefore obtains these features in one forward pass and uses them to condition trajectory generation, and reinforcement learning then improves the policy through direct optimization of driving rewards. With a single front camera, AR-WAM achieves 91.5 PDMS after
+Apple Health AI Usage Study 是什么，怎么参与 Meteora Web
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Reference Forcing: Long Video Generation with Region-Guided Drift Correction](https://arxiv.org/abs/2611.21559v1)
+### [Vision-Language Model Screens Toddlers for Autism Using Brief Natural Play Videos - Bioengineer.org](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaFNDaHd5MmZJbU9GQnpnRGllU2dKZ253clBYa2FKOWE3UlpMZDBMY2Qtc1FVdG5aOGlGYW5QSkY0a3RUTTJKNmNGc2NibWlDOG00NlZqMXNGVUd5Q2llVXh3WngtZzBOeWJGUGJDRDl3b2dPaDYyelEyLXpDalZQdERVa2c0RV9qdlQ2UmlQZVRzS1hCUlltenR5TElRRWxEZFR6Yld2THFndw?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-16T18:39:47+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-16T01:36:04+00:00
 
-Long video generation should keep the subject and background consistent while supporting rich, natural motion. However, autoregressive models are often distilled with distribution matching distillation (DMD) over short windows, which does not train them to keep this consistency over long ranges. As a result, the subject and background can drift over time. Methods that manage the key-value (KV) cache retain or retrieve history to reduce drift. Yet this history may itself have drifted. We propose Reference Forcing, which uses the initial frames as an appearance reference. We first build a teacher that uses attention masks to force each region of a new frame to attend to the same region in the initial frames. The teacher finds these regions with off-the-shelf segmentation models. We then distill this behavior into a separate attention path of the student, which needs no external models at inference. We further introduce value correction, which corrects drifted values in the KV cache towar
+Vision-Language Model Screens Toddlers for Autism Using Brief Natural Play Videos Bioengineer.org
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [LynnReal-Hand: Unlocking World Interaction with Hand Control](https://arxiv.org/abs/2611.21479v2)
+### [NYU and Meta FAIR Study Unbundles Vision Encoding in Multimodal Language Models - CASRAI](https://news.google.com/rss/articles/CBMihwFBVV95cUxOeU9JNk9odmR5dlBId0RTVmF3cVlORmZUZE1fOFR0LVNvTFo0NmNPRmVTWFdsM0t6azFmeVNrb0o5N1hVVHIyMnRsXzlXQ2U5cTN1SlE5Wk5tMlIyYjl0aXZWY2pRbnM2M0tlX0tfeG91eFhXeTFrZEg1YjNudG9zcmRuVVJDa0E?oc=5)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-16T17:51:44+00:00
+LLM 大语言模型 / 视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-15T23:03:47+00:00
 
-Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand, a hand-controlled video world model that unifies precise interaction modeling with efficient streaming generation. We curate 100K interaction clips spanning diverse real and synthetic environments and develop hand-aware supervision to improve fine-grained hand motions and object interactions. Building on this foundation, we learn a causal flow map for few-step generation and introduce region-aware score distillation that combines complementary video and image priors to refine interaction dynamics and visual appearance. To further reduce inference latency, we propose Ultra-Fast-VAE, a compact v
+NYU and Meta FAIR Study Unbundles Vision Encoding in Multimodal Language Models CASRAI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection](https://arxiv.org/abs/2611.21373v1)
+### [A step toward defining the Standard Model on a lattice](https://openai.com/index/step-toward-defining-the-standard-model)
 
-AI 音乐 / AI 视频 · arXiv 视频生成 · 2026-11-16T16:36:14+00:00
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-15T22:00:01+00:00
 
-Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeVisForensics, an agentic framework in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. The investigator learns which artifact type to examine, over which window, and when to conclude, and these interactions provide shared feedback for both levels of agents. Our dual-timescale policy optimization strategy, DTPO, closes this loop through fast reinforcement learning of the investigator and slower refinement of the in
-
-证据：primary；来源摘录，待原文核验。
-
-### [MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos](https://arxiv.org/abs/2611.21339v1)
-
-AI 视频 · arXiv 视频生成 · 2026-11-16T16:21:07+00:00
-
-Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillation, and long-horizon inference. We first establish a robust multi-step base through Window-wise Teacher Forcing (WinTF), which jointly denoises chunks at progressive noise levels with bidirectional attention within each window and causal access to preceding history. To retain historical context efficiently, hierarchical KV-cache compression (HieraKV) exploits layer-wise attention patterns, retaining full history in shallow layers and sink--recent history in deeper layers. This reduces cache memory by up to 78% while improving generation quality. Building on this base, cumulative long tuning with distribution matching distillation (CuLT-DMD) holds parameters fixed throughout each long self-rollout and averages l
+Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.
 
 证据：primary；来源摘录，待原文核验。
 
-### [VAE Rhythm: Temporal Decoding Traces for AI-Generated Video Detection](https://arxiv.org/abs/2611.21114v1)
+### [Streaming Dictation ASR: Beyond Word Error Rate - CASRAI](https://news.google.com/rss/articles/CBMihwFBVV95cUxNN2pLMTFSc0pxZVdmSmlCVHl0YVpPWlU5NW9yNFNsYW5NOFAtOXdNV0pUM0NqWlZDYVlENE9nX19ZUlhjOXdxaHNMeXhyaVZOWmY1dnloRkFvY1duN0Q4UDlrVV9RUVVQd1IzU2ozQ0tXQlUwU1U4OFVyRC1hV3RiTkJzb0VWSUk?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-16T13:59:03+00:00
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-15T20:25:09+00:00
 
-Visible artifacts are an unreliable cue for detecting generated videos, because newer generators learn to remove them. We instead detect a trace left by the generation pipeline itself. Most video generators decode latents with a 3D causal VAE that groups consecutive frames in time, so the fidelity of generated frames rises and falls periodically with their position in a group. We call this periodic trace VAE Rhythm. Real videos are captured frame by frame and do not have it. To reveal it without training, we propose a phase scan. The scan reconstructs a clip with an off-the-shelf VAE from successive start offsets and measures the periodicity of the reconstruction error across these offsets. We find VAE Rhythm in most of the 39 variants of 31 generators we test, including the closed-source Sora, Kling 3.0 and Seedance 2.0. We use the rhythm as a zero-shot score, as a plug-in for existing detectors and as a data engine that pairs real videos with their VAE reconstructions to train our de
+Streaming Dictation ASR: Beyond Word Error Rate CASRAI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching](https://arxiv.org/abs/2611.21038v2)
+### [Study: Vision Foundation Models Beat Dedicated EEG AI - CASRAI](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUlBWZExVcVM5VVVDSzdNLVVYMUpDeWRnME9BaUVTcHFCOC1DNE41ZWhIYldkRGRHRlhLYmQzbnBWQ2IyalZnZHRFeUMxcXNZV1BFLU1tTWsyanlWbDl4c0ZtWm10Q1lrc1RtcTN3X2hGdU1kckNTRUNrQ2t5T1Y1Wlp0VVhuYmdr?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-16T12:57:16+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-15T20:14:55+00:00
 
-Few-step autoregressive video diffusion enables efficient long video generation, but inference still incurs substantial computational costs from repeated denoising and KV cache operations. Existing acceleration methods reduce parts of this overhead, while historical KV reading and cache construction remain costly across video chunks. To address these challenges, we propose ScoutCache, a training-free framework that jointly optimizes denoising, historical KV reading, and cache construction. We observe that shallow feature changes provide useful information for estimating clean latent updates, while historical KV dependence varies across Transformer layers and attention heads but remains relatively stable across video chunks. Based on these observations, we develop Conditional Denoising Readout (CDR) to estimate intermediate denoising updates from shallow feature changes and known noise variations. We further introduce Output Risk Guided Historical KV Reading (ORHR) to allocate historica
+Study: Vision Foundation Models Beat Dedicated EEG AI CASRAI
 
-证据：primary；来源摘录，待原文核验。
-
-### [Sparse Attention for Visual Generation: Toward Algorithm-System Co-Design](https://arxiv.org/abs/2611.21029v1)
-
-AI 视频 · arXiv 视频生成 · 2026-11-16T12:48:15+00:00
-
-Rapid advances in image and video generation have enabled high-fidelity synthesis at higher resolutions and longer durations, making the quadratic cost of dense self-attention a major bottleneck as visual token sequences grow. Sparse attention seeks to preserve generation quality at lower computational cost by retaining informative query-key interactions and omitting less consequential ones, with end-to-end gains depending on the cost of constructing sparse support and the efficiency with which the system maps the resulting workload to hardware. We survey sparse attention for visual generation through a 4+1+3 analytical framework that links algorithmic design to system implementation. The framework examines how static and dynamic methods use source information and the evidence derived from it to decide which interactions to retain and at what granularity, while accounting for the roles of reuse in reducing repeated computation and correction in compensating for omitted contributions. W
-
-证据：primary；来源摘录，待原文核验。
-
-### [QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing](https://arxiv.org/abs/2611.20704v1)
-
-AI 音乐 / AI 视频 · arXiv 视频生成 · 2026-11-16T08:12:44+00:00
-
-Diffusion Transformers (DiTs) have achieved strong performance in generation based video editing, but suffer from high inference latency due to the long token sequences formed by conditioning inputs and generated videos. Although training-free sparse attention reduces this cost, existing methods typically apply a fixed retention ratio or a single threshold shared across all tokens. In this work, we view video editing as conditional generation and identify a key insight: attention demand varies significantly both across different key sources (e.g., source videos, reference images, audio, text, and generated videos) and across queries within each source. Motivated by this, we propose QASK-Edit (Query-Adaptive Sparsity over Key Sources for Video Editing), a training-free sparse attention framework that allocates computation independently for each query and key source. Specifically, for each query, QASK-Edit considers both the attention mass and approximation risk of each block. It then ev
-
-证据：primary；来源摘录，待原文核验。
-
-### [BlockAlign: Preference Optimization for Trajectory-Distilled Video Generation](https://arxiv.org/abs/2611.20351v2)
-
-AI 视频 · arXiv 视频生成 · 2026-11-16T00:28:08+00:00
-
-Directly aligning trajectory-distilled video generators slashes rollout costs and optimizes the deployed few-step model without teacher fine-tuning or re-distillation. However, conventional flow-matching preference objectives assume single-head local velocity supervision, mismatching the finite-interval, block-average transition interface of trajectory-distilled generators such as Parallel Decoding Distillation (PDD) and Parametric Trajectory Distillation (PTD). Naively supervising individual unfused sub-interval velocity heads across all sub-steps rather than the fused block-average velocity at block starts (DirectAlign) induces a severe training--inference mismatch that degrades preference below the unaligned baseline. We introduce BlockAlign, an interface-consistent preference optimization framework that constructs states at valid block boundaries, queries the fused block-level velocity predictor, and supervises span-normalized transition residuals---seamlessly supporting DPO-, NFT-
-
-证据：primary；来源摘录，待原文核验。
-
-### [PoCoAttn: Position-Content Collaborative Sparse Attention for Fast and High-Fidelity Video Generation](https://arxiv.org/abs/2611.20307v1)
-
-AI 视频 · arXiv 视频生成 · 2026-11-15T23:10:35+00:00
-
-Video diffusion transformers rely on 3D full attention over tens of thousands of spatiotemporal tokens, and its quadratic cost dominates inference latency. Sparse attention reduces this cost, but existing methods face a dilemma: static methods apply predefined masks and cannot capture input-dependent attention, whereas dynamic methods reconstruct the sparse mask repeatedly, paying online to rediscover positional structure that is largely stable across inputs. To this end, we propose PoCoAttn, a training-free sparse attention framework that separates input-stable from input-dependent attention and resolves the former offline and the latter online. PoCoAttn features: (1) A relative-offset analysis of 3D query-key pairs, which shows that video attention decomposes into an input-stable positional prior that carries most of the attention mass and a small content-dependent residual. (2) A position-content collaborative sparse attention mechanism, which retrieves positional keys from offline-
-
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
 ### [RSI mapping：全球爆金币？硅谷过度炒作？进化存在上下限？ - 36Kr](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5lX25YQlRBQUNGWGpudjJsNkdZWTVrSTBhSHBZS3ZWbHNFUlZfNGljRXZVNTdWZ1Y3ZkQwUFh4U29PMHN2NlB3SWZ5YWtTdw?oc=5)
 
 世界模型 · 行业新闻检索 · world · CN · 2026-11-15T20:01:00+00:00
 
 RSI mapping：全球爆金币？硅谷过度炒作？进化存在上下限？ 36Kr
+
+证据：discovery；来源摘录，待原文核验。
+
+### [How Claude Fable 5.2 paints pictures by writing code for a simulated brush instead of generating pixels - MLQ.ai](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTlpiamVXeVpvMlo4S09wLW03VjN1T0ZoeUl2Y0pFQzVNNXJhTnBiOWpoVnFrZFNhRUlVRXBBamR3UFFaZG5jcTJ0b19iV2gyZDl2WWZvUC12RVBiRTRBMFBIN2hSUHV5YUJWWDJrME9KdTlWWlJ3dk02TUdDd3NtRzVhX290QmtOQXZtOGZzSmZlSmFtX21vVmc5X3hzeHJyVkRHdXVJNzhaYnBULTZDeGZ0dHBPWlBxa0sxQW0xU0w?oc=5)
+
+代码模型 / LLM 大语言模型 · 行业新闻检索 · code · US · 2026-11-15T19:44:12+00:00
+
+How Claude Fable 5.2 paints pictures by writing code for a simulated brush instead of generating pixels MLQ.ai
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Collection policies | Innovation in Digital Surgery: Artificial Intelligence Across the Surgical Care Pathway - Nature](https://news.google.com/rss/articles/CBMic0FVX3lxTE0wUktETEpvOW1VaVVPb3I1cThzUUVzZzdueXFuenlHY1ZyV1VvdXdhZTBVVW5XSFM1eUlwWG5FUy1NOHoyT0UzOTB3MlAwd1lYV1lFN19TRGJMc1NNSzRwaWZPZ05DeC14a0QxZmxYRHBMSjA?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-15T15:43:24+00:00
+
+Collection policies | Innovation in Digital Surgery: Artificial Intelligence Across the Surgical Care Pathway Nature
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -1440,19 +2792,99 @@ Alphabet, Inc. Britannica
 
 证据：discovery；来源摘录，待原文核验。
 
-### [ResWAM: Learning What Changes, Not What Stays, for World-Action Models](https://arxiv.org/abs/2611.19559v1)
+### [Google AI Edge Gallery adds offline speech - CASRAI](https://news.google.com/rss/articles/CBMif0FVX3lxTE9TRGZHM1RhQ0ZDMzJkeDR4NzZRY3Z4Q3dLODdJS2dab0Z1MVNfckJDRGtIRnRwa3VnT25uSGNlV0VMQ2NsN1dIa0pYUHhUWWxGaXV2R3hsR3ltTFk1Tlg2TUVTTjRwLWZzaXpNZFFNUFEyTnk1ak1aQWZ2cG5Yalk?oc=5)
 
-AI 视频 / 世界模型 · arXiv 视频生成 · 2026-11-14T18:42:57+00:00
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-15T03:56:59+00:00
 
-World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations. However, observations typically change little over an action chunk, so the future loss is dominated by copying static background content rather than learning task-relevant robot and object motion, limiting policy learning. Moreover, existing WAMs rely on large video generation models or separate world models, incurring heavy training and inference compute that hinders closed-loop deployment. To improve policy performance, we propose visual residual learning, supervising only the feature change from the current frame to the future frame in a frozen DINOv3 space. Compared with complete future features, this residual learning target yields a higher feature rank with richer and more diverse representations of scene changes, and spatially concentrates on the rob
+Google AI Edge Gallery adds offline speech CASRAI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
+
+### [KAIST's AI reads lips without sound, raising hopes for hearing assistance - Korea Biomedical Review](https://news.google.com/rss/articles/CBMibkFVX3lxTE8yUHlPM2J4YW9IOEJIM0tjVnV4dXBfdlA5ZG1oX2lMZjBhYTc5akV5NzF0ZnQ3UnlROVNNR1E2UWlab0ZvdjdoNG00OVUydWgxLVNrQzhnazRfT2dzYk9NOGxhX1Vab3g3eUJfRkdB0gFyQVVfeXFMTnZMYVY2a0tBcDZ6TGZRRDlZS2o0MW84elJ3ZWF0NnJ6blNMTzZhLVM3S19xZEFrbkdVU0FQNjA1OF9MMEtVWGhUWU5xZk5RSDU3VDhyam16Q2dTWTBMWHhCcEVsMG5CSEpGcVdvWnhUWnJB?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-15T03:00:00+00:00
+
+KAIST's AI reads lips without sound, raising hopes for hearing assistance Korea Biomedical Review
+
+证据：discovery；来源摘录，待原文核验。
+
+### [KAIST AI Reads Speech from Lip Movements with 19.4% Word Error Rate - DongA Science](https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3VHFTMXBkN0hUNUJSNno3WHZtSVJicl9CUHppWnJFczNneWt5c3dWek1UTjdjUHlRTmVFMzg0Nm1RWl91ZG5oM3BtbDNraWVBQ1E5cw?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-15T03:00:00+00:00
+
+KAIST AI Reads Speech from Lip Movements with 19.4% Word Error Rate DongA Science
+
+证据：discovery；来源摘录，待原文核验。
+
+### [AI Week in Review 26.11.14 - Substack](https://news.google.com/rss/articles/CBMibkFVX3lxTE1TSG5kMVp4XzNldTFTdjRjSnJQM2NZaDhWTFlpSkVuSnNuWWI0SFhEN1EwQlFSQlkwWHBLd3JkNFBJaTFSMDFRUWwzWUVlaEtyWGlYaWtjeWdPQ3Qyei1sMmdmVWRnNTQ5Q2VUTWZB?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-15T00:17:33+00:00
+
+AI Week in Review 26.11.14 Substack
+
+证据：discovery；来源摘录，待原文核验。
+
+### [inclusionAI Duo v1: audiovisual interaction model - CASRAI](https://news.google.com/rss/articles/CBMic0FVX3lxTE5oYnlMbnkxZlJGTEZaQ2JhVXZXN0pVU2IzQ21hcTNLRmJyUlZBME9JOEp3NjNwTkd5QWxKZURrZTdXRGxLQW5QWmhnWG13c05DUEhDcVFTSjJQNGpndWQ2YVBiSlhKd19Ub1hWY1FfbTNyRE0?oc=5)
+
+AI 音乐 / 语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-14T22:31:17+00:00
+
+inclusionAI Duo v1: audiovisual interaction model CASRAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ETH Zurich's Hutter: "Physical AI Won't Arrive as Fast as Generative AI… Scaling Models Alone Has Limits" - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFBGT09xSWdneVNoUGZqUnQ0Mmk4WElfWlB3Y1hqMWZ1MFM2VHg1OHJPWW1yczdabHlTOXBVbDJ0STFNSlhXcjRlbXc5ZlNVdnJEdnR5T0g2cTVYQS1nOFBqV0VZeFZjck5ma2NwVXVNajRKRnVCQkE?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-14T21:55:00+00:00
+
+ETH Zurich's Hutter: "Physical AI Won't Arrive as Fast as Generative AI… Scaling Models Alone Has Limits" BigGo Finance
+
+证据：discovery；来源摘录，待原文核验。
+
+### [ETH’s Hutter says physical AI to lag Generative AI, urges RL and simulation - Chosunbiz](https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ3B0SVlxRVhsMnVuX1pNbE82dG5yRU1LaEw0YjBiRE14TW1rQjdJV3RQX1RKVkl4WDBiX1FPTnNHdlVTZDZGMlRFZm5UN1p5Tm9OcWF6QVV1UnI5S1pYUDVEOGlfcnhOZFV3ZjZYME9lWXJZM0Y1bnlNSlhFSXFpX9IBlAFBVV95cUxQVUpPZFpNbjZVc2R2eTRMc1BzRy1odWp5UF8zZHhiRzM4NnpuVUZpUUd5QmdMMmZVYnprdnpBVmtZOTQtUTU0RGtta2dJdTAwMDdnazVmcVZrTXlkakJfX1FnM2R4b2RwQ1N5UjBZbUpjSHVDZDJYTkZrWWwxb1ZtOVZ3bVR0bFJQUUV6allXTlkySWxI?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-14T21:01:00+00:00
+
+ETH’s Hutter says physical AI to lag Generative AI, urges RL and simulation Chosunbiz
+
+证据：discovery；来源摘录，待原文核验。
+
+### [OpenAI Scraps Standalone Robotics Team as General-Purpose Models "Take Over" the Embodied AI Race - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTE45S2lZUnZVTDlENFlwekNGVkphUUsxN0drSlhjSl9mT1NBenN2NDZDQU4xZG8wT1lZWGEtdzRyN3l5YUxnNUZKTWpfczRQb29MdTNlMkZ5NGFpUDNIeEVfR3p1SmNfendXVi1HSXd3b05XOW5zMFE?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-14T18:15:00+00:00
+
+OpenAI Scraps Standalone Robotics Team as General-Purpose Models "Take Over" the Embodied AI Race BigGo Finance
+
+证据：discovery；来源摘录，待原文核验。
+
+### [29岁，她成了字节AI核心人物 - 新浪财经](https://news.google.com/rss/articles/CBMihwFBVV95cUxPUzBWS0hGQ0dHR0NqdUc5MU90bkN6RnpBTV94bGI4M3BsWEpnM0tEakNuemZqSEpjaXJvYVFzNHNpU09WVURGanY3Sm1tVTExMXdJWkQyTFNvRzQ0ZXpCNHRDSk9pcUJjM2tqMjNlU1U4NTIzVEJZNVNoTmdrVWpqcTYzbjQxc3M?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · CN · 2026-11-14T17:07:34+00:00
+
+29岁，她成了字节AI核心人物 新浪财经
+
+证据：discovery；来源摘录，待原文核验。
+
+### [MiniMax H3-Image licence: US, EU, UK excluded - CASRAI](https://news.google.com/rss/articles/CBMia0FVX3lxTE1SeWU3OGotMmtVbDdITVJBZXVZeUYzWlFjNXB5TWJsTE9sUlVUN3pYZjVnZUJPdXlKRVVIUEY1RlVubmJiUDl5UGgzeUhOeVR4a29HUUhEd1h4WTdFNnROdkJGUmxMaU5uR2U4?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-14T14:08:58+00:00
+
+MiniMax H3-Image licence: US, EU, UK excluded CASRAI
+
+证据：discovery；来源摘录，待原文核验。
 
 ### [SpaceX Hollows Out Its AI Video Division. Elon Musk Now Has Different Priorities - 24/7 Wall St.](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUm5XMUludHFEYVljVHFOY1dIa2R3YnJnd1dZSWpiLWZoNkNEcHQ5VE9nckM2Vjh6MzgyWkNRS2V1eTN4SWF2aDR0RFl2OGQzNVFyeUw3QjlxT0ZhdWY5b084Y19UVzY1TWRwMWtrbzVUdmZnYVhsek5sNkZ2ajJ1WXlFbWNEcnd1NE1tQjNEOVFVc3JtWFlfaUVQSXVaRTkxTG1BUDRHUVZGRFdkUmhkWVZyTy1YWnhld1gzanE4eTE?oc=5)
 
 AI 视频 · 行业新闻检索 · video · US · 2026-11-14T13:16:00+00:00
 
 SpaceX Hollows Out Its AI Video Division. Elon Musk Now Has Different Priorities 24/7 Wall St.
+
+证据：discovery；来源摘录，待原文核验。
+
+### [XPENG L03: Inside the Brand Vision Powering the "Physical AI for All" SUV Coupe - XPENG](https://news.google.com/rss/articles/CBMigAFBVV95cUxPaGI4c2VlX1JpdnNEcER2SGxZT0ZOZldtNlBqR3hZaWI5bXpZOW1pODVRelBLemoxbzJERExNT0FZSkx2dEdaV2t1bG95ZDZhSGZoQWx1czdUZ0w0TGNiUzNWOEFraUVNWEtzQXVDSEIyaUZweV9ZX3ByS0lqZ19pOQ?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-14T10:48:19+00:00
+
+XPENG L03: Inside the Brand Vision Powering the "Physical AI for All" SUV Coupe XPENG
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -1464,41 +2896,49 @@ Suno AI Music Generator Review 2026: AI Song Composition Tested on Every Mode Te
 
 证据：discovery；来源摘录，待原文核验。
 
-### [Mem2Fair: Online Fairness Control for Text-to-Video Generation via Fair Memory](https://arxiv.org/abs/2611.19215v1)
+### [Systematic Review Details Deep Learning Advances in Multimodal Fake News Detection - Bioengineer.org](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdldROGRzaXdDbGNaZFNqOVFRT1paT3FaOENHeF9CcjRvMGlpb1pCRUQwX3lna1A0QjE5VGFuRTk2N0lTc1V0SzFFa1Y2dXFZQjhRbUh2Ui1idWYtbS0tVHV3X19XbTkyQ2Jyb21zMG1MY0g5cnhUSnZyaXRVZkMyNGh0RXlXd1NBdjVHcWZvUXEtc1BVQ3FzTndDNktMTlNGc21TeC0yWUpIczQ?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-14T07:14:23+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-14T03:33:36+00:00
 
-Text-to-video (T2V) generation models can produce systematically unfair demographic outcomes when prompts leave protected attributes unspecified. For example, prompts describing nurses without specifying gender may disproportionately generate videos depicting female nurses. Mitigating unfairness in T2V generation is particularly challenging: training-based methods that modify model internals require architecture-specific access and risk disrupting temporal consistency, while sampling-based methods often incur costly pre-deployment video generation. We present the first conditional online approachability formulation of attribute-level fairness for T2V generation. Building on this formulation, we introduce Mem2Fair, a plug-and-play framework that maintains concept-conditioned Fair Memory. Using generated videos at inference time as feedback, Mem2Fair selects prompt-level attribute interventions based on the deviation from each concept's prescribed fairness target, without training or sep
+Systematic Review Details Deep Learning Advances in Multimodal Fake News Detection Bioengineer.org
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Découpage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation](https://arxiv.org/abs/2611.18866v1)
+### [Top AI Content Creation Tools & Platforms 2026 (Free & Paid) - DemandSage](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oZTVTaDQ5Q19WaU9kOFpJT0NKN2JzT21nQ3FvUTVrMXFBX2hibVNKdThrSklHbmlwelN6YV9EWlA5WWs0UXEtTWY0ZU8ya2dydmRaWllYODFCaTQ3c2RycXBWeG0wV3RL?oc=5)
 
-AI 音乐 / AI 视频 · arXiv 视频生成 · 2026-11-13T19:13:17+00:00
+代码模型 · 行业新闻检索 · code · US · 2026-11-14T01:23:22+00:00
 
-In cinematic storytelling, sound and visual transitions do not always coincide in lockstep: dialogue frequently bridges across cuts to reveal reactions or introduces new scenes via J- and L-cuts, while deliberate silences pace the scene. Existing audio-visual generative frameworks, however, lack explicit mechanisms to coordinate independent visual and acoustic timing over extended horizons. As narrative duration and shot complexity scale, these systems struggle to maintain long-range dialogue pacing, often hallucinating speech during intended silences or erroneously driving mouth movements on silent listeners. To enable fine-grained cinematic control, we present DECOUPAGE, a screenplay-driven framework for long-form, multi-shot, and multi-character joint audio-video generation. Rather than coupling modality boundaries by default, DECOUPAGE uncouples generation into independently bounded visual and acoustic tracks governed by persistent character identities. DECOUPAGE builds on a joint 
+Top AI Content Creation Tools & Platforms 2026 (Free & Paid) DemandSage
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [Restoring Diversity in Distilled Image and Video Generators by Probing Activations](https://arxiv.org/abs/2611.18550v1)
+### [OpenAI disbands its standalone robotics team as its general models start running robots, Fortune reports - MLQ.ai](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTGJHeloyVkxJdFc0NlZDNVRWR1ZnaXBUZHpSWW5nU2RRSGNCR2UyejVkTng1aVQtbmJmNTJfQW1IVGZJQmVSdThubzFkaUJhdTl5UHFsa3hDZzcxdlVBcHVwSjZuZTVYSmFPTnpacFRMelUtZ29LazI4T01aQjU4eFhMdy0yZE51ZUJUd1NjXzhycU9KWllhMGxWeE5nQ1NiMkdEdmNrbkhBQTZIUjlpTkFBOVFNdGhsd1hINU9OQWhBQQ?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-13T18:55:59+00:00
+视觉多模态 VLM / 具身机器人 VLA · 行业新闻检索 · multimodal · US · 2026-11-13T21:42:10+00:00
 
-Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representations of student models relative to their teachers. We find that distilled students maintain total activation variance comparable to their teachers, but concentrate it into substantially fewer directions. This directional collapse is localized to an identifiable intermediate block at the initial denoising step. Consequently, diversity collapse stems from a misallocation of activation variance rather than an inherent loss of generative capacity. Guided by this finding, we propose ReDiverse to reinstate the missing variance directions. At training time, ReDiverse-FT fine-tunes a lightweight adapter that regresses student activations onto the teacher's, reviving the teacher's feature variance c
+OpenAI disbands its standalone robotics team as its general models start running robots, Fortune reports MLQ.ai
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
-### [LongCat-Video-Avatar 1.6 Technical Report](https://arxiv.org/abs/2611.18822v2)
+### [Nature Portfolio AI Policy: No LLM Authorship - CASRAI](https://news.google.com/rss/articles/CBMibkFVX3lxTE80MU53WEQ5VkdOUXJUOENRbGxqWVNwTmphQ0xVMDRJMVVXSXFYYlZkOWVxM0FPaFprWE95YnFsTmRxb1ZTYncxWEk1ajk1VDQ3NWI1QllSd3dNN2Y3S0hXYVpVbXRfd0VmeDROS2lR?oc=5)
 
-AI 音乐 / AI 视频 · arXiv 视频生成 · 2026-11-13T18:42:00+00:00
+图像生成与编辑 / LLM 大语言模型 · 行业新闻检索 · image · US · 2026-11-13T20:04:26+00:00
 
-Recent advances in audio-driven avatar video generation have enabled increasingly realistic synthesis, yet achieving precise lip-audio synchronization, natural, human-like motion, and visual consistency over long sequences remains challenging. We present LongCat-Video-Avatar 1.6, which builds on LongCat-Video-Avatar 1.5 to improve expressive naturalness and reduce error accumulation during extended generation, e.g., exaggerated lip movements and overly red, temporally unstable lip coloration, enhance the naturalness of facial expressions and coordinated head and body movements. These improvements are driven by a refined post-training pipeline that integrates reinforcement learning, improved classifier-free guidance strategies for DMD-based few-step distillation, long-video rollouts, and on-policy distillation. Together, these refinements improve expressive realism and enable the generation of videos exceeding 10 minutes while maintaining visual quality and temporal consistency. Arena e
+Nature Portfolio AI Policy: No LLM Authorship CASRAI
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
+
+### [Study Says Urgent Care X-ray May Offer Promising Path for Imaging Low Back Pain - Imaging Technology News](https://news.google.com/rss/articles/CBMirgFBVV95cUxNMlg5a01xdFpZSzVJcjNkdzJfUTNBZjlYSFVNcGdzTHJLY3pJd3dJMmNqVFR5N1dsWW5YcFdIbjZFaDlyWUxFU2Z0OFFMdzlLdmJYYmQ0TDNsaWZPYUp0WmVwSDlwbktDZGFyMmtpcEVMMWdlcHVFTnJaNFBTejBxU1pSRWFTcG83SWVWMGR0d0lmM2hpZVlfMklKRzllN3hkQnpaSlFrZnhtMmRyT1E?oc=5)
+
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-13T17:52:33+00:00
+
+Study Says Urgent Care X-ray May Offer Promising Path for Imaging Low Back Pain Imaging Technology News
+
+证据：discovery；来源摘录，待原文核验。
 
 ### [Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots - Fortune](https://news.google.com/rss/articles/CBMipwFBVV95cUxQdUpabzdVdVRFd0RUN0pnVTJuQUtkYThSdzlhc3FHSmxmTnZETWNyajZGcGEtVHFvYmxMTGJMa0VHaGxEMVh5bmY1MXlVTDlWTHVBWlotdkJ0ZmRSdk9GRzh0ZTNrZElwYzlLWmp0ZkZqRFZKOEI5RkdDdkVHYzVUWFpOU2NqTnJGTmF3R0dTQTRGaDFXZl9jQ2s5bEd4dHJFZFRyQ3hrcw?oc=5)
 
-AI 视频 · 行业新闻检索 · video · US · 2026-11-13T17:05:00+00:00
+具身机器人 VLA / AI 视频 · 行业新闻检索 · video · US · 2026-11-13T17:05:00+00:00
 
 Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots Fortune
 
@@ -1512,6 +2952,14 @@ AI 视频 · 行业新闻检索 · video · CN · 2026-11-13T15:58:00+00:00
 
 证据：discovery；来源摘录，待原文核验。
 
+### [Introducing ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-13T15:00:00+00:00
+
+Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.
+
+证据：primary；来源摘录，待原文核验。
+
 ### [Musk's SpaceX Super Intelligence Trims About 60 Jobs in Grok Imagine Video Unit - BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFA3RldHV25CWDVPQ2dfVkk4dGE1UXJVbk9SQkxvRkNwaU5Na05STExPUGlwcDBheENIWDFuOC1jSFEybWx0QmJiS3hfUHA5ZnQtTzBobEdNdXJMYXpBRi1wcEFJYzJBckEwbFp2Uy1HVE5sMzhSSlE?oc=5)
 
 AI 视频 · 行业新闻检索 · video · US · 2026-11-13T14:55:00+00:00
@@ -1519,6 +2967,14 @@ AI 视频 · 行业新闻检索 · video · US · 2026-11-13T14:55:00+00:00
 Musk's SpaceX Super Intelligence Trims About 60 Jobs in Grok Imagine Video Unit BigGo Finance
 
 证据：discovery；来源摘录，待原文核验。
+
+### [llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1)
+
+LLM 大语言模型 · Hugging Face 官方博客 · 2026-11-13T14:05:22+00:00
+
+来源未提供摘要，请查看原文。
+
+证据：primary；来源摘录，待原文核验。
 
 ### [Elon Musk’s AI Group Guts Grok Video Generation Team - The Information](https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHVlMmkxWGNtSXFvTWktZzFWV1BfTUo3ZnVTck54QmtjOWRTaVNpQjJKLWF4TmZJN1ZpRjhDNUphTUcydHBJQ29ZWWxvN2dfV1R6eXR0d0NTTWdvNmhwWG1hQThURWcydDVkdURKLWd5bk13d0VNQnMyN2o0OUlldDBKR2JSZ2l6NTAzcmJNQ0k3dDdlaXc?oc=5)
 
@@ -1528,13 +2984,13 @@ Elon Musk’s AI Group Guts Grok Video Generation Team The Information
 
 证据：discovery；来源摘录，待原文核验。
 
-### [Measured from the feed: the unsustainable growth of AI video generation](https://arxiv.org/abs/2611.17938v1)
+### [The Sequence Robotics - Issue #971: Robots Should Learn on the Job - TheSequence | Jesus Rodriguez](https://news.google.com/rss/articles/CBMifkFVX3lxTFBHdmluM0FaSXB1Q002NmtTOTBUcTVyejEzYzZDdTVoNG40bHV0RW5HY0gyRzdrOVZ2dlNMRjJnU2c5ZEdobUdPaTN6eXUzWThqT0d0cVNnc3hiNFcwaVV0QUlicm5mR3NLTlpHMUNvZE9oNEJGYmhFUG55UkJRUQ?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-13T09:21:46+00:00
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-13T11:43:48+00:00
 
-Text-to-video generation runs at commercial scale, but its broader environmental impacts remain, to our knowledge, understudied. Providers rarely disclose video volumes or energy needs; we measured the yearly video output of two commercial platforms and built a prospective model of such services' absolute footprint from training to storage. Our projections suggest that reducing emissions depends on both limiting growth in video generation and achieving substantial efficiency gains. Under continued growth, emissions rise nearly seventy-five-fold by 2030 despite technological improvements. When usage remains at 2026 levels, the same improvements reduce emissions by about two-fifths. These estimates are a conservative lower bound: they cover one AI service among many; other services and uses would push the total higher.
+The Sequence Robotics - Issue #971: Robots Should Learn on the Job TheSequence | Jesus Rodriguez
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
 ### [世界顶流巨星，和巨头闹翻了 - 新浪新闻_手机新浪网](https://news.google.com/rss/articles/CBMisAFBVV95cUxQZHo1bDFIYThFYXNQSk1Lc3pTaDhVWnVTdExXZEdWSUwwOXRvU3F5ZUxIMjZCU1BLa0NhYTdSOWhGeUotYk5TU2xRdURrdEVyd25jQ2EtTVZ6d0tVckk0VlduOFpZLUFkeUdUVm1sTnE3dkEtTUxvT21Ic2IteU9MQTNQOFNTbjNlaHJIYzNWTUpiVHMzM2lQN3ZOOC1hRWtwWm1VZklNa2pfcTBhMEZONA?oc=5)
 
@@ -1544,19 +3000,35 @@ AI 音乐 · 行业新闻检索 · music · CN · 2026-11-13T08:00:00+00:00
 
 证据：discovery；来源摘录，待原文核验。
 
-### [CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation](https://arxiv.org/abs/2611.17785v1)
+### [Agile Robots Raises $500M Series F: Humanoid Factory Capacity Is Public, Shipment Count Is Not - Tech Times](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ05ELV9RY2VJRV9HWi1YVGU0LWRicXlFTjI1REt0Zm9GR1Nfb2NmNzRJMzVXQ0lJMG5kZ1dYcl91YmpucFRGRmloM0sycGZyZDNlX2U2eXdHV1NKR3pQRGY2VGU5TllET3lMYWFla3pHemVyR1dSMG5hZGRrdE43QV82eDlNaXRQM0hYczJKN215b0ZpWDd4dWptTElTcXZVa05TWFhIX2UyWVZXbUJBQ1hiUzVuR3dWMGdEVWVEX0NZaXBUVlQ0d3ZZclNhaTZqUGk4Vm5aOA?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-13T05:58:32+00:00
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-13T05:00:21+00:00
 
-Edge AI increasingly relies on specialized accelerators for low-latency inference under tight resource and energy constraints, yet their efficiency remains limited by data movement. Prior work, CHARM, mitigates this overhead by overlapping data movement with computation. We observe that in-memory computing can further supplement tensor processing as a parallel accelerator while eliminating certain data movements entirely. We present CHARMING, a heterogeneous edge AI architecture that uses accuracy- and quantization-aware partitioning to distribute and concurrently execute inference workloads across tensor processing and in-memory computation. CHARMING partitions attention heads between an AIE array and an in-DRAM compute unit, balancing execution according to model architecture, sequence length, and precision while selecting heads to minimize accuracy degradation. CHARMING also integrates quantization into the AIE projection stage to further reduce data movement. We validate CHARMING e
+Agile Robots Raises $500M Series F: Humanoid Factory Capacity Is Public, Shipment Count Is Not Tech Times
 
-证据：primary；来源摘录，待原文核验。
+证据：discovery；来源摘录，待原文核验。
 
 ### [实测丨想做AI视频，不知道用哪款模型？我们帮你测完了 - 21财经](https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0x3SzVYUDd2dlVfencxUmlDREI0dC1UTkxaQVZOZXFzUlpUOXFXVVUzc0lUTHFFQS1QUnR5dmhKX216Y201VlpNNWJoY2xxbTdBSFl6VHg2aEJIX2JCUG9kN082dHFuaDBwWFBVWXo5dE11MDM0RzhBTVJUZ1F1MDRBa0VlNkdSMFFLUTZFbw?oc=5)
 
 AI 视频 · 行业新闻检索 · video · CN · 2026-11-13T03:14:35+00:00
 
 实测丨想做AI视频，不知道用哪款模型？我们帮你测完了 21财经
+
+证据：discovery；来源摘录，待原文核验。
+
+### [How Amplitude ships product improvements in 1–2 days with OpenAI - OpenAI](https://news.google.com/rss/articles/CBMiZkFVX3lxTE51VEFXWDRrblg3cVRJUm9SYy1BNnVNcU03SXJVZVAxbVV5T2E1ZmN5dUdPSU5NZlFQNVJTdF9jZVA5eGxjdnBhdWFOUGlDMFIzSzdyZFhnem14WnlJZnRaYVUyWDdaUQ?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-12T23:30:53+00:00
+
+How Amplitude ships product improvements in 1–2 days with OpenAI OpenAI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [让AI触手可及！英特尔锐炫第一时间适配MiniMax H3-Image - 品玩](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9meWlLM0dzVjh5cVFPVksyNlMyaU1uSGNVUTZVOFR6d2k0NTR1NjNnMGZ0czFITFFhQzNfb1hyV2pKZjUxSXRVYw?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-12T20:01:22+00:00
+
+让AI触手可及！英特尔锐炫第一时间适配MiniMax H3-Image 品玩
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -1568,27 +3040,83 @@ The AI 100: The 100 Private Companies Defining the Age of AI Newcomer | Substack
 
 证据：discovery；来源摘录，待原文核验。
 
-### [Back to Pixels: Lifting Latent Video Diffusion into Pixel Space](https://arxiv.org/abs/2611.17336v1)
+### [On-device AI Is ready to challenge cloud dominance - TechCrunch](https://news.google.com/rss/articles/CBMikwFBVV95cUxNdFQyam9kX2pPMFd0RmVqRkJVYnIyNzJvOHZycm1sY3RPaUxBWEJ1LTFUVnpXbmk1Y1NuYU5mYjZsUmRXemZ0cllWVVNpb255UzZIYmpGVDNuQjhMVnBjdnlvUDVBZ2dwZW5wSWN0M2NTTFBsNUsxQzQ3UEI4YjdBbjFMeUdsMHptV1ZNUlRWTTJoXzg?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-12T18:59:55+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-12T19:27:45+00:00
 
-Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space. PixVid keeps the diffusion transformer and replaces the VAE decoder with a convolutional head that renders its outputs into pixels. We find that predicting clean video rather than velocity, together with a larger noise shift, is key to quality. Finetuned from Wan2.1-14B, PixVid is competitive with the latent baseline within $\\sim 1.3$M training clips. Working framewise in pixels, it generates at $2\\times$ higher resolution with the same per-frame token c
+On-device AI Is ready to challenge cloud dominance TechCrunch
+
+证据：discovery；来源摘录，待原文核验。
+
+### [LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite)
+
+LLM 大语言模型 · Hugging Face 官方博客 · 2026-11-12T19:07:35+00:00
+
+来源未提供摘要，请查看原文。
 
 证据：primary；来源摘录，待原文核验。
 
-### [K2V: Generative Keyframing For Physically Plausible Video Generation](https://arxiv.org/abs/2611.17324v1)
+### [A coordination framework for formal proof development with Kiro - Amazon Web Services (AWS)](https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWRpUlhlZXJINVBMdVpXQ2Z5Zm94M1BCeWx4Ul92MEVuTDVnLU5OLUVjRjBLaW1zM3VkcjJiVjlSd0ZCOU9oNnVpVjRnTm1qempjWU11RHR6b0ZBMzJzbjFLWGZWSVRuTDhaMjlJZUM4SzZnXzJyREt5RGpYWFgwRV94cTRRNTJ4MldBbzYwMWtnRFB2LXVIWVdpRXFIUnVUMHc?oc=5)
 
-AI 视频 · arXiv 视频生成 · 2026-11-12T18:59:09+00:00
+代码模型 · 行业新闻检索 · code · US · 2026-11-12T18:31:29+00:00
 
-Video diffusion models are able to generate samples with high-quality appearance and textural qualities. However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simultaneously and exclusively within the diffusion process.We propose to resolve these issues by redistributing the task of physical reasoning onto a language model-backed keyframe generation module, which allows for explicit reasoning in language, and fine-grained control over the appearance of the video at important moments in the video. We then condition a video generation model with these keyframes, reducing the role of the diffusion model to the simpler task of interpolating between physically-correct intermediate states, rather than inferring an entire sequence with diffusion. Results demonstrate that our approach significantly outperforms existing approaches, achieving state-of-the-art per
+A coordination framework for formal proof development with Kiro Amazon Web Services (AWS)
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Introducing Gemini 4 Hydrogen for Agentic Workflows - blog.google](https://news.google.com/rss/articles/CBMipAFBVV95cUxNbnlqelBIT1ZXblFBa25zdHlXalhPR2Z2b2xLZ2lmeEtFbUFXS3Mya3FtU0tyeGJrOXpHVEJOdFpDVUZSUTVOUHA0WjRiakw2a2hIRzc3ZHBfM3pDT3dKTDdfMExNQ2FnU1NWSHI3UGpXX2lVSEUxeVYwb2FfNE5vRGJnMjhWSzU5WkFrdmtOdW5Fb0lja1dFN3JUMkQ5R01JRXhNUA?oc=5)
+
+LLM 大语言模型 · 行业新闻检索 · llm · US · 2026-11-12T18:04:04+00:00
+
+Introducing Gemini 4 Hydrogen for Agentic Workflows blog.google
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Google Search gets a major upgrade with Gemini 4 Hydrogen](https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/)
+
+LLM 大语言模型 · Google AI 官方博客 · 2026-11-12T18:00:00+00:00
+
+We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.
 
 证据：primary；来源摘录，待原文核验。
 
-### [Netflix | Company, Streaming, History, & Awards - Britannica](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVZ01ocXY4M2VwdDlyQm5vdzVQSHZPZlFRd3BuRm9nMV9ReVczRkgzYmZOM185OGhUcmNNR2ViVEd5T0ZWTEwwSU51Rldqb2ZabER5TjRVRQ?oc=5)
+### [Local Vision-Language System Retrieves Heritage Wine Labels Using Segmented Hybrid Search - Bioengineer.org](https://news.google.com/rss/articles/CBMitAFBVV95cUxNRGdtUWhsbmxzeFliTzMwRVlFTmZNSFUwSlNxc3ZTVjBLNjVfcVNJZnNuVUNPWURmemRLOV93Q05vaHBiSHh4Qms4TTdjS1JOenJmUGtkU1pocmkwOUlhUE1WV0R2djFCcUJ4bTVldFZXaFFpeXVWYktQdVBsZ091YjM0R3VDbGQ0dFJQRFplVVFqT0s4ZVJaVHhhQUFYVUZudUtoRG94YnYyNE1RY1k0TlpRNTg?oc=5)
 
-AI 视频 · 行业新闻检索 · video · US · 2026-11-12T18:38:00+00:00
+视觉多模态 VLM · 行业新闻检索 · multimodal · US · 2026-11-12T17:21:39+00:00
 
-Netflix | Company, Streaming, History, & Awards Britannica
+Local Vision-Language System Retrieves Heritage Wine Labels Using Segmented Hybrid Search Bioengineer.org
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Pinecone Adds Gemini Embedding 2 to Managed Document Search - Unite.AI](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUENoam9kMHlaaTBVcENZdGRmbk92Tnh2dUwtT3ZBZnpWdGVpVHQxNE50MVFLVk44NUdMdmItSjFyRktUQ2wxUl8zUGQyVnZFWmNzV3BsYXBpbm1mOUJtM0FiWVgxR3BKQmk1WlhDeFdmczRPYThrbFN6SnRrR0tHOGNjVVNpczZr?oc=5)
+
+Embedding / 重排 / LLM 大语言模型 · 行业新闻检索 · embedding · US · 2026-11-12T16:31:04+00:00
+
+Pinecone Adds Gemini Embedding 2 to Managed Document Search Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [20万台年产能！北京发具身智能十九条，新增50000P专项算力 - 新浪新闻_手机新浪网](https://news.google.com/rss/articles/CBMieEFVX3lxTFBRN1I0NG9Ma2FseWJqVW9henRNSGRhNU5nOWJXaUJWZllHYkQyQjRkWWk2YlBIUHotUjVaQ2RvMnhJdE5vVVhSMlZ1WTNqUi0zM211NHFlMXNybks4cjg4T2Q3eEg2b19fR3FQTmFFbTFkbFp1UEYwVg?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · CN · 2026-11-12T15:22:37+00:00
+
+20万台年产能！北京发具身智能十九条，新增50000P专项算力 新浪新闻_手机新浪网
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Beijing Eyes Annual Production Capacity of 200,000 Robots Under New Industry Plan - AI Insider](https://news.google.com/rss/articles/CBMiugFBVV95cUxOSy1VZzVFNjlvZ3VKSlNpUGZlNWp2ZEVrX3owOW1vMi1oSXRWb193Y1FhODl6THhVa3FUMGxVUmtsSmVTQ2JZSmc0MXo2a3E3Qm5iR2I1bTcyN0RSSERQRzdBdlVRYlhSeVhiZ1VNWTJ3ZDBkUmRzMTA0MnJPVm9RUk0tTjFrR2NBWmdfNTZLWXhCSVJnLVI4TjBsWU1uTk9VT0pQaktQZ3JoSTV3VVR6MElqcVc2RTROYWc?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-12T14:58:25+00:00
+
+Beijing Eyes Annual Production Capacity of 200,000 Robots Under New Industry Plan AI Insider
+
+证据：discovery；来源摘录，待原文核验。
+
+### [MiniMax（00100）H3-Image登顶AA双榜：文生图与图像编辑开放权重模型第一 - 财富号](https://news.google.com/rss/articles/CBMia0FVX3lxTE9NMWZDVW1QY3N5UnZhaDRNMXFOUVNDSEw2R3p4Y0tNckoyaTQtRlVuX3pwTko4WGNyWUhpNzNWQktZTlJPanlDYm9WMVVOUW9XTVdGaFJTejM2dkZQeXpMa1FObVlQRHdDeXBV?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-12T12:48:00+00:00
+
+MiniMax（00100）H3-Image登顶AA双榜：文生图与图像编辑开放权重模型第一 财富号
 
 证据：discovery；来源摘录，待原文核验。
 
@@ -1608,18 +3136,82 @@ China Is Mass-Producing One-Person AI Companies Bloomberg
 
 证据：discovery；来源摘录，待原文核验。
 
+### [Gondola doubles revenue as its team builds more with Codex](https://openai.com/business/customer-stories/gondola)
+
+LLM 大语言模型 · OpenAI 官方新闻 · 2026-11-12T12:00:00+00:00
+
+Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.
+
+证据：primary；来源摘录，待原文核验。
+
+### [Deep neutrosophic-embedded fusion-based deep learning for underwater benthic substrate classification - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yektQLUFBMUc2dXd5WkpRWTlheHJFTjNEdGQ3bWFvbWw0aVB5VjdzRHN0b0I2aV82c05XLUtSMjI5aEpGUUotYmEtSUJwcjBsQmZhaFpGbzExd1N1cVdR?oc=5)
+
+Embedding / 重排 · 行业新闻检索 · embedding · US · 2026-11-12T11:57:22+00:00
+
+Deep neutrosophic-embedded fusion-based deep learning for underwater benthic substrate classification Nature
+
+证据：discovery；来源摘录，待原文核验。
+
+### [松下控股推出用于物理人工智能参考模型的KMC - Unite.AI](https://news.google.com/rss/articles/CBMilgFBVV95cUxNd2VLSmJhNjZpc2wyWDJIMU9HYmVremhCd0VHMzVuYlE3Si1mR1FLX3JHSjZiRktCb2QwdFJfOE1GT2ZoTmp4X29UdUR1RVQyMkszU1FSUnJtcFBVdjV0c3VCNGphYkpNamlxQlVva1FWN2ZuaFdaczZYUlE4ZndscTVEX2ZrMEs0NWRkQ3AwMllNbFd4WGc?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · CN · 2026-11-12T10:53:01+00:00
+
+松下控股推出用于物理人工智能参考模型的KMC Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Panasonic Holdings Unveils KMC for Physical AI Reference Models - Unite.AI](https://news.google.com/rss/articles/CBMijgFBVV95cUxNMm1sYU1SVjByZ3lEVFk4VkVVdElTdDl6SVNwSjB5T0w4VDZSQ1JabFhjWXBkQTM5cXBYUlRaNVhxXzZqclpDQS1YSTMyR3dBdDdtLWY3T1RFZUt3SlFWUU9xVkRhWHVMZDktbEJaYkwwUDUtWFNoMHJCN1lyakQ4S1h2NzFaQkZCSFlzYlJ3?oc=5)
+
+具身机器人 VLA · 行业新闻检索 · robotics · US · 2026-11-12T10:53:01+00:00
+
+Panasonic Holdings Unveils KMC for Physical AI Reference Models Unite.AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Qwen Image Generator: Free? Which Model? On Mac? - Fello AI](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XNkNreGVFakRoRV85eFBrUVozaTA4b3M0RTllVkVBY01WY3VFNzdCMGpzbkFhU2VaYXZEV21hRW1QSXZjUGhvcFBTVGRpaWNoaEtn?oc=5)
+
+图像生成与编辑 · 行业新闻检索 · image · US · 2026-11-12T08:00:00+00:00
+
+Qwen Image Generator: Free? Which Model? On Mac? Fello AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Siri AI vs ChatGPT: Which Assistant Is Better in 2026? - Fello AI](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9BZnFfS083U1luT0k3YjVaMlZTbUlDTGhQYU5WOXRSWGV0ZjlSOWdPT203MngtOER6OVE5SHFvMjh2QWd5M2xycms3cUU?oc=5)
+
+图像生成与编辑 / LLM 大语言模型 · 行业新闻检索 · image · US · 2026-11-12T08:00:00+00:00
+
+Siri AI vs ChatGPT: Which Assistant Is Better in 2026? Fello AI
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Siri - Britannica](https://news.google.com/rss/articles/CBMiVEFVX3lxTE16OTlha25rY0N3S01FekVjd2loMXdlYW1CaDJpblRaV19WakdUVDg4bVVseEU4S0hzWVdlMnl2WnczeHJRNjJYQ0t6X25RMXVjTnN5Sg?oc=5)
+
+语音与音频理解 · 行业新闻检索 · speech · US · 2026-11-12T08:00:00+00:00
+
+Siri Britannica
+
+证据：discovery；来源摘录，待原文核验。
+
+### [Proton Lumo AI Review: Models, Privacy and Price (2026) - Fello AI](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yYnJOOVFQaVVHNGt4ejZIcEh6Y3lUMFFObndhaTBQVUFFZXJNUTEzSnl3WDFxLWt4ODdJcFc4bEVEMHJuSzdlWDlqRQ?oc=5)
+
+代码模型 · 行业新闻检索 · code · US · 2026-11-12T08:00:00+00:00
+
+Proton Lumo AI Review: Models, Privacy and Price (2026) Fello AI
+
+证据：discovery；来源摘录，待原文核验。
+
 ## 无发布日期，待核验
 
 无。
 
 ## 来源状态
 
-- Google AI 官方博客：成功；原始 20，本周去重后 0。
-- OpenAI 官方新闻：成功；原始 1413，本周去重后 0。
-- Hugging Face 官方博客：成功；原始 913，本周去重后 0。
-- arXiv 视频生成：成功；原始 40，本周去重后 40。
-- arXiv 音乐生成：成功；原始 40，本周去重后 2。
-- arXiv 世界模型：成功；原始 40，本周去重后 35。
+- Google AI 官方博客：成功；原始 20，本周去重后 3。
+- OpenAI 官方新闻：成功；原始 1413，本周去重后 12。
+- Hugging Face 官方博客：成功；原始 913，本周去重后 2。
+- arXiv 视频生成：失败；原始 0，本周去重后 0。&lt;urlopen error \[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed (_ssl.c:1007)&gt;
+- arXiv 音乐生成：失败；原始 0，本周去重后 0。&lt;urlopen error \[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed (_ssl.c:1007)&gt;
+- arXiv 世界模型：失败；原始 0，本周去重后 0。&lt;urlopen error \[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed (_ssl.c:1007)&gt;
 - Hugging Face 最新视频模型：成功；原始 30，本周去重后 30。
 - Hugging Face 最新音频模型：成功；原始 30，本周去重后 30。
 - Wan 视频模型 GitHub：成功；原始 30，本周去重后 0。
@@ -1627,11 +3219,25 @@ China Is Mass-Producing One-Person AI Companies Bloomberg
 - AudioCraft GitHub：成功；原始 30，本周去重后 0。
 - NVIDIA Cosmos GitHub：成功；原始 30，本周去重后 0。
 - 行业新闻检索 · video · CN：成功；原始 12，本周去重后 12。
-- 行业新闻检索 · music · CN：成功；原始 14，本周去重后 12。
+- 行业新闻检索 · music · CN：成功；原始 15，本周去重后 13。
 - 行业新闻检索 · world · CN：成功；原始 5，本周去重后 5。
-- 行业新闻检索 · video · US：成功；原始 22，本周去重后 22。
+- 行业新闻检索 · video · US：成功；原始 20，本周去重后 20。
 - 行业新闻检索 · music · US：成功；原始 4，本周去重后 2。
 - 行业新闻检索 · world · US：成功；原始 8，本周去重后 8。
+- 行业新闻检索 · llm · CN：成功；原始 19，本周去重后 17。
+- 行业新闻检索 · llm · US：成功；原始 24，本周去重后 24。
+- 行业新闻检索 · multimodal · CN：成功；原始 6，本周去重后 4。
+- 行业新闻检索 · multimodal · US：成功；原始 29，本周去重后 29。
+- 行业新闻检索 · image · CN：成功；原始 26，本周去重后 26。
+- 行业新闻检索 · image · US：成功；原始 30，本周去重后 28。
+- 行业新闻检索 · speech · CN：成功；原始 13，本周去重后 13。
+- 行业新闻检索 · speech · US：成功；原始 27，本周去重后 26。
+- 行业新闻检索 · code · CN：成功；原始 20，本周去重后 17。
+- 行业新闻检索 · code · US：成功；原始 31，本周去重后 24。
+- 行业新闻检索 · embedding · CN：成功；原始 1，本周去重后 1。
+- 行业新闻检索 · embedding · US：成功；原始 19，本周去重后 19。
+- 行业新闻检索 · robotics · CN：成功；原始 7，本周去重后 7。
+- 行业新闻检索 · robotics · US：成功；原始 30，本周去重后 25。
 
 ## 覆盖缺口
 

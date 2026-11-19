@@ -16,6 +16,8 @@ def build():
     news = (ROOT/'site/index.html').read_text(encoding='utf-8')
     report = json.loads((ROOT/'reports/latest.json').read_text(encoding='utf-8'))
     counts = {d:len(re.findall('domain: "'+d+'"',app)) for d in ['video','music','world']}
+    from sync_workbench import sync
+    app = sync(app, report, ROOT)
     payload = json.dumps({'skill':skill,'agent':agent,'app':app,'news':news},ensure_ascii=False).replace('<','\\u003c')
     page = '''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Frontier · 审核工作台</title><style>
 *{box-sizing:border-box}body{margin:0;background:#0c151d;color:#e8f1f4;font:15px/1.65 system-ui}header{padding:34px 5vw;background:linear-gradient(110deg,#153747,#162333);border-bottom:1px solid #39525f}h1{font-size:34px;margin:8px 0}h2{font-size:22px}p{max-width:950px}small,.muted{color:#a9bec8}nav{position:sticky;top:0;background:#101f2b;padding:12px 5vw;display:flex;gap:9px;flex-wrap:wrap;z-index:5}button,a.button{font:inherit;border:1px solid #45606f;background:#1a3040;color:#e6f3f5;padding:8px 14px;border-radius:9px;cursor:pointer;text-decoration:none}button.active{background:#76e0ca;color:#102b2d}main{padding:22px 5vw}a{color:#7bdecf}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{background:#162632;border:1px solid #344b59;padding:20px;border-radius:14px}.card strong{display:block;font-size:30px;color:#7bdecf}.warn{border-left:4px solid #f0be6b;background:#332d23;padding:16px;color:#f5d6a7;margin:18px 0}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:14px;border-bottom:1px solid #344b59;vertical-align:top}th{color:#7bdecf}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.9 system-ui;background:#152632;padding:24px;border-radius:14px}iframe{width:100%;height:78vh;background:#111;border:1px solid #45606f;border-radius:12px}.tools{display:flex;gap:12px;margin:15px 0;flex-wrap:wrap}input,select,textarea{background:#142a38;border:1px solid #45606f;border-radius:8px;color:#eef8ff;padding:10px;font:inherit}textarea{width:100%;min-height:130px}input{min-width:240px}[hidden]{display:none!important}.step{padding:18px;border:1px solid #344b59;border-radius:12px;margin:12px 0}summary{cursor:pointer;color:#7bdecf}@media(max-width:700px){h1{font-size:26px}main{padding:15px}td,th{padding:8px;font-size:13px}}
@@ -55,8 +57,8 @@ document.getElementById('exportReview').onclick=()=>{const blob=new Blob([JSON.s
     for name in ['site','reports']:
         shutil.copytree(ROOT/name,output/name,dirs_exist_ok=True)
     (output/'workbench').mkdir(exist_ok=True)
-    shutil.copy2(ROOT/'workbench/ai-frontier-atlas.html',output/'workbench/ai-frontier-atlas.html')
-    shutil.copy2(ROOT/'workbench/ai-frontier-atlas.html',output/'workbench/index.html')
+    (output/'workbench/ai-frontier-atlas.html').write_text(app,encoding='utf-8')
+    (output/'workbench/index.html').write_text(app,encoding='utf-8')
     (output/'.nojekyll').write_text('')
     print('Built public/index.html and public-only static assets')
 

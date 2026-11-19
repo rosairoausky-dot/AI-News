@@ -13,12 +13,14 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
-from urllib.request import Request, urlopen
+from urllib.request import Request
+from public_fetch import urlopen
 
 ROOT = Path(__file__).resolve().parent
 CST = timezone(timedelta(hours=8))
-DOMAINS = {'video': 'AI 视频', 'music': 'AI 音乐', 'world': '世界模型'}
-TERMS = {'video': ['video', '视频', 'sora', 'veo', 'kling', 'seedance', '可灵', '海螺', 'vidu'], 'music': ['music', '音乐', 'suno', 'udio', 'lyria', 'audiocraft'], 'world': ['world model', '世界模型', 'spatial intelligence', 'cosmos', 'genie', 'v-jepa', '空间智能', 'world labs']}
+TAXONOMY = json.loads((ROOT/'config/taxonomy.json').read_text(encoding='utf-8'))
+DOMAINS = {d['id']:d['label'] for d in TAXONOMY}
+TERMS = {d['id']:d['terms'] for d in TAXONOMY}
 CATEGORIES = {'融资与并购': ['funding', 'raised', 'acquisition', '融资', '收购', '并购'], '政策与版权': ['copyright', 'lawsuit', 'regulation', '版权', '监管', '诉讼'], '人才与组织': ['joins', 'appointed', 'hiring', '离职', '加入', '招聘', '任命'], '合作与市场': ['partnership', 'partners', 'market', '合作', '市场'], '产品与商业化': ['launch', 'release', 'pricing', '发布', '上线', '价格'], '技术与论文': ['paper', 'research', 'benchmark', '论文', '研究', '评测']}
 
 
@@ -107,7 +109,7 @@ def classify(row, source):
         return None
     category = '开源与生态' if source.get('kind') in ('github', 'hf') else next((c for c, words in CATEGORIES.items() if any(w in corpus for w in words)), '行业观察')
     row = dict(row)
-    row.update(domains=sorted(domains), category=category, source=source['name'], sourceUrl=source['url'], evidence=source.get('evidence', 'discovery'), verification='来源摘录，待原文核验', id=hashlib.sha256(canonical(row['url']).encode()).hexdigest()[:24])
+    row.update(channel=source.get('channel') or {'github':'GitHub','hf':'Hugging Face'}.get(source.get('kind'),'媒体报道' if source.get('evidence')=='discovery' else '官网/Blog'), domains=sorted(domains), category=category, source=source['name'], sourceUrl=source['url'], evidence=source.get('evidence', 'discovery'), verification='来源摘录，待原文核验', id=hashlib.sha256(canonical(row['url']).encode()).hexdigest()[:24])
     return row
 
 
@@ -168,7 +170,7 @@ def webpage(report, history):
     links = ''.join(f'<a href="../reports/{x}.md">{x}</a> ' for x in history)
     return '''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>行业动态 · AI Frontier Agent</title>
 <style>body{background:#101820;color:#e3ecef;font:15px/1.7 system-ui;margin:0}main{max-width:1120px;margin:auto;padding:38px 24px}h1{font-size:38px;margin:0}a{color:#70d8cf}header p,.muted{color:#9eb4bf}nav,section,article{margin:20px 0}nav{display:flex;gap:12px;flex-wrap:wrap}input,select{background:#192b36;color:#e3ecef;padding:12px;border:1px solid #47606b;border-radius:8px}input{flex:1;min-width:180px}article{background:#192731;border:1px solid #354c57;padding:22px;border-radius:14px}h2{font-size:19px;margin:0 0 8px}.tag{display:inline-block;color:#75ded0;font-size:12px;margin-right:12px}summary{cursor:pointer}li{margin:8px 0}.status{color:#efc67a}#history a{margin-right:12px}</style>
-<main><header><div class="tag">AI FRONTIER / WEEKLY INTELLIGENCE</div><h1>行业动态</h1><p>AI 视频 · AI 音乐 · 世界模型｜每周四北京时间 09:00 自动检索发布</p><p id="window"></p><p class="status" id="status"></p></header><nav><input id="query" placeholder="搜索公司、项目、事件"><select id="domain"><option value="">全部领域</option><option value="video">AI 视频</option><option value="music">AI 音乐</option><option value="world">世界模型</option></select><select id="category"><option value="">全部事件</option></select></nav><div id="count"></div><section id="news"></section><details><summary>采集状态、待核验与覆盖缺口</summary><div id="sources"></div></details><section id="history"><h2>历史周报</h2>''' + links + '''</section></main><script type="application/json" id="data">''' + payload + '''</script><script>
+<style>:root{color-scheme:light}body{background:radial-gradient(ellipse at 95% 0,#ffe6a4,transparent 42%),#fff9ef;color:#28253c;font-family:'Segoe UI','Microsoft YaHei',system-ui,sans-serif}main{max-width:1200px}h1{color:#442786}h1:before{content:'● ';color:#f2617e}a{color:#4b4de6}header p,.muted{color:#686178}input,select{background:#fffdfa;color:#28253c;border:1px solid #e7dff0;border-radius:12px}article{background:white;border:1px solid #e7dff0;border-radius:20px;box-shadow:0 8px 28px #5331750a;border-left:6px solid #f2617e}article:nth-child(4n+2){border-left-color:#8bcf73}article:nth-child(4n+3){border-left-color:#8e83ee}article:nth-child(4n){border-left-color:#f2bd45}.tag{background:#fff0a6;color:#684513;border-radius:8px;padding:3px 8px}.status{color:#9c6100}.page-nav{display:flex;gap:14px;flex-wrap:wrap}.page-nav a{background:#ffd4ec;border-radius:12px;padding:9px 16px;text-decoration:none}</style><main><div class="page-nav"><a href="../workbench/">← AI 灵感雷达 · 交互工作台</a><a href="#news">行业动态 · 十领域</a></div><header><div class="tag">AI FRONTIER / WEEKLY INTELLIGENCE</div><h1>行业动态</h1><p>十类主流 AI 模型｜每周四北京时间 14:10 自动检索发布</p><p id="window"></p><p class="status" id="status"></p></header><nav><input id="query" placeholder="搜索公司、项目、事件"><select id="domain"><option value="">全部领域</option>''' + ''.join('<option value="'+html.escape(d['id'])+'">'+html.escape(d['label'])+'</option>' for d in TAXONOMY) + '''</select><select id="category"><option value="">全部事件</option></select></nav><div id="count"></div><section id="news"></section><details><summary>采集状态、待核验与覆盖缺口</summary><div id="sources"></div></details><section id="history"><h2>历史周报</h2>''' + links + '''</section></main><script type="application/json" id="data">''' + payload + '''</script><script>
 const d=JSON.parse(document.getElementById('data').textContent),e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 document.getElementById('window').textContent=d.windowStart+' 至 '+d.windowEnd;
 document.getElementById('status').textContent=(d.status==='partial'?'部分来源失败，报告不完整。':'配置来源检索完成。')+' 内容为来源摘录，待原文核验。';

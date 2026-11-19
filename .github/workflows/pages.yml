@@ -4,6 +4,12 @@ on:
     branches: [main]
     paths:
       - 'README.md'
+      - 'agent.py'
+      - 'sync_workbench.py'
+      - 'public_fetch.py'
+      - 'config/**'
+      - 'reports/**'
+      - 'site/**'
       - 'build_review.py'
       - 'workbench/**'
       - 'skills/**'

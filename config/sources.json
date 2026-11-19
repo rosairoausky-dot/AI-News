@@ -166,5 +166,145 @@
       "world"
     ],
     "url": "https://news.google.com/rss/search?q=world%20models%20spatial%20intelligence%20startup%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · llm · CN",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "llm"
+    ],
+    "url": "https://news.google.com/rss/search?q=LLM%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%20%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20%E7%A0%94%E7%A9%B6%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · llm · US",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "llm"
+    ],
+    "url": "https://news.google.com/rss/search?q=large%20language%20model%20model%20release%20research%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · multimodal · CN",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "multimodal"
+    ],
+    "url": "https://news.google.com/rss/search?q=%E8%A7%86%E8%A7%89%E5%A4%9A%E6%A8%A1%E6%80%81%20VLM%20%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20%E7%A0%94%E7%A9%B6%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · multimodal · US",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "multimodal"
+    ],
+    "url": "https://news.google.com/rss/search?q=vision%20language%20model%20release%20research%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · image · CN",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "image"
+    ],
+    "url": "https://news.google.com/rss/search?q=%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90%E4%B8%8E%E7%BC%96%E8%BE%91%20%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20%E7%A0%94%E7%A9%B6%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · image · US",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "image"
+    ],
+    "url": "https://news.google.com/rss/search?q=image%20generation%20model%20release%20research%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · speech · CN",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "speech"
+    ],
+    "url": "https://news.google.com/rss/search?q=%E8%AF%AD%E9%9F%B3%E4%B8%8E%E9%9F%B3%E9%A2%91%E7%90%86%E8%A7%A3%20%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20%E7%A0%94%E7%A9%B6%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · speech · US",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "speech"
+    ],
+    "url": "https://news.google.com/rss/search?q=speech%20recognition%20model%20release%20research%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · code · CN",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "code"
+    ],
+    "url": "https://news.google.com/rss/search?q=%E4%BB%A3%E7%A0%81%E6%A8%A1%E5%9E%8B%20%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20%E7%A0%94%E7%A9%B6%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · code · US",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "code"
+    ],
+    "url": "https://news.google.com/rss/search?q=code%20generation%20model%20release%20research%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · embedding · CN",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "embedding"
+    ],
+    "url": "https://news.google.com/rss/search?q=Embedding%20/%20%E9%87%8D%E6%8E%92%20%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20%E7%A0%94%E7%A9%B6%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · embedding · US",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "embedding"
+    ],
+    "url": "https://news.google.com/rss/search?q=embedding%20model%20release%20research%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "name": "行业新闻检索 · robotics · CN",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "robotics"
+    ],
+    "url": "https://news.google.com/rss/search?q=%E5%85%B7%E8%BA%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%20VLA%20%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20%E7%A0%94%E7%A9%B6%20when%3A7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+  },
+  {
+    "name": "行业新闻检索 · robotics · US",
+    "kind": "rss",
+    "channel": "媒体报道",
+    "evidence": "discovery",
+    "domains": [
+      "robotics"
+    ],
+    "url": "https://news.google.com/rss/search?q=vision-language-action%20model%20release%20research%20when%3A7d&hl=en-US&gl=US&ceid=US:en"
   }
 ]

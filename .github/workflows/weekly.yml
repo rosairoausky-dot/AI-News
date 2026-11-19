@@ -23,13 +23,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python agent.py
+      - name: 重建工作台与统一页面
+        run: python build_review.py
       - name: 检查输出
         run: python agent.py --check
       - name: 提交并发布到仓库
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports site
+          git add reports site public
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "docs: update weekly AI industry report"
           git push origin HEAD
